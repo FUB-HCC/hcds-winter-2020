@@ -43,10 +43,11 @@ poetry shell
 jupyter notebook
 ```
 
-### Trubleshooting
+## Trubleshooting
 
-* Truble with installing poetry: When installing `poetry` someting goes wrong. Its not automatically in you path, so if you run `poetry --version` nothing happens. If you use `zsh` or `oh-my-zsh` then you need to add the following line to your `.zshrc` file `export PATH="$HOME/.poetry/bin:$PATH`.
+* Truble with installing `poetry`? When installing `poetry` someting goes wrong. Its not automatically in you path, so if you run `poetry --version` nothing happens. If you use `zsh` or `oh-my-zsh` then you need to add the following line to your `.zshrc` file `export PATH="$HOME/.poetry/bin:$PATH`.
 
+* Truble with previewing notebooks directly in GitHub? --> https://nbviewer.jupyter.org/
 
 ----------------------
 `[1]` https://mungingdata.com/python/jupyter-workflow-poetry-pandas/, accessed: 2020-10-28
