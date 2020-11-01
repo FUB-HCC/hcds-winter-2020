@@ -9,7 +9,7 @@ This repository contains everyting that is needed to take part in the course [Hu
 
 # Getting started
 
-We use the  "Amazing Python Data Workflow with Poetry, Pandas, and Jupyter"<sup>[1]</sup> to make sure everyone in the course uses the same environment and we dont run into dependency hell :volcano:.
+We use the  "Amazing Python Data Workflow with Poetry, Pandas, and Jupyter"<sup>[1]</sup> to make sure everyone in the course uses the same environment and we don't run into dependency hell :volcano:.
 
 ## Prerequisites
 
