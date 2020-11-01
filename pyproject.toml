@@ -13,6 +13,7 @@ requests = "^2.24.0"
 matplotlib = "^3.3.2"
 seaborn = "^0.11.0"
 altair = "^4.1.0"
+bs4 = "^0.0.1"
 
 [tool.poetry.dev-dependencies]
 
