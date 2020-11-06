@@ -1,6 +1,6 @@
-# Title of your post
-> **Date:** 02.11.202 - 15:30 PM *(Due: 10.11.202 - 03:00 PM)*  
-> **Name:** `alsc` Alexa S.  
+Assignment 1
+> **Date:** 02.11.2020 - 15:30 PM *(Due: 10.11.2020 - 03:00 PM)*  
+> **Name:** `rowe` Robin W.  
 > **Session:** [01 Exercise](01_exercise)   
 ----
 
@@ -34,10 +34,13 @@ with them. I also was surprised about the kinds of data laying around on GovData
 
 
 ### 🗨️&nbsp; "How does the podcast inform your understanding of human centered data science?"  
-At least 2-3 full sentences.
+The podcast confirms my idea of how a Human centered design process can be integrated into data science. In the podcast,
+the exact steps of Human centered design we learned about in HCI 1 are applied to a data science project. It also confirms
+my understanding that the outcome or what the people the data science project is done for need should be the focus,
+not the technology or data used. The part about getting off from the computer and get to where the data is being produced
+is very important from my point of view.
 
 ### ❓&nbsp; Questions 
-1. ...
-1. ...
-
-Some text about why ...
+1. I was asking myself it can really be that easy said that you always need to get to where your data originates from.
+This is easier said than done as sometimes data can be generated where you are not permitted to be on site. The example
+of the tanzania finance data is one of them. Not everyone or everywhere people are willing to let you observe money transactions.
