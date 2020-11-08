@@ -1,6 +1,6 @@
 # Title of your post
-> **Date:** 02.11.202 - 15:30 PM *(Due: 10.11.202 - 03:00 PM)*  
-> **Name:** `alsc` Alexa S.  
+> **Date:** 08.11.202 - 15:30 PM *(Due: 10.11.202 - 03:00 PM)*  
+> **Name:** `mane` Marisa N.  
 > **Session:** [01 Exercise](01_exercise)   
 ----
 
@@ -22,10 +22,10 @@
 
 
 ### 🗨️&nbsp; "How does the podcast inform your understanding of human centered data science?"  
-At least 2-3 full sentences.
+The podcast shoes what problems can arise when the human side in a data science process is not well considered and which methods can help to prevent these issues. In this context, the speaker talks about the importance of a human centered design process, in which the user and the desired outcome of the system should always be the first priority. He also introduce mulitiple principles, that human cetered data scientist should use and follow, such as an iterative design porcess, consisting of three phases (i.e. inspiration, ideation, implemetation), combining quantitative with qulitativ data and four core activities such as going into the field or building consensus on metrices for success. 
+
+
 
 ### ❓&nbsp; Questions 
-1. ...
-1. ...
-
-Some text about why ...
+1. How widely is the deom checklist used at the moment? (Because the checklicst sound really interesting but do more profit oriented companies use such tools?)
+1. Do they (DrivenData) only work with data scientists or also with people from other discipliens? And if so, how are these different backgrouds merged within the process? (Because it sound a bit like the team is mostly composed of computer scientists.)
