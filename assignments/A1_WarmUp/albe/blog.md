@@ -6,16 +6,32 @@
 
 ## A1 - Warm up
 
-* Experiance with seeting up the environment.
+As I already took part in some courses where we used Python and Jupyter Notebook luckily my
+environment was already ready for starting with the assignment. 
+
 
 ### Wikipedia Edits
 
-* Briefly describe how you solved the last hand-on task.
-* Add an image of your plot here and describe what you can see. 🖼️ 
+The last hands-on assignment was pretty easy for me to implement as most of the required code was 
+given inthe previews task. I just had to wrap it into a method and run it for a wiki page in two 
+different languages. 
+
+For the visualization part I first plotted the data with the matplotlib library what worked well but 
+looked not so nice. Therefore tried it out with the altair which is a declarative visualization library 
+for Python, based on Vega-Lite I learned in the Data Visualization course. 
+
+With altair it was pretty easy to implement a nice looking visualization with some iteractive 
+elements like a tooltip showing the date and the amount of edits when hovering over one of the cuves
+and the possiblity of zooming in.
+
+![title](edit_types.png)
 
 #### Challenges
-* Describe what tasks were challenging to you.
-* What was surprising, what did you learn? 😮 
+* Chllenging for me was to understand the task with the following description "✏️ _Which columns interest you? Replace RR and Entity with other column labels_" and I am not sure if my solution is correct. 
+I understood it is asked to replace the column names "RR" which had been renamed to "leisure" at that time and the column "Entity" to some other name. 
+
+* More interesting then suprising for me was to try out the BeautifulSoup library. I used it for the first
+time. It seems to be powerfull for extracting informations from web pages. 
 
 ## R1 - Reflection
 > Podcast: Human-centered Design in Data Science (with Peter Bull)
