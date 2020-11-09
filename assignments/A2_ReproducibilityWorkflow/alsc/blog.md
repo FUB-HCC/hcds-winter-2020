@@ -7,6 +7,10 @@
 ## R2 - Reflection
 > Book: The Practice of Reproducible Research (Chapter 2 and 3)
 
+### Definitions
+_Reproducibility and replicability_
+_How does this relate to the definitions given in the lecture?_
+
 
 ### 🗨️&nbsp; "How does the reading inform your understanding of human centered data science?"  
 _Describe in at least 2-3 full sentences._
