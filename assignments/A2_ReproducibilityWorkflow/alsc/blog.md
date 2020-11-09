@@ -25,6 +25,6 @@ _Briefly describe your experience using the reproducibility workflow._
 ### Final Wikipedia Page View Plot
 _Add an image of your plot here and describe what you can see._ 🖼️ 
 
-#### Challenges
+### Challenges
 _Describe what tasks were challenging to you._
 _What was surprising, what did you learn?_ 😮 
