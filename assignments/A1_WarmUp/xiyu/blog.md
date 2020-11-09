@@ -26,12 +26,18 @@
 * Add an image of your plot here and describe what you can see. 🖼️ 
 
    <br/>![edits](edits.png)
+   
+   <br/> Unfortunately, there are no edits from German users can be seen in the plot. Maybe the US election is not considered as an interesting topic in German-speaking countries/regions. We can see huge flucatuations along with the time in amout of edits from Englisch speakers. There are completely no edits from 1st to 8th October, and the anonymous edits don't appear in september. The peak value of edits from both user accounts as well as anonymous accounts lays around 9th or 10th September. It could be related to some social/political event in the US. More information could be revealed from the picture if we compare it to real newsfeeds.
 
 #### Challenges
 * Describe what tasks were challenging to you.
     * For me, I think the setup stuff as well as the usage of GitHub as well as Markdown is more challenging for me due to lack of experience.
-    * Regarding the task itself, I had problems with the BeutifulSoap task, since the error message I got is "lxml not found, please install it". However, I used pip install to install the lxml in python but still get the same error.
-* What was surprising, what did you learn? 😮 
+    * <del>Regarding the task itself, I had problems with the BeutifulSoap task, since the error message I got is "lxml not found, please install it". However, I used pip install to install the lxml in python but still get the same error.</del> Solved, but still doesn't work. Have problems with the code itself.
+      
+* What was surprising, what did you learn? 😮
+   * Surprisingly bad at Jupyter & Python. :pensive: As if it was my first exposure to it.
+   * Never experienced in web scraping but wished to learn. Happy to have first impression on that.
+   * Happy to learn Markdown. It was my first time using this language so I need to continuously look at my cheatsheet and wasted lot of time. Hopefully it comes as the course proceeds.
 
 ## R1 - Reflection
 > Podcast: Human-centered Design in Data Science (with Peter Bull)
@@ -42,7 +48,6 @@
 The tranformation from method-oriented to problem-oriented. The needs of humans and problem context are more considered as the data being analysed. Data scientists do not only focus on cooling results with complicated algorithms. The outcomes should be suitable to specific context/problem setting. Furthermore, the usage of data science projects is more important. The human factors and human-related perspectives should be calculated throughout different phases of the data project design process.
 
 ### ❓&nbsp; Questions 
-1. ...
-1. ...
+1. I am interested in the bias problem mentioned in the podcast. Bias can be generated however by algorithm itself as well as in the data collection process. Besides obervation of data collection, is there any method to detect bias in data or in algorithm and how to prevent the problem?
 
-Some text about why ...
+
