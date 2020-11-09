@@ -12,7 +12,7 @@
 
 * Briefly describe how you solved the last hand-on task.
 
-I used the example shown before in the notebook and expanded it so that not only one Wikipedia language was included into the data set but two. Therefor I searched for a Wikipedia page that might has had intersting edit flactuation depending on the languge (I picked Donald Trump from the german and english Wikipedia). For plotting I also looked into former described code, that could be easily reused.
+I used the example shown before in the notebook and expanded it so that not only one Wikipedia language was included into the data set but two. Therefor I searched for a Wikipedia page that might has had intersting edit flactuation in the past depending on the languge (I picked Donald Trump from the german and english Wikipedia). For plotting I also looked into former described code, that could be easily reused.
 
 * Add an image of your plot here and describe what you can see. 🖼️ 
 
