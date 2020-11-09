@@ -17,7 +17,7 @@ I used the example shown before in the notebook and expanded it so that not only
 * Add an image of your plot here and describe what you can see. 🖼️ 
 
 
-![](graph.jpg)
+![](graph.png)
 
 You can see that there are overall much more edits done by users that were logged in than by anonymous users in both language versions. If you compare the user edits of both versions, it is remarkable that the german Wikipedia has an edit peak at around  26th and 27th Septmeber whereas in the english Wikipeida there is much more flactuation but with the highest spike around 3rd and 4th October. Overall there much more edits applied to the article in the english Wikipedia than in the german.
 
