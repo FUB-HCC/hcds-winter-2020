@@ -1,7 +1,7 @@
 # Title of your post
 > **Date:** 07.11.2020 - 15:37 PM *(Due: 17.11.2020 - 03:00 PM)*  
 > **Name:** `alsc` Alexa S.  
-> **Session:** [02 Exercise](02_exercise)   
+> **Session:** [02 Exercise](https://github.com/FUB-HCC/hcds-winter-2020/wiki/02_exercise)   
 ----
 
 ## R2 - Reflection
