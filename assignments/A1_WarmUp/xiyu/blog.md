@@ -24,8 +24,8 @@
         * The tricky sep here is how to extract the information of datetime. The all detailed information seem to be stored as list of dictionaries in the dataframe as a single entry. So I first chose three countries out of the dataframe and deal with the date information seperately.
 
 * Add an image of your plot here and describe what you can see. 🖼️ 
-<br/>
-   ![edits](edits.png)
+
+   <br/>![edits](edits.png)
 
 #### Challenges
 * Describe what tasks were challenging to you.
