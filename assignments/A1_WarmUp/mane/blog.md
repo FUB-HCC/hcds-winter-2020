@@ -1,4 +1,4 @@
-# Title of your post
+# Assignment 01
 > **Date:** 08.11.202 - 15:30 PM *(Due: 10.11.202 - 03:00 PM)*  
 > **Name:** `mane` Marisa N.  
 > **Session:** [01 Exercise](01_exercise)   
