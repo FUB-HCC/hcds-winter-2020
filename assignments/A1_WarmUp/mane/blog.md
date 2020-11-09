@@ -24,11 +24,11 @@ You can see that there are overall much more edits done by users that were logge
 #### Challenges
 * Describe what tasks were challenging to you.
 
-Most challenging was actually finding an RSS feed to get data from and then to interpreet it. I was searching for a specific RSS endpot but cound't find it :(
+Most challenging was actually finding an RSS feed to get data from and then to interpreet it. I was searching for a specific RSS endpoint but cound't find it :slightly_frowning_face:
 
 * What was surprising, what did you learn? 😮 
 
-Goes into the same direction as the answer before: It positivly suprised me how easy it is to get data from a well structured, somhow described endpoint in contrast to parsing html pages.  
+Goes into the same direction as the answer before: It positively suprised me how easy it is to get data from a well structured, somehow described endpoint in contrast to parsing html pages.
 
 
 ## R1 - Reflection
