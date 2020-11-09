@@ -5,28 +5,26 @@
 ----
 
 ## R2 - Reflection
-> Book: The Practice of Reproducible Research
+> Book: The Practice of Reproducible Research (Chapter 2 and 3)
 
 
 ### 🗨️&nbsp; "How does the reading inform your understanding of human centered data science?"  
-At least 2-3 full sentences.
+_Describe in at least 2-3 full sentences._
 
-### ❓&nbsp; Questions 
+### ❓&nbsp; Questions
+_List at least 1 question (full sentence) that this reading raised in your mind, and say why._
+
 1. ...
 1. ...
-
-Some text about why ...
 
 ***
 
-## A2 - Warm up
+## A2 - Reproducibility Workflow
+_Briefly describe your experience using the reproducibility workflow._
 
-* Experiance with using the reproducibility workflow.
-
-### Wikipedia Page View Plot
-
-* Add an image of your plot here and describe what you can see. 🖼️ 
+### Final Wikipedia Page View Plot
+_Add an image of your plot here and describe what you can see. 🖼️ _
 
 #### Challenges
-* Describe what tasks were challenging to you.
-* What was surprising, what did you learn? 😮 
+_Describe what tasks were challenging to you._
+_What was surprising, what did you learn? 😮 _
