@@ -6,7 +6,10 @@
 
 ## A1 - Warm up
 
+* Experiance with seeting up the environment.
+
 ### Wikipedia Edits
+
 * Briefly describe how you solved the last hand-on task.
 * Add an image of your plot here and describe what you can see. 🖼️ 
 
