@@ -29,10 +29,15 @@ Besides learning the basic functionalities of the pandas and matplotlib, and obv
 
 
 ### 🗨️&nbsp; "How does the podcast inform your understanding of human centered data science?"  
-At least 2-3 full sentences.
+
+For me one of the main takeaways from the podcast was how machine learning can lead to misunderstanding and falsly analysing data. I found the story about amazons hiring algorithms and their bias towards men particularly interesting, since one would assume that a computer would have a completely objective view on an application. It really showed how to an alorithm that is self learning can use certain parameters, that a human would not take into consideration when solving the problem. This gave me a good understanding of why the human aspect in data science is very important and often times overlooked, since people that write the algorithms often times only look at the problem from a strictly logical point of view. I also found it very interesting that such algorithms are therefor always being checkt by humans for biases or other unwanted sideeffects and that for example in the case of amazon they actually had to stop developement of the algorithm because they coundn't stop the bias from happening. 
 
 ### ❓&nbsp; Questions 
-1. ...
-1. ...
 
-Some text about why ...
+1. Will it be possible to write an algorithm that is completly unbias ?
+
+Falling back on the paragraph above, I'm wondering wether it will be possible in the future to have algorithms do work such as selecting an applicant without bias. Obviously a human interviewer would also have certain biases in an interview, which might be very different to a computer (e.g. a human would probably look much more at the appearance of the interviewee). But besides the huge gain in efficiency, a computer also has the opportunity to handle such a problem with complete objectivity, something a human could never do. 
+
+2. Should such an algorithm handle problems completly objectively ?
+
+The question above raised another question to me, wether an algorithm should actually be purely objective. A certain paramenter might logically indicate, that a certain applicant is better or worse suited for the position, but that parameter might be very unethical to use (e.g. the data might indicate that a certain relegion is better suited for the job, but this may only be due to a lack of available data and also it would be highly discriminating to hire a person over another person based on their religion). So the algorithm would have to be modified to take those kind of parameters out of consideration, but this leads back to question 1 wether such an algorithm could be implemented, since there is an unknown amount of those kinds of parameters. Also the choice of the acceptibility of a parameter is again subjective, since it is made by humans...
