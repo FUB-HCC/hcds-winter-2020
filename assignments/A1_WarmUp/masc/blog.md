@@ -7,7 +7,7 @@
 ## A1 - Warm up
 
 * Experiance with seeting up the environment.  
-*I do not have much experience with using git, so setting up the folder structure was a little challenging for me.* 
+*I do not have much experience with using git, so setting up the folder structure and figuring out the git workflow was a little challenging for me.* 
 
 ### Wikipedia Edits
 
