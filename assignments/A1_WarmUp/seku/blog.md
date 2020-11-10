@@ -17,19 +17,22 @@ I guess setting everything up on a Windows Machine is possible, but working with
 
 ### Wikipedia Edits
 
-Currently I'm stuck at plotting the wanted data
-* Add an image of your plot here and describe what you can see. 🖼️ 
+Currently I'm stuck at plotting the wanted data (the optional task). The last regular task went fine. 
+
+My Graph looks like this:
+
+![alt text](https://github.com/FUB-HCC/hcds-winter-2020/blob/main/assignments/A1_WarmUp/seku/wiki_plot.png "Edits of CRISPR Wikipedia Page")
 
 #### Challenges
-The last task was most challanging, because I wasn't sure how to access the 'date' of the 'data' field to convert the dates.
-* What was surprising, what did you learn? 😮 
+The last task was most challanging, because I wasn't sure how to access the 'date' of the 'data' field to convert the dates. (Optional Task)
+I had some problems with selecting the right data due to the data names after the merge, but after that everything worked.
 
 ## R1 - Reflection
 > Podcast: Human-centered Design in Data Science (with Peter Bull)
 
 
 ### 🗨️&nbsp; "How does the podcast inform your understanding of human centered data science?"  
-At least 2-3 full sentences.
+Peter Bull says, that its most important to work in data science from a human standpoint. Context plays a very important role in data science, thats why it's important to provide it through Human Centered techniques. 
 
 ### ❓&nbsp; Questions 
 1. ...
