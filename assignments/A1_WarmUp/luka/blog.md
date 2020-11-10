@@ -14,7 +14,7 @@ As already mentioned in the section above, I was really blown away by the functi
 
 I started with getting the endpoints for both the anonymous and user edits. I then formatted both into the JSON format and filtered them, so they would only include the values for "items" and "results". After that I merged both dataframes into one and plotted them into a graph with is shown below. In the end I also added a legend to the graph.
 
-![title](img/wikipedia_graph.png)
+![alt text](wikipedia_graph.png "Title")
 
 The graph shows the page edits on the english version of the Wikipedia site "Empire State Building". It displays both the anonymous and user edits of the page, though there are no anonymous edits during the entire timespand from September 1st to October 22nd. On the other hand there are three user edits during September and then again three in the first halt of October. At the end of October there is actually a large increase of user edits to 7 edits within a very short timeperiod.
 
