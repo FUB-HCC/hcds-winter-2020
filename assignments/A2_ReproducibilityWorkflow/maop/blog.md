@@ -53,5 +53,6 @@ _Add an image of your plot here and describe what you can see._ 🖼️
 ### Challenges
 _Describe what tasks were challenging to you._
 * It was challenging to me to merge the data and not always work with the dataframes as variable, but to ensure a reproducible workflow. I must admit that sometimes I just wanted to call a prior created variable containing the needed dataframe. But for this task it was crucial to make sure to follow best practices for reproducible research, which meant putting more effort in exporting the acquired data and parsing it again.
+
 _What was surprising, what did you learn?_ 😮 
 * It was definitely surprising to see how much work it actually is to deliver a fully reproducible project. There's much more behind it than I thought it would be
