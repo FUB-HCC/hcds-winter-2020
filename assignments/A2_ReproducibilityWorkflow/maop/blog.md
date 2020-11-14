@@ -64,4 +64,4 @@ _Describe what tasks were challenging to you._
 * Also, it took me waaaay to long to scale the axes and relabel the axes. I didn't want to manipulate the `result_data.csv` entries by dividing a column by 10 so that my maximum y-axis value wouldn't be 1e10 but 1e9 instead. But lambda functions in python saved me.
 
 _What was surprising, what did you learn?_ 😮 
-* It was definitely surprising to see how much work it actually is to deliver a fully reproducible project. There's much more behind it than I thought it would be.
+* It was definitely surprising to see how much work it actually is to deliver a fully reproducible project. There's much more behind it than I thought it would be. 
