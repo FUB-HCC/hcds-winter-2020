@@ -48,7 +48,7 @@ _Briefly describe your experience using the reproducibility workflow._
 ### Final Wikipedia Page View Plot
 _Add an image of your plot here and describe what you can see._ 🖼️ 
 
-![result_graph.png](result/result_graph.png)
+![result graph.png](result/result graph.png)
 
 The gray line is showing all traffic (desktop+mobile)
 
