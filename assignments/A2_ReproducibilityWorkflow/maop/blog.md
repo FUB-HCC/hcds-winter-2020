@@ -61,6 +61,7 @@ The time series graph shows the pageviews of Wikipedia from 12/2007 to 09/2020
 ### Challenges
 _Describe what tasks were challenging to you._
 * It was challenging to me to merge the data and not always work with the dataframes as variable, but to ensure a reproducible workflow. I must admit that sometimes I just wanted to call a prior created variable containing the needed dataframe. But for this task it was crucial to make sure to follow best practices for reproducible research, which meant putting more effort in exporting the acquired data and parsing it again.
+* Also, it took me waaaay to long to scale the axes and relabel the axes. I didn't want to manipulate the `result_data.csv` entries by dividing a column by 10 so that my maximum y-axis value wouldn't be 1e10 but 1e9 instead. But lambda functions in python saved me.
 
 _What was surprising, what did you learn?_ 😮 
 * It was definitely surprising to see how much work it actually is to deliver a fully reproducible project. There's much more behind it than I thought it would be
