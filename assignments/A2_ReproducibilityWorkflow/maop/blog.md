@@ -50,13 +50,11 @@ _Add an image of your plot here and describe what you can see._ 🖼️
 
 ![result/result graph.png](result/result%20graph.png)
 
-The gray line is showing all traffic (desktop+mobile)
+* The gray line is showing all traffic (desktop+mobile)
+* The green line is showing mobile traffic only
+* The blue line is showing desktop traffic only
 
-The green line is showing mobile traffic only
-
-The blue line is showing desktop traffic only
-
-**Note that the blue line is actually underlapped by the gray line. The reason for this is that date on mobile traffic is only available starting from 2014/10. Therefore all traffic (which is being computed as the sum of mobile+desktop traffic is the same as the desktop traffic until 09/2014**
+**Note that the blue line is actually partly underlapped by the gray line. The reason for this is that date on mobile traffic is only available starting from 2014/10. Therefore all traffic (which is being computed as the sum of mobile+desktop traffic is the same as the desktop traffic until 09/2014**
 
 ### Challenges
 _Describe what tasks were challenging to you._
