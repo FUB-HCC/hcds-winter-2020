@@ -36,4 +36,4 @@ all_traffic -> Is simply the sum of desktop+mobile traffic.
 Pageview API excludes spiders/crawlers, while data from the Pagecounts API does not. When it comes to mobile_traffic, traffic generated via mobile-app access and mobile-site access has been taken into consideration.
 
 
-== Made with love github@mvrc ==
+== Made with love mvrc@github ==
