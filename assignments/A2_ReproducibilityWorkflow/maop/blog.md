@@ -50,6 +50,14 @@ _Add an image of your plot here and describe what you can see._ 🖼️
 
 ![Pageviews on english Wikipedia.png](img/Pageviews on english Wikipedia.png)
 
+The gray line is showing all traffic (desktop+mobile)
+
+The green line is showing mobile traffic only
+
+The blue line is showing desktop traffic only
+
+** Note that the blue line is actually underlapped by the gray line. The reason for this is that date on mobile traffic is only available starting from 2014/10. Therefore all traffic (which is being computed as the sum of mobile+desktop traffic is the same as the desktop traffic until 09/2014  **
+
 ### Challenges
 _Describe what tasks were challenging to you._
 * It was challenging to me to merge the data and not always work with the dataframes as variable, but to ensure a reproducible workflow. I must admit that sometimes I just wanted to call a prior created variable containing the needed dataframe. But for this task it was crucial to make sure to follow best practices for reproducible research, which meant putting more effort in exporting the acquired data and parsing it again.
