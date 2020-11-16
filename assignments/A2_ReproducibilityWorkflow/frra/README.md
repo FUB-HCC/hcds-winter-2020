@@ -28,8 +28,8 @@ seaborn = "^0.11.0"
 * Preprocessed data (csv format) can be found in the folder "data_clean"
 * If all requirements are installed the script can be opened via Jupyter notebook and executed.
 
-##Results
-The final plot:
+## Results
+The final plot:  
 ![wiki.png](wiki.png)
 
 ## License
