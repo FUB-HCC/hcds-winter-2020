@@ -23,15 +23,17 @@ Both had received a minor version bump in the last few days or weeks, that provi
 Working with pandas and plotting with matplotlib was a new experience for me and I noticed, that there is a lot to be learned in these tools.
 One additional thing that I learned was that Wikipedia has a REST API to access different statistics. I didn't know that before. 
 
-## R1 - Reflection - [ TBA ]
+## R1 - Reflection
 > Podcast: Human-centered Design in Data Science (with Peter Bull)
 
 
 ### 🗨️&nbsp; "How does the podcast inform your understanding of human centered data science?"  
-At least 2-3 full sentences.
+I didn't know beforehand that there are generators for data ethics checklists you could use for your own project to make sure for example, that your participants have given informed consent. 
+Also interesting was the fact that even though a project might sound great for a machine learning process in the abstract it can still introduce a huge bias in the decision-making.
+In addition, I really valued the concept that human centered factor begins with the data collection and that data scientists should observe how their data gets collected in the real world.
 
 ### ❓&nbsp; Questions 
-1. ...
-1. ...
+1. In the beginning they spoke about best practices in data science, so I'm now wondering if there is a good collection out there.
+2. They talked about that empathy is a core skill for data scientist and that one should approach to solve tasks with the attitude of problem first rather than method first. There they didn't mention if this was something that is thought in general in university or if this is a skill that just some individuals thought themselves.
 
-Some text about why ...
+A bit off-topic but I liked how they mentioned that they use a similar approach to the folder structure for data science projects as in software engineering.

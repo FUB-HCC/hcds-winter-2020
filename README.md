@@ -4,7 +4,7 @@ This repository contains all material needed to participate in the course [Human
 ## First things first
 1. The repository (code section) contains everything related to the programming assignments we will do throughout the course.
 1. All other information (lecture slides, assignment instructions, etc.) you find in the :arrow\_right: [wiki][3]:arrow\_left:.
-1. You should also clone the wiki by running `git clone https://github.com/FUB-HCC/hcds-winter-2020.wiki.git` or `git clone git@github.com/FUB-HCC/hcds-winter-2020.wiki.git`.
+1. You should also clone the wiki by running `git clone https://github.com/FUB-HCC/hcds-winter-2020.wiki.git` or `git clone git@github.com:FUB-HCC/hcds-winter-2020.wiki.git`.
 3. You need to clone the code repository in order to deliver your assignments or to test/run the code of fellow students.
 
 ## Getting started
@@ -18,7 +18,7 @@ In order to take part in the course, please ensure that you have a Python versio
 
 ### Setup
 
-1. Clone this repository and move it into the repo root.
+1. Clone this repository (or use SSH) and move it into the repo root.
 
 	git clone https://github.com/FUB-HCC/hcds-winter-2020.git
 	cd hcds-winter-2020
