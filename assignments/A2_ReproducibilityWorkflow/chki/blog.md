@@ -27,17 +27,24 @@ I learned, that conflicts may arise between replicability (revealing artifacts/d
 ### ❓&nbsp; Questions
 _List at least 1 question (full sentence) that this reading raised in your mind, and say why._
 
-1. Is it important to have the full history of a data science project or is just important to keep the versions that were used for a publication? \
+1. Is it important to provide the full history of a data science project or is just important to keep the versions that were used for a publication? \
 I assume it's only important to have the versions that were used for publications. Of course, if one uses a version control system like GitHub, it should be easy to offer the full history. On the other hand, there could be reasons (as stated above) to keep parts of the history secret (or even software artifacts used for a publication).
 
 ***
 
 ## A2 - Reproducibility Workflow
 _Briefly describe your experience using the reproducibility workflow._
+The workflow worked quite well and was easy to adapt. I am used to document steps in Jupyter Notebooks with Markdown and also to save intermediate results.
+Accuratly following the work flow and best practices still took quite a lot of time. Especially because I usually do not write such an extensive README.
 
 ### Final Wikipedia Page View Plot
-_Add an image of your plot here and describe what you can see._ 🖼️ 
+_Add an image of your plot here and describe what you can see._ 
+![View English Wikipedia Plot](https://github.com/chrisk280/A2-hcds-hcc-chki/blob/main/results/page_views_en_wikipedia.png)
+[My Repository](https://github.com/chrisk280/A2-hcds-hcc-chki/)
 
 ### Challenges
 _Describe what tasks were challenging to you._
+It was quite tedious to get the y-axis labels formatted correctly :). Apart from that the tasks were not that challanging but sometimes quite time consuming since I had to look up quite a few things. Apparently, I got a bit rusty but it was a good excercise to refresh my knowledge.
+
 _What was surprising, what did you learn?_ 😮 
+The 
