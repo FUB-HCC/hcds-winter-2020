@@ -19,7 +19,8 @@ jupyter = "^1.0.0"
 ipykernel = "^5.3.4"  
 requests = "^2.24.0"  
 matplotlib = "^3.3.2"  
-seaborn = "^0.11.0"```
+seaborn = "^0.11.0"
+```
 
 ## Usage
 
