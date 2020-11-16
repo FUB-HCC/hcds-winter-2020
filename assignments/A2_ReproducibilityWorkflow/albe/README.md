@@ -26,27 +26,27 @@ safed in the directory  *pre_processed_data/csv*.
 
 The pre proccced data *en_wiki_views_pre_proccessed.csv* is a table withthe following 5 columns: 
 
-year: The Year in which the view trafic observations were made. Extracted from the timestamp.
-month: The month in which the view trafic observations were made. Extracted from the timestamp.
-pagecount_all_views: Sum of all view trafic observations (mobile and desctop) made with the Pagecounts API.
-pagecount_desktop_views: Data from Pagecounts API. The count of views made with the access type desktop. (Please note that this includes views from spiders/crawlers) 
-pagecount_mobile_views: Data from Pagecounts API. The count of views made with the access type mobile. (Please note that this includes views from spiders/crawlers)
-pageview_all_views: Sum of all view trafic observations (mobile and desctop) made with the Pageviews API.
-pageview_desktop_views: Data from Pageviews API. The count of views made with the access type desktop. (Please note that this includes only views from human users)
-pageview_mobile_views:  Data from Pageviews API. The count of views made with the access type mobile. (Please note that this includes only views from human users)
+- year: The Year in which the view trafic observations were made. Extracted from the timestamp.
+- month: The month in which the view trafic observations were made. Extracted from the timestamp.
+- pagecount_all_views: Sum of all view trafic observations (mobile and desctop) made with the Pagecounts API.
+- pagecount_desktop_views: Data from Pagecounts API. The count of views made with the access type desktop. (Please note that this includes views from spiders/crawlers) 
+- pagecount_mobile_views: Data from Pagecounts API. The count of views made with the access type mobile. (Please note that this includes views from spiders/crawlers)
+- pageview_all_views: Sum of all view trafic observations (mobile and desctop) made with the Pageviews API.
+- pageview_desktop_views: Data from Pageviews API. The count of views made with the access type desktop. (Please note that this includes only views from human users)
+- pageview_mobile_views:  Data from Pageviews API. The count of views made with the access type mobile. (Please note that this includes only views from human users)
 
 **Analysis:** In this part some further processing is performed and the data is visualized in and interative chart. At the end of this part the results are stroed in the directory *clean_data/*. 
 The data used for the visualization is stored under *clean_data/csv* and the visualization is stored under *clean_data/visualization/html*.
 
 The final data *en_wiki_views_clean.csv* conists of a table with 5 columns: 
 
-year: The Year in which the view trafic observations were made. Extracted from the timestamp.
-month: The month in which the view trafic observations were made. Extracted from the timestamp.
-view_type: The access type and api where the view trafic observation *count* made from.
-count: The amount of views observed for the view_type.
-timestamp: Timestamp in monthly granularity for the observed page views.
+- year: The Year in which the view trafic observations were made. Extracted from the timestamp.
+- month: The month in which the view trafic observations were made. Extracted from the timestamp.
+- view_type: The access type and api where the view trafic observation *count* made from.
+- count: The amount of views observed for the view_type.
+- timestamp: Timestamp in monthly granularity for the observed page views.
 
-#The final visualization:
+# The final visualization:
 
 The final visualization is composed by 3 charts which are linked one interactive visualization. 
 
