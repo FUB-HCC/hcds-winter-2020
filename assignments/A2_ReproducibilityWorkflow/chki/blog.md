@@ -47,6 +47,9 @@ _Add an image of your plot here and describe what you can see._
 ![View English Wikipedia Plot](https://github.com/chrisk280/A2-hcds-hcc-chki/blob/main/results/page_views_en_wikipedia.png)
 [My Repository](https://github.com/chrisk280/A2-hcds-hcc-chki/)
 
+You can see that scince there is a mobile version, the views on the desktop version are decreasing while the views on the mobile version are increasing. This trend continues and from 2017 to 2018 there is a phase where the amount of views were similar. In the beginning of 2018 the mobile views clearly surpass the amount of movile views. 
+Looking at the total amount of views (all traffic), you can see that number of views rose from around 5 billion per month in 2008 to roughly 8 billion views in 2013. In the following period up until 2015 the views vary widely from a peak of nearly 11 billion views per month to a low of around 7 billion views. I assume bot activity (spiders/crawlers) could be a reason for that or maybe events that aroused interest of a lot of people all over the world. From 2015 onwards, the toatal amount of views stabilized and fluctuates around roughly 7.5 billion views per month. This could be due to bot activity being filtered.
+
 ### Challenges
 _Describe what tasks were challenging to you._
 
