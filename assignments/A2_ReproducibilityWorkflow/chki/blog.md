@@ -47,4 +47,5 @@ _Describe what tasks were challenging to you._
 It was quite tedious to get the y-axis labels formatted correctly :). Apart from that the tasks were not that challanging but sometimes quite time consuming since I had to look up quite a few things. Apparently, I got a bit rusty but it was a good excercise to refresh my knowledge.
 
 _What was surprising, what did you learn?_ 😮 
-The 
+I learned how to better structure my jupyter notebook projects (and data science projects in general). I like the idea to have folders for raw data, cleaned data and results.
+ 
