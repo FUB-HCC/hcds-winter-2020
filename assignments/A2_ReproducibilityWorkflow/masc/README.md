@@ -8,6 +8,12 @@ This repository contains the following elements:
 
 ### Jupyter Notebook for Analysis
 
+Make sure you have the following libraries installed:  
+pandas 1.1.3. 
+jupyter 1.0.0.   
+requests 2.24.0. 
+matplotlib 3.3.2. 
+
 A Jupyter Notebook explaining the data retrieval process as well as performing the analysis. 
 The data is retrieved via Wikimedia APIs.   
 Legacy Pagecounts as well as Pageviews are retrieved as json files.
