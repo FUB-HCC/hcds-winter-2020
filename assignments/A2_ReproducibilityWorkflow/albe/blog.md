@@ -10,17 +10,31 @@
 ### Definitions
 _Reproducibility and replicability_
 
+- **Reproducibilit:** Means that another researcher team can reproduce the same outcome of the research (documentation, data, tables, figures), the same qualitative and quantitative results by following the same steps, applying the same methods and **using the same data**
+
+- **Replicability:** Means the same as Reproducibility with the difference that the different team uses **different data** than the original researcher team. 
+
+
 _How does this relate to the definitions given in the lecture?_
+
+By comparing the definitions I could not find any differences in the definitions of these two terms. 
 
 
 ### 🗨️&nbsp; "How does the reading inform your understanding of human centered data science?"  
 _Describe in at least 2-3 full sentences._
 
+My takeway is that with the methods introduced the research should be comprehensible for and repatable for others. I think 
+in human centered data science this special role as it makes the research understandable and easier to validate. 
+
+
 ### ❓&nbsp; Questions
 _List at least 1 question (full sentence) that this reading raised in your mind, and say why._
 
-1. ...
-1. ...
+As I understood in case of reproducibility the repeating research team is using a dataset which the original research team also used and is providing in their publication. This could be for example time measured durring an experiment with test persons.  
+Is it only called reproducibility if the repeating research team is using the data set of the original team (eg. the table with the time measured)? 
+If I understood it correct creating the (same) dataset with applying the same methods and repleating the time measurement with diffrent 
+users but the same demographic distribution is not reproducing the research but replicating? Because there are extraneous variables making the dataset of the repeating team different such as different psychological state of the test persons, different daytime, region etc. 
+
 
 ***
 
