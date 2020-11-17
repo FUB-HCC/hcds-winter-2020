@@ -9,11 +9,23 @@ This repository contains the following elements:
 ### Jupyter Notebook for Analysis
 
 A Jupyter Notebook explaining the data retrieval process as well as performing the analysis. 
-The data is retrieved via Wikimedia APIs. Legacy Pagecounts as well as Pageviews are retrieved as json files.
+The data is retrieved via Wikimedia APIs.   
+Legacy Pagecounts as well as Pageviews are retrieved as json files.
+
+Find more information here:  
+Pagecounts: https://wikitech.wikimedia.org/wiki/Analytics/AQS/Legacy_Pagecounts  
+Pageviews: https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews
 
 ### Data files
 
 Raw data as json files under "data_raw" as well as cleaned dataset as csv under "data_clean".
+  
+#### Description of the data:  
+**Variables**
+Views: Mobile or desktop views
+Year: The year in which the traffic occured
+Month: The month in which the traffic occured
+Access: The device which accessed the data
 
 ### How to reproduce this research
 
