@@ -22,11 +22,11 @@ Cleaned dataset as csv file under [data_clean](https://github.com/FUB-HCC/hcds-w
 
   
 #### Description of the data:  
-**Variables**
-Views: Mobile or desktop views
-Year: The year in which the traffic occured
-Month: The month in which the traffic occured
-Access: The device which accessed the data
+**Variables**  
+*Views:* Mobile or desktop views  
+*Year: The year in which the traffic occured  
+*Month: The month in which the traffic occured  
+*Access: The device which accessed the data  
 
 ### How to reproduce this research
 
