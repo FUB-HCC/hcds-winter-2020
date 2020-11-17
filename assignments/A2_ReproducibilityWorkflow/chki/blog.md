@@ -44,7 +44,7 @@ Accuratly following the work flow and best practices still took quite a lot of t
 ### Final Wikipedia Page View Plot
 _Add an image of your plot here and describe what you can see._ 
 
-![View English Wikipedia Plot](https://github.com/chrisk280/A2-hcds-hcc-chki/blob/main/results/page_views_en_wikipedia.png)
+![View English Wikipedia Plot](https://github.com/chrisk280/A2-hcds-hcc-chki/blob/main/results/page_views_en_wikipedia_2008_2020.png) \ 
 [My Repository](https://github.com/chrisk280/A2-hcds-hcc-chki/)
 
 You can see that scince there is a mobile version, the views on the desktop version are decreasing while the views on the mobile version are increasing. This trend continues and from 2017 to 2018 there is a phase where the amount of views were similar. In the beginning of 2018 the mobile views clearly surpass the amount of movile views. 
