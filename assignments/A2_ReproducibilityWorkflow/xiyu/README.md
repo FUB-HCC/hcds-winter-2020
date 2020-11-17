@@ -12,6 +12,8 @@ The data is collected from:
 
 > The data description is from original discription from Jupyter Assignment
 
+3. Terms and Conditions can befound under [Wikimedia's general Term of Use](https://foundation.wikimedia.org/wiki/Terms_of_Use/en) and [Privacy Policy](https://foundation.wikimedia.org/wiki/Privacy_policy)
+
 # Project Structure and Main Steps
 The detailed data processing and visualization process can be found in Jupyter Notebook named A2_ReproducibilityWorkflow.
 
