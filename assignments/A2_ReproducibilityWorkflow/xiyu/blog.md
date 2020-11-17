@@ -52,7 +52,7 @@ My difficulties come mostly from coding itself, for example I had difficulties i
 
 ### Final Wikipedia Page View Plot
 _Add an image of your plot here and describe what you can see._ 🖼️ 
-<br/>![Page Views on English Wikipedia](Page Views on English Wikipedia.png)
+<br/>![image](https://github.com/FUB-HCC/hcds-winter-2020/blob/main/assignments/A2_ReproducibilityWorkflow/xiyu/Page%20Views%20on%20English%20Wikipedia.png)
 
 
 ### Challenges
