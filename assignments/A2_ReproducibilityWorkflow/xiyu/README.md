@@ -32,6 +32,8 @@ The main processings are:
 
 > Description from original description on Jupyter Assignment.
 
+<br/>![image](https://github.com/FUB-HCC/hcds-winter-2020/blob/main/assignments/A2_ReproducibilityWorkflow/xiyu/Page%20Views%20on%20English%20Wikipedia.png)
+
 The processed data is stored in a csv file with 8 attributes:
 
 * year: 
