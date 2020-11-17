@@ -31,4 +31,5 @@ _Add an image of your plot here and describe what you can see._ 🖼️
 
 ### Challenges
 _Describe what tasks were challenging to you._
+The API stuff and JSON File were the most challenging to me.
 _What was surprising, what did you learn?_ 😮 
