@@ -54,11 +54,16 @@ My difficulties come mostly from coding itself, for example I had difficulties i
 _Add an image of your plot here and describe what you can see._ 🖼️ 
 <br/>![image](https://github.com/FUB-HCC/hcds-winter-2020/blob/main/assignments/A2_ReproducibilityWorkflow/xiyu/Page%20Views%20on%20English%20Wikipedia.png)
 
+<br/> The plot shows a time series trends from 2007 to 2017. 
 
 ### Challenges
 _Describe what tasks were challenging to you._
 
-The API stuff and JSON File were the most challenging to me. Otherwise writing decent codes is also challenging.
+The API stuff and JSON File were the most challenging to me. Otherwise writing decent codes is also challenging. The blue line shows the desktop traffic and the orange line shows mobile traffic. All traffic combined from desktop traffic and orange traffic is shown in green. The x-axis shows the years whereas the y-axis shows the visiting volum in billion. The peak value of traffic can be found around 2015 and 2016.
+The mobile traffic remains 0 and first exists starting from 2014, this may in accordance with the widespread of smartphones in 2014. 
+The user traffic in 2017 is almost the same from desktop and mobile but mobile traffic goes up afterwords. It may be based on the popular use of mobile devides instead of a computer/laptop.
+
+However, there are something I currently cannot expain from the plot. Since the desktop traffic starts from 2014 and mobile traffic remains 0, why would the all traffic become so high? My guess was from internet spiders/crawlers but I cannot proof that. 
 
 
 _What was surprising, what did you learn?_ 😮 
