@@ -34,7 +34,7 @@ _List at least 1 question (full sentence) that this reading raised in your mind,
 I liked the assignment but I underestimated how time consuming it would be. I mainly struggled with finding the codes for merging my datasets and I failed to combine all traffic sources.  
 
 ### Final Wikipedia Page View Plot
-_Add an image of your plot here and describe what you can see._ 🖼️ 
+![plot](https://github.com/FUB-HCC/hcds-winter-2020/blob/main/assignments/A2_ReproducibilityWorkflow/masc/wikipedia-traffic_plot.png)
 
 ### Challenges
 Joining all datasets and recoding the values was the most challenging part for me. 
