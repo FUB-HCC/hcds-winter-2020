@@ -35,10 +35,12 @@ _Add an image of your plot here and describe what you can see._ 🖼️
 ![The Plot](https://github.com/jonas-weber/A2-hcds-hcc-jowe/blob/main/results/wiki_final_plot.png)
 
 [The Repo](https://github.com/jonas-weber/A2-hcds-hcc-jowe/)
+
+You can see that the total views increased overall since 2008. The desktop traffic decresed once the mobile traffic was accounted for. Also in 2015, where there is data from both APIs, the total traffic isn't the same, this is probably because web crawlers are excluded in the the Pageview API.
 ### Challenges
 _Describe what tasks were challenging to you._
 
-While I had to look up a lot of specific snippets because of no previous Pandas experience, actually deciding on my own how to manipulate the data at which point was probably the most challenging point. The reproducible workflow helped me quite a bit there though, since it worked well to do one thing at a time and descripe it in text, which helped my own understanding as well.
+While I had to look up a lot of specific snippets because of no previous Pandas experience, actually deciding on my own how to manipulate the data at which point was probably the most challenging point. The reproducible workflow helped me quite a bit there though, since it worked well to do one thing at a time and describe it in text, which helped my own understanding as well.
 _What was surprising, what did you learn?_ 😮 
 
 That there are immediate benefits in using the reproducible workflow for myself, even when ignoring the positive impact it will have when sharing the result with other people. Also that it's not that hard to implement the reproducible workflow and the time is well worth it.
