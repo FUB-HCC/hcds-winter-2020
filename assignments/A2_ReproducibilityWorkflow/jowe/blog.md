@@ -9,6 +9,7 @@
 
 ### Definitions
 _Reproducibility and replicability_
+
 The authors list multiple definitions of the terms, they prefer the definition of Goodman, Fanelli & Ioannidis (2016):
 * **Reproducibility:** "the ability of a researcher to duplicate the results of a prior study using the same materials as were used by the original investigator. That is, a second researcher might use the same raw data to build the same analysis files and implement the same statistical analysis in an attempt to yield the same results."
 
@@ -36,6 +37,8 @@ _Add an image of your plot here and describe what you can see._ 🖼️
 [The Repo](https://github.com/jonas-weber/A2-hcds-hcc-jowe/)
 ### Challenges
 _Describe what tasks were challenging to you._
+
 While I had to look up a lot of specific snippets because of no previous Pandas experience, actually deciding on my own how to manipulate the data at which point was probably the most challenging point. The reproducible workflow helped me quite a bit there though, since it worked well to do one thing at a time and descripe it in text, which helped my own understanding as well.
 _What was surprising, what did you learn?_ 😮 
+
 That there are immediate benefits in using the reproducible workflow for myself, even when ignoring the positive impact it will have when sharing the result with other people. Also that it's not that hard to implement the reproducible workflow and the time is well worth it.
