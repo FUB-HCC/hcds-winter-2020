@@ -1,6 +1,6 @@
-# Title of your post
+# Blog: Assignment 2
 > **Date:** 07.11.2020 - 15:37 PM *(Due: 17.11.2020 - 03:00 PM)*  
-> **Name:** `alsc` Sebastian K.  
+> **Name:** `seku` Sebastian K.  
 > **Session:** [02 Exercise](https://github.com/FUB-HCC/hcds-winter-2020/wiki/02_exercise)   
 ----
 
