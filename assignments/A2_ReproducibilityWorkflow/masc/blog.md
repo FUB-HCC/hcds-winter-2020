@@ -25,13 +25,13 @@ Reproducibility and replicability are very important aspects of research. Unfort
 ### ❓&nbsp; Questions
 _List at least 1 question (full sentence) that this reading raised in your mind, and say why._
 
-1. How can data scientists wich a focus on Human-Centered Data Science helpt to make social science research better?
-1. Why do scientific journals not encourage the researchers more to give access to their datasets?
+1. How can data scientists and social scientists collaborate more in the future to create unbiased and reproducable research?
+1. Why is there only very little researcher who make their datasets and analysis publicly available?
 
 ***
 
 ## A2 - Reproducibility Workflow
-I liked the assignment but I underestimated how time consuming it would be. I mainly struggled with finding the codes for merging my datasets and I failed to combine all traffic sources.  
+I liked the assignment but I underestimated how time consuming it would be. I mainly struggled with finding the codes for merging my datasets and I failed to combine all mobile traffic sources.  
 
 ### Final Wikipedia Page View Plot
 ![plot](https://github.com/FUB-HCC/hcds-winter-2020/blob/main/assignments/A2_ReproducibilityWorkflow/masc/wikipedia-traffic_plot.png)
