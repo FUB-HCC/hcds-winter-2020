@@ -8,28 +8,22 @@
 > Book: The Practice of Reproducible Research (Chapter 2 and 3)
 
 ### Definitions
-_Reproducibility and replicability_
-_How does this relate to the definitions given in the lecture?_
-
+In the lecture we learned, that repoducibility means redoing research with the same data and methods as before, getting the same result. Replicablity on the other hand is replicating the research with completely new data, but still achieving the same result. Different to Repeatability, Reproducibility and Replicability is achieved by another team, where Repeatability is done by the initial researcher.
+Those definitions are very similar to the definitons from the text.
 
 ### 🗨️&nbsp; "How does the reading inform your understanding of human centered data science?"  
-_Describe in at least 2-3 full sentences._
+The reading states that documentation is key for achieving reproducability or replicability. This is true for all kinds of science but especially in human centered data science due to ethical problems. Reproducability helps with clean reasearch and strengthens the research itself, especially with new findings.
 
 ### ❓&nbsp; Questions
-_List at least 1 question (full sentence) that this reading raised in your mind, and say why._
-
-1. ...
-1. ...
-
-***
+Is there a better way to make reproducability or replicability easier while working with a large team, despite documenting each researchers work on its own?
 
 ## A2 - Reproducibility Workflow
-_Briefly describe your experience using the reproducibility workflow._
+The reproducibility workflow was quite interesting. Due to the fact that we had to find our own workflow it was more challanging than last week. Nevertheless it was a nice challange that showed me how to work with the Wikipedia API and Pandas in a specific task.
 
 ### Final Wikipedia Page View Plot
-_Add an image of your plot here and describe what you can see._ 🖼️ 
+![en-wikipedia_traffic_200712-202010.png](en-wikipedia_traffic_200712-202010.png)
+This is the final plot of my data analysis. Just as the task said, the Plot contains the page traffic for the english wikipedia between January 2008 and October 2020. One this, that looks kind of odd is the bump between 2015 and 2017. I think the problem there is, that both API had data for the same time period, so adding both data sets doubled the peak in this time period.
 
 ### Challenges
-_Describe what tasks were challenging to you._
-_What was surprising, what did you learn?_ 😮 
+Cleaning the data was a little bit challanging, but after searching the web for needed functions I managed to get my workflow running. After all I learned a few tricks in Python and Pandas I didn't knew before.
 
