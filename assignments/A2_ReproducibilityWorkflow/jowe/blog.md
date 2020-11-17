@@ -36,7 +36,7 @@ _Add an image of your plot here and describe what you can see._ 🖼️
 
 [The Repo](https://github.com/jonas-weber/A2-hcds-hcc-jowe/)
 
-You can see that the total views increased overall since 2008. The desktop traffic decresed once the mobile traffic was accounted for. Also in 2015, where there is data from both APIs, the total traffic isn't the same, this is probably because web crawlers are excluded in the the Pageview API.
+You can see that the total views increased overall since 2008. The desktop traffic decreased once the mobile traffic was accounted for. Also in 2015, where there is data from both APIs, the total traffic isn't the same, this is probably because web crawlers are excluded in the the Pageview API. Since 2017 the mobile traffic increased while the desktop traffic decreased.
 ### Challenges
 _Describe what tasks were challenging to you._
 
