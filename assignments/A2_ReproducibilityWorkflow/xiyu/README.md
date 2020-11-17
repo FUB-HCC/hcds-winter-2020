@@ -32,8 +32,6 @@ The main processings are:
 
 > Description from original description on Jupyter Assignment.
 
-<br/>![image](https://github.com/FUB-HCC/hcds-winter-2020/blob/main/assignments/A2_ReproducibilityWorkflow/xiyu/Page%20Views%20on%20English%20Wikipedia.png)
-
 The processed data is stored in a csv file with 8 attributes:
 
 * year: 
@@ -52,6 +50,8 @@ The processed data is stored in a csv file with 8 attributes:
 In this stage, a time series plot of user traffics from different access type are depicted as line chart.
 
 We are interested in three metrics: desktop traffic, mobile traffic and all traffic, regardless of APIs. Therefore, the csv file is loaded as dataframe and data processing for metrics and scaling (Y-axis in billion) are taken place before the visualization.
+
+<br/>![image](https://github.com/FUB-HCC/hcds-winter-2020/blob/main/assignments/A2_ReproducibilityWorkflow/xiyu/Page%20Views%20on%20English%20Wikipedia.png)
 
 
 
