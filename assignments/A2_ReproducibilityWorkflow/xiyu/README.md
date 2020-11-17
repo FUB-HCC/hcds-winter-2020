@@ -40,12 +40,12 @@ The processed data is stored in a csv file with 8 attributes:
 <br/> In which year were the scored user traffics taken place. Extracted from timestamp parameter from original data in JSON file.
 * month:
 <br/> In which month were the scored user traffics taken place. Extracted from timestamp parameter from original data in JSON file.
-* pagecount_all_views: <br/> Pagecount traffics in all, including from desktop as well as from mobile.Accessed through pagecount API.
-* pagecount_desktop_views: <br/> Pagecount traffics from desktop as access-type.
-* pagecount_mobile_views: <br/> Pagecount traffics from mobile as access-type.
-* pageview_all_views: <br/> Pageview traffics in all, including from desktop as well as from mobile.Accessed through pageview API.
-* pageview_desktop_views: <br/> Pageview traffics from desktop as access-type.
-* pageview_mobile_views: <br/> Pageview traffics from mobile as access-type, including from mobile-web as well as from mobile-app (preprocessed before).
+* pagecount_all_views: <br/> Pagecount traffics in all, including from desktop as well as from mobile.Accessed through pagecount API. May include scrawlers/spiders.
+* pagecount_desktop_views: <br/> Pagecount traffics from desktop as access-type. May include scrawlers/spiders.
+* pagecount_mobile_views: <br/> Pagecount traffics from mobile as access-type. May include scrawlers/spiders.
+* pageview_all_views: <br/> Pageview traffics in all, including from desktop as well as from mobile.Accessed through pageview API. Exclude from scrawlers/spiders.
+* pageview_desktop_views: <br/> Pageview traffics from desktop as access-type. Exclude from scrawlers/spiders.
+* pageview_mobile_views: <br/> Pageview traffics from mobile as access-type, including from mobile-web as well as from mobile-app (preprocessed before). Exclude from scrawlers/spiders.
 
 ## Data Analysis and Visualization
 
