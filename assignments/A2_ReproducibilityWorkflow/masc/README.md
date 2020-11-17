@@ -18,7 +18,8 @@ Pageviews: https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews
 
 ### Data files
 
-Raw data as json files under "data_raw" as well as cleaned dataset as csv under "data_clean".
+Raw data as json files under [data_raw](https://github.com/FUB-HCC/hcds-winter-2020/blob/main/assignments/A2_ReproducibilityWorkflow/data_clean) as well as cleaned dataset as csv under [data_clean](https://github.com/FUB-HCC/hcds-winter-2020/blob/main/assignments/A2_ReproducibilityWorkflow/data_clean)
+
   
 #### Description of the data:  
 **Variables**
