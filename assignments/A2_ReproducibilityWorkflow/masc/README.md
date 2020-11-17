@@ -18,7 +18,7 @@ Pageviews: https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews
 
 ### Data files
 
-Raw data as json files under [data_raw](https://github.com/FUB-HCC/hcds-winter-2020/blob/main/assignments/A2_ReproducibilityWorkflow/data_clean) as well as cleaned dataset as csv under [data_clean](https://github.com/FUB-HCC/hcds-winter-2020/blob/main/assignments/A2_ReproducibilityWorkflow/data_clean)
+Cleaned dataset as csv file under [data_clean](https://github.com/FUB-HCC/hcds-winter-2020/tree/main/assignments/A2_ReproducibilityWorkflow/masc/data_clean/en-wikipedia_traffic_200712-202010.csv) as well as the raw data in [data_raw](https://github.com/FUB-HCC/hcds-winter-2020/blob/main/assignments/A2_ReproducibilityWorkflow/data_clean/) 
 
   
 #### Description of the data:  
