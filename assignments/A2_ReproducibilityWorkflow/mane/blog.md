@@ -2,6 +2,7 @@
 > **Date:** 07.11.2020 - 15:37 PM *(Due: 17.11.2020 - 03:00 PM)*  
 > **Name:** `mane` Marisa N.  
 > **Session:** [02 Exercise](https://github.com/FUB-HCC/hcds-winter-2020/wiki/02_exercise)   
+> **Link to repository:** [A2-hcds-hcc](https://github.com/marisanest/A2-hcds-hcc) 
 ----
 
 ## R2 - Reflection
