@@ -52,8 +52,9 @@ My difficulties come mostly from coding itself, for example I had difficulties i
 
 ### Final Wikipedia Page View Plot
 
-[My Repository](https://github.com/yuxin16/A2-hcds-hcc-xiyu)
 _Add an image of your plot here and describe what you can see._ 🖼️ 
+
+<br/> here to [My Repository](https://github.com/yuxin16/A2-hcds-hcc-xiyu)
 <br/>![image](https://github.com/FUB-HCC/hcds-winter-2020/blob/main/assignments/A2_ReproducibilityWorkflow/xiyu/Page%20Views%20on%20English%20Wikipedia.png)
 
 <br/> The plot shows a time series trends from 2007 to 2017. 
