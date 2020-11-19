@@ -2,7 +2,6 @@
 > **Date:** 07.11.2020 - 15:37 PM *(Due: 17.11.2020 - 03:00 PM)*  
 > **Name:** `mane` Marisa N.  
 > **Session:** [02 Exercise](https://github.com/FUB-HCC/hcds-winter-2020/wiki/02_exercise)   
-> **Link to repository:** [A2-hcds-hcc](https://github.com/marisanest/A2-hcds-hcc) 
 ----
 
 ## R2 - Reflection
@@ -48,6 +47,9 @@ _List at least 1 question (full sentence) that this reading raised in your mind,
 ***
 
 ## A2 - Reproducibility Workflow
+
+**Repository:** [A2-hcds-hcc](https://github.com/marisanest/A2-hcds-hcc)
+
 _Briefly describe your experience using the reproducibility workflow._
 
 The workflow helped me to just focus on one step at a time and not to already anticipate future actions. This is good for many reasons but most important with this approach it is assured that the needed artifacts are created at the end of each phase.
