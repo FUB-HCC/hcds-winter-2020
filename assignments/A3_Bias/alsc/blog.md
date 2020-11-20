@@ -5,7 +5,7 @@
 ----
 
 ## R3 - Reflection
-> Video: The Trouble with Bias - NIPS 2017 Keynote - Kate Crawford #NIPS2017.
+> Article: Algorithmic Profiling of Job Seekers in Austria: How Austerity Politics Are Made Effective
 
 ### 🗨️&nbsp; "How does the video inform your understanding of human centered data science?"  
 _In at least 2-3 full sentences, answer the question "How does the video inform your understanding of human centered data science?"._
