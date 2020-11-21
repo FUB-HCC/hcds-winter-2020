@@ -8,13 +8,11 @@
 > Article: Algorithmic Profiling of Job Seekers in Austria: How Austerity Politics Are Made Effective
 
 ### 🗨️&nbsp; "How does the video inform your understanding of human centered data science?"  
-_In at least 2-3 full sentences, answer the question "How does the video inform your understanding of human centered data science?"._
 
 I have learned what enormous social implications a technical system can have and that these systems are permeated by man-made social values, norms and goals. It is very clear that data does not follow the principle of objectivity and neutrality, but can bring with it distortions that are a major challenge when it comes to implementing unbiased systems.
 
 
 ### ❓&nbsp; Questions
-_Using full sentences, list at least one question that this video raised in your mind, and say why it caused you to ask this question_
 
 1. Just as the system is biased, so are people. So how can we build systems that do not prepare and propose decisions that are biased, but rather point out to people their own bias? 
 
@@ -28,8 +26,6 @@ _Using full sentences, list at least one question that this video raised in your
 
 ### Reflections and implications
 
-Write about `350` words, reflecting on what you have learned, what you found, what (if anything) surprised 😲 you about your findings, and/or what theories you have about why any biases might exist (if you find they exist). Please also include any questions this assignment raised for you about bias, Wikipedia, or machine learning.
-
 I have learned that it is not only important that Wikipedia has a large, covering number of articles on a particular topic, but that it is also important that these articles have a certain quality. So I took articles from each quality level and looked at them. I noticed that articles with the quality level "Stub" contain only very rudimentary information (e.g. https://en.wikipedia.org/wiki/Rita_Sinon), whereas articles with the level "FA" contain very detailed and well structured data (e.g. https://en.wikipedia.org/wiki/Don_Getty).
 
 Furthermore, I have noticed that many countries have a high coverage of politicians that I would not have expected to find at the top of the English Wikipedia (e.g. Tuvalu or Albania) or countries further below that I would have expected to find at the top (e.g. Japan or India). Here the size of the population certainly plays an important role. A country does not necessarily have more politicians just because it has a larger population. Therefore, for countries with a large population it is more difficult to achieve high coverage with the method used in this exercise. It would be better to know how many politicians a country has or had in total to get a more representative coverage. I have also noticed that there are big differences between the coverage and the relative number of high quality articles. For example, some countries that are higher in coverage are lower in the relative number of high quality articles (e.g. Albania or Moldova) and vise versa (e.g. Korea, North or Uzbekistan). 
@@ -42,8 +38,6 @@ I was particularly surprised by the region of North America, which is only in 4t
 
 
 ### Questions
-
-Pleas answer the following questions with at least 2-3 sentences each.
 
 1. What biases did you expect to find in the data (before you started working with it), and why?
 
