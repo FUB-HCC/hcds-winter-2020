@@ -46,12 +46,12 @@ I was particularly surprised by the region of North America, which is only in 4t
 Pleas answer the following questions with at least 2-3 sentences each.
 
 1. What biases did you expect to find in the data (before you started working with it), and why?
-    1. Data bias to to the fact that english Wikipedia is edited by a specific user group which is biased by itself and thus generates biased data. As well as ORES can be biased already.
-    1.  Sampling Bias due to the choosen data sources (one part of the data is very english centric-data because it comes from english Wikipedia and thus can be biased).
+    1. Data bias due to the fact that english Wikipedia is edited by a specific user group which is biased by itself and thus generates biased data.
+    1. Sampling Bias due to the choosen data sources (one part of the data is very english centric-data because it comes from english Wikipedia and thus can be biased).
 1. What (potential) sources of bias did you discover or introduce during data processing and analysis?
     1. Processing Bias to to the aggregation of data to make it more understandable.
     1. Interaction Bias due to the specific choosen output (i.e. the resulting tables with only top/bottom 10 results).
-1. What might your results suggest about (English) Wikipedia as a data source?
+1. What might your results suggest about (English) Wikipedia as a data source?\\
     The results indicate that there are large differences between the coverage and the quality of articles and that English-language articles are of better quality than those with a different geographical background.
 1. What might your results suggest about the internet and global society in general?
     The results indicate a very Western-oriented society and use of the Internet. Although this is a very bold conclusion ;)
