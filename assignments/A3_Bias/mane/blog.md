@@ -46,18 +46,31 @@ I was particularly surprised by the region of North America, which is only in 4t
 Pleas answer the following questions with at least 2-3 sentences each.
 
 1. What biases did you expect to find in the data (before you started working with it), and why?
+
     1. Data bias due to the fact that english Wikipedia is edited by a specific user group which is biased by itself and thus generates biased data.
     1. Sampling Bias due to the choosen data sources (one part of the data is very english centric-data because it comes from english Wikipedia and thus can be biased).
+    
 1. What (potential) sources of bias did you discover or introduce during data processing and analysis?
+    
     1. Processing Bias to to the aggregation of data to make it more understandable.
     1. Interaction Bias due to the specific choosen output (i.e. the resulting tables with only top/bottom 10 results).
-1. What might your results suggest about (English) Wikipedia as a data source?\\
+    
+1. What might your results suggest about (English) Wikipedia as a data source?
+
     The results indicate that there are large differences between the coverage and the quality of articles and that English-language articles are of better quality than those with a different geographical background.
+    
 1. What might your results suggest about the internet and global society in general?
+    
     The results indicate a very Western-oriented society and use of the Internet. Although this is a very bold conclusion ;)
+    
 1. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might create biased or misleading results, due to the inherent gaps and limitations of the data?
+    
     The data would be inappropriate, for example, if the aim is to build a system in which geographical location is used as a criterion to decide with what probability an article is or is not of high quality. 
+    
 1. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might still be appropriate and useful, despite its inherent limitations and biases?
-    Geeignet wären die Daten dafür, um ein System zu bauen, dass vorschläge an Wikipedia Nutzer macht, welche Artikel noch bearbeitet werden sollten oder in welchen Ländern oder Regionen potenziell noch Artikel zu Politikern fehlen. 
+
+    The data would be suitable for building a system that makes suggestions to Wikipedia users which articles should be edited or in which countries or regions articles on politicians are potentially missing. 
+    
 1. How might a researcher supplement or transform this dataset to potentially correct for the limitations/biases you observed?
+    
     Other data sources could be added, such as Wikipedia versions in other languages. 
