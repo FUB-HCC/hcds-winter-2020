@@ -18,7 +18,7 @@ My takeaway from the articel is that as a system designer one has an enourmous r
 
 ## A3 - Wikipedia, ORES, and BIAS
 
-**Repository:** `<add link to our repo here>`
+**Repository:** [kuzniarz/A3-hcds-hcc](https://github.com/kuzniarz/A3-hcds-hcc)
 
 ### Reflections and implications
 
