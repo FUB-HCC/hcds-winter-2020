@@ -1,6 +1,6 @@
 # Assignment 3
 > **Date:** 14.11.2020 - 19:54 PM *(Due: 01.12.2020 - 03:00 PM)*
-> **Name:** `maop` Alexa S.
+> **Name:** `maop` Marc O.
 > **Session:** [03 Exercise - Bias](https://github.com/FUB-HCC/hcds-winter-2020/wiki/03_exercise)   
 ----
 
@@ -9,7 +9,7 @@
 
 ### 🗨️&nbsp; "How does the video inform your understanding of human centered data science?"  
 _In at least 2-3 full sentences, answer the question "How does the video inform your understanding of human centered data science?"._
-There is a Video?? Research ethics plays a fundamental role, especially when publishing an algorithm in legal areas. The system must be transparent and decisions must be easily verifiable. This algorithm has been a perfect example of how discrimination against women in the labor market is beeing increased if ethical aspects and  are not considered properly. Even if such an algorithm only serves as a decision-making aid for human counsellors, it must be ensured that the computer's judgements would become irrevocable in practice in order not to further cement discrimination.
+Research ethics plays a fundamental role, especially when publishing an algorithm in legal areas. The system must be transparent and decisions must be easily verifiable. This algorithm has been a perfect example of how discrimination against women in the labor market is beeing increased if ethical aspects and  are not considered properly. Even if such an algorithm only serves as a decision-making aid for human counsellors, it must be ensured that the computer's judgements would become irrevocable in practice in order not to further cement discrimination.
 
 ### ❓&nbsp; Questions
 _Using full sentences, list at least one question that this video raised in your mind, and say why it caused you to ask this question_
