@@ -10,7 +10,7 @@
 ### 🗨️&nbsp; "How does the video inform your understanding of human centered data science?"  
 _In at least 2-3 full sentences, answer the question "How does the video inform your understanding of human centered data science?"._
 
-
+When creating any type of computer system it is neccessary to view the system as the complete socio-technical system it is, instead of only a technical one, which may be completely correct or calculcated. It is important to think about and discuss the possible implications any system might create when introduced into the context in which it is supposed to be used, as well as any current factors coming from this context which might have influenced the creation of said system. 
 
 ### ❓&nbsp; Questions
 _Using full sentences, list at least one question that this video raised in your mind, and say why it caused you to ask this question_
