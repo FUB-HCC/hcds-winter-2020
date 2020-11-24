@@ -1,4 +1,4 @@
-# Title of your post
+# Assignment 3 - Bias
 > **Date:** 14.11.2020 - 19:54 PM *(Due: 01.12.2020 - 03:00 PM)*
 > **Name:** `albe` Ali Bektas
 > **Session:** [03 Exercise - Bias](https://github.com/FUB-HCC/hcds-winter-2020/wiki/03_exercise)   
