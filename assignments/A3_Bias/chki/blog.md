@@ -1,4 +1,4 @@
-# Title of your post
+# Bias
 > **Date:** 20.11.2020 - 18:00 PM *(Due: 01.12.2020 - 03:00 PM)*
 > **Name:** `chki` Christopher K.
 > **Session:** [03 Exercise - Bias](https://github.com/FUB-HCC/hcds-winter-2020/wiki/03_exercise)   
