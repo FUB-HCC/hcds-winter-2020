@@ -14,7 +14,7 @@ I found the article very interesting as it shows how important it is to think ab
 _Using full sentences, list at least one question that this video raised in your mind, and say why it caused you to ask this question_
 
 1. Who developed the algorithm? Did the consist in comupter scientists only or was there people with other backgrounds involved?
-1. I wondered why the algorithm did not include the job seekers needs but only their demographics. I think the classification would be more useful if it integrated the job seeker's personal struggles such as discrimination (if they belong to a minority group), health issues (in case of chronic illnesses)... 
+1. I wondered why the algorithm did not include the job seekers needs but only their demographics? Wouldn't the classification  be more useful if it integrated the job seeker's personal struggles such as discrimination (if they belong to a minority group), health issues (in case of chronic illnesses)... ?
 
 ***
 
