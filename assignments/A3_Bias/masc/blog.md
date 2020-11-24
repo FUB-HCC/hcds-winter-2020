@@ -1,6 +1,6 @@
-# Title of your post
+# Assignment 3
 > **Date:** 14.11.2020 - 19:54 PM *(Due: 01.12.2020 - 03:00 PM)*
-> **Name:** `alsc` Alexa S.
+> **Name:** `masc` Malina S.
 > **Session:** [03 Exercise - Bias](https://github.com/FUB-HCC/hcds-winter-2020/wiki/03_exercise)   
 ----
 
@@ -8,13 +8,13 @@
 > Article: Algorithmic Profiling of Job Seekers in Austria: How Austerity Politics Are Made Effective
 
 ### 🗨️&nbsp; "How does the video inform your understanding of human centered data science?"  
-_In at least 2-3 full sentences, answer the question "How does the video inform your understanding of human centered data science?"._
+I found the article very interesting as it shows how important it is to think about the ethical consequences when implementing a technical system, especially if it is being designed for the public sector. It further illustrates that the quality of an algorithm does not just depend on its technical efficiency but also on its practical implication. The algorithm might classify cases very accurately and correctly but still not be designed for society's needs. 
 
 ### ❓&nbsp; Questions
 _Using full sentences, list at least one question that this video raised in your mind, and say why it caused you to ask this question_
 
-1. ...
-1. ...
+1. Who developed the algorithm? Did the consist in comupter scientists only or was there people with other backgrounds involved?
+1. I wondered why the algorithm did not include the job seekers needs but only their demographics. I think the classification would be more useful if it integrated the job seeker's personal struggles such as discrimination (if they belong to a minority group), health issues (in case of chronic illnesses)... 
 
 ***
 
