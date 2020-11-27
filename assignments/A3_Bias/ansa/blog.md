@@ -14,7 +14,7 @@ Machines Learning is based on datasets. These datasets do not tell the 'full tru
 ### ❓&nbsp; Questions
 _Using full sentences, list at least one question that this article raised in your mind, and say why it caused you to ask this question_
 
-1. 
+1. Are some biases 'better'?
 
 ***
 
@@ -23,8 +23,6 @@ _Using full sentences, list at least one question that this article raised in yo
 **Repository:** [Repository](https://github.com/AnilSahintuerk/A3-hcds-hcc-bias)
 
 ### Reflections and implications
-
-Write about `350` words, reflecting on what you have learned, what you found, what (if anything) surprised 😲 you about your findings, and/or what theories you have about why any biases might exist (if you find they exist). Please also include any questions this assignment raised for you about bias, Wikipedia, or machine learning.
 
   I found that some metrics which I would have considered as reasonable before the analysis in my opinion to support biases after. Especially countries with a tiny proportion of country population to region population were really misleading. Since they needed just a handful of articles just to be on the top coverage. And most of the countries which made it into the top coverage where also in the bottom relative quality table. I thought about it and could try to find an argument why this is like that. For some of them they are so unknown that they are published probably by locals but due to maybe some educational problems they cannot keep up with our standards of article quality. What also surprised me after the analysis that there are some countries with only one good quality article and they made it into the top ten relative quality. If I did not make any mistakes I would consider those resulst as not good and would not advise anyone to use them.
 
