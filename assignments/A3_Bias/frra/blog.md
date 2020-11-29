@@ -25,28 +25,24 @@ From a human-centered perspective, the algorithm does poorly, because variables 
 
 ### Reflections and implications
 
-Write about `350` words, reflecting on what you have learned, what you found, what (if anything) surprised 😲 you about your findings, and/or what theories you have about why any biases might exist (if you find they exist). Please also include any questions this assignment raised for you about bias, Wikipedia, or machine learning.
 
-_Your 350 words_
-
-1. _Your question 1?_
-1. _Your question 2?_
 
 ### Questions
 
-Pleas answer the following questions with at least 2-3 sentences each.
 
 1. What biases did you expect to find in the data (before you started working with it), and why?
-    * _answer_
+    * Since english Wikipedia is the datasource, the data can be biased due to the fact that only english articles are used.
+    * Thus I expected that non english speaking countries could do worse in the prediction
 1. What (potential) sources of bias did you discover or introduce during data processing and analysis?
-    * _answer_
+    * Inspecting the proportion of articles with respect to region e.g. it can be seen that that using the total amount of articles, Asia counts to the top. But     after filtering for quality articles, Europe is on the top. This makes sense since in Europe English language is more often used than in Asia. Same goes for country.
+    * This would be Publishing bias and selection bias I suppose 
 1. What might your results suggest about (English) Wikipedia as a data source?
-    * _answer_
+    *  English speaking countries articles are of better quality than those with a different geographical background. Thous it would be better to use Wikipedia with different languages and predict the quality. 
 1. What might your results suggest about the internet and global society in general?
-    * _answer_
+    * Don't know how the results could suggest something like this. 
 1. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might create biased or misleading results, due to the inherent gaps and limitations of the data?
-    * _answer_
+    * It would always be biased if the geographical location is used to predict an outcome based on quality scores. 
 1. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might still be appropriate and useful, despite its inherent limitations and biases?
-    * _answer_
+    * Maybe as a suggestion to edit bad quality articles. But still somehow inappropriate ("Hey your article in English sucks" ?).
 1. How might a researcher supplement or transform this dataset to potentially correct for the limitations/biases you observed?
-    * _answer_
+    * Use Wikipedia in other languages as well. This would definitely take more time, since different ORES API models have tio be used as well, but in the end the bias can be reduced. 
