@@ -21,19 +21,15 @@ _Using full sentences, list at least one question that this video raised in your
 
 ## A3 - Wikipedia, ORES, and BIAS
 
-**Repository:** `https://github.com/jonas-weber/A3-hcds-hcc-bias`
+**Repository:** [Repo](https://github.com/jonas-weber/A3-hcds-hcc-bias)
 
 ### Reflections and implications
 
 Write about `350` words, reflecting on what you have learned, what you found, what (if anything) surprised 😲 you about your findings, and/or what theories you have about why any biases might exist (if you find they exist). Please also include any questions this assignment raised for you about bias, Wikipedia, or machine learning.
 
-_Your 350 words_
 
 Since this exercise was a lot less guided than the previous ones, it deepened my pandas understanding. I also got introduced to the ORES API which was very interesting as well as easy to use to me. While only some of the data seems to hold any properly interpretable information, the results had some quite suprising points, like North Korea having the highest rate of high quality articles. I think the main bias which exists, stems from only including english Wikipedia entries. Especially when looking at countries with limited education, there may be a lot more articles, as well as higher quality ones, when including the countries respective language. Since a lot of countries english education is quite limited or only present in specific subgroups of the population, the data could also be heavily influenced by educated young people or even users from english speaking countries, writing articles about foreign politicians, which would stop the dataset from providing any useful information about the context its trying to research.
 Besides this bias, this data was also problematic since the country names weren't standardized so quite a lot of countries are missing entirely and the population numbers were wrong for some countries which makes any useful results difficult when starting with data containing mistakes. So overall this exercise reminded me again that, as learned in the lecutre, it is important to not only look at the data itself, which may contain mistakes heavily influencing the results, but also its origins and determining whether this data can even produce any results worth interpreting without additional data or changes.
-
-1. _Your question 1?_
-1. _Your question 2?_
 
 ### Questions
 
