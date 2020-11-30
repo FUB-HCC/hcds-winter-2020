@@ -25,7 +25,7 @@ _Using full sentences, list at least one question that this video raised in your
 
 ## A3 - Wikipedia, ORES, and BIAS
 
-**Repository:** `<add link to our repo here>`
+**Repository:** [A3-hcds-hcc-bias](https://github.com/yuxin16/A3-hcds-hcc-bias)
 
 ### Reflections and implications
 
@@ -33,24 +33,49 @@ Write about `350` words, reflecting on what you have learned, what you found, wh
 
 _Your 350 words_
 
-1. _Your question 1?_
-1. _Your question 2?_
+* Learned:
+
+1. From Practical View (Programming):
+    
+    I get more familiar with API usage and dataframe operations. I also get more acquintanced with this reproducible workflow. It surprised me of how long it could take if I sent query based on single rev_id (unfinished in 4 hours). 
+
+2. Regarding Project Itself:
+
+    I was wondering of the validity of measurements and if the measurements are convincing to some extent.
+    The project for me, personally, is unclear in its purpose. Even though I knew that we would like to compare countries based on their coverage as well as relative quality, I don't know what the measures stand for, or in other words, what they can proof? I think if the research question of this project made clear at the beginning of the project, we can review our project/workflow in a more reflective way.
+
+    The results also surprised me by showing some countries in the top rank which I have never heard of (e.g.Tuvalu raked on top for top 10 countries by coverage).
+
+    Since the machine learning algorithm used by ORES is unclear (or I haven't found it) as a black-box, the trustworthiness of this algorithm is also under doubt.
+
+    I was also suprised by not seeing United States on the country list, since the dataset is from english wikipedia. Some countries with other official languages could be disadvantaged in this analysis but still the United States doesn't appear on the final list.
+
+3. Theoretical Points regarding Bias
+
+   As mentioned in Point 2, algorithmic bias may exist within the black-boxed algorithm. Sample bias can also be considered in this project since the sampling is highly relevant to research questions. The dataset contains only pages in politicians on english wikipedia, so I was also wondering if there is any data collection bias based on the chosen language and platform.  
+
+_My Questions_
+
+1. My first confusion is regarding the analytical purpose of this project. I am confused why we calculate those measures? For discovering political interest in different countries/regions? Then I actually doubt English Wikipedia as a good data resource becasue even though english is popular, it is not official language in most part of the world. And there are some countries they have their own "wikipedias" and may not use wikipedia quite often. 
+
 
 ### Questions
 
 Pleas answer the following questions with at least 2-3 sentences each.
 
 1. What biases did you expect to find in the data (before you started working with it), and why?
-    * _answer_
+    * Algorithmic Bias introduced by machine learning algorithm used in ORES scoring. The assessment of quality is unclear, if the quality assessment is based on grammatical proficiency, articles written/edited by non english native speakers could be disadvantaged in this scoring system.
+    * Activity Bias: Population bias and bahavior bias are the my expected bias for this project. The dataset is retrieed from edited pages on english Wikipedia so there is a possibility that the people who don't speake English and/or doesn't edit Wikipedia are kind of "ignored" in this analysis. 
 1. What (potential) sources of bias did you discover or introduce during data processing and analysis?
-    * _answer_
+    * Data acquisition. The raw data on downloaded from online source and the data collection details is not 100% clear. If the data was collected for other researc purpose, it may create bias for out analysis. 
 1. What might your results suggest about (English) Wikipedia as a data source?
-    * _answer_
+    * It is really hard to evaluate a data source without specifying the research purpose. I still consider it as a good data source with the largest online wiki database of global coporation. However, it has its own limitations. By using wikipedia as a data source, we need to carfully formulize our research question and consider its restrictions beforehead. 
 1. What might your results suggest about the internet and global society in general?
-    * _answer_
+    * Honestly speaking, I don't think my resuls can suggest anything about the internet and global society, especially **IN GENERAL**.
+    I don't think this project is valid for this purpose a all.
 1. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might create biased or misleading results, due to the inherent gaps and limitations of the data?
-    * _answer_
+    * **THIS** research, actually. We can assume that our research purpose is to map the public interest in politicians, this project can be heavily biased based on discussions in previous questions. 
 1. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might still be appropriate and useful, despite its inherent limitations and biases?
-    * _answer_
+    * Yes. The research needs to be restricted to english wikipedia users. The data source may be suitable for mapping the public interest in politicians under Wikipedia's online english community.
 1. How might a researcher supplement or transform this dataset to potentially correct for the limitations/biases you observed?
-    * _answer_
+    * (1) We can include more discussion supported platforms such as Youtube and Twitter; (2) We don't have to limit to english versions; (3) For contries with their own online communities, those platforms should be calculated in; (4) Consider the accessability to several platforms in certain areas (e.g. Youtube/Twitter in China). 
