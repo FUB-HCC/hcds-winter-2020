@@ -43,32 +43,47 @@ out such biases. The question then is still if this bias really in the reality o
 
 ## A3 - Wikipedia, ORES, and BIAS
 
-**Repository:** `<add link to our repo here>`
+**Repository:** https://github.com/Alioio/A3-hcds-hcc-bias
 
 ### Reflections and implications
 
 Write about `350` words, reflecting on what you have learned, what you found, what (if anything) surprised 😲 you about your findings, and/or what theories you have about why any biases might exist (if you find they exist). Please also include any questions this assignment raised for you about bias, Wikipedia, or machine learning.
 
-_Your 350 words_
+I learned that the data which is used for the analysis should be questioned in terms of different kind of biases and should be checked 
+if it is usefull to answer the reaserch question before starting the analysis. In the case of the data used in this assignment one main 
+source of bias was the population dataset for various reasons. There were countries where the population was very unbalanced. 
+Analysis was done based on relative amount of population and countries with very less populations were compared with countries with high population. Second there was an error in the dataset. The countries were represented in two different units. Some countries were represented in millions and some in tausends which made results where this dataset was used unreliable. Another issue when comparing countries differing in geographical location and differnt population I could imagine is that some of these countries are not as much known in the sociey and 
+especialy in the group of wikipedia authors. This could be the reason for some countries having eigher less amount of articles and/ or lower 
+quality articles. 
 
-1. _Your question 1?_
-1. _Your question 2?_
+Another source of bias I could imagine is the used ORES API for this assignment. Documentaion for the API is available but to be honest. In this short time it was not possible for me to fully understand how the API and the underlying machine learning model is working and how it had been trained. 
+
+1. Is there a systematic method or framework available how such kind of biases can be detected before starting analysis?
 
 ### Questions
 
-Pleas answer the following questions with at least 2-3 sentences each.
+Please answer the following questions with at least 2-3 sentences each.
 
 1. What biases did you expect to find in the data (before you started working with it), and why?
-    * _answer_
+    * I expected to find biases for countries which are not so well known in the group of wikipedia authors and in the society as whole. 
+    
 1. What (potential) sources of bias did you discover or introduce during data processing and analysis?
-    * _answer_
+        * By filtering data and excluding countries durring merging of the two datasets wikipedia data and the population data which was provided in the assignment. Some of this countries were excluded because of diffrent writing. 
+    
 1. What might your results suggest about (English) Wikipedia as a data source?
-    * _answer_
+        * The less a country is known by the group of wikipedia authors and the society the less articles about their politicians are available with higher quality. 
+    
 1. What might your results suggest about the internet and global society in general?
-    * _answer_
+    * Access to internet, a good education system and is playing an important role to have a higher number of good quality articles. 
+    I think of countries where the access to information is limited because of lack in good education system, infrastructure or authoritive 
+    gouvernment. 
+    
 1. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might create biased or misleading results, due to the inherent gaps and limitations of the data?
-    * _answer_
+    * I think one could gather insights about the ralation of article quality and the level of education, access to internet or the effects of differnt regimes do have to article quality. 
+    
 1. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might still be appropriate and useful, despite its inherent limitations and biases?
-    * _answer_
+    * Yes by not comparing all countries but countries which are similar in regards to population and geographical location. 
+    
 1. How might a researcher supplement or transform this dataset to potentially correct for the limitations/biases you observed?
-    * _answer_
+    * Yes. Maybe by not comparing all countries but grouping them into clusters and comparing countries inside the same cluster. For example countries with lower polulation and countries with higher population. 
+    Second (but this requires to include other data sources): By not only taking the population size as an indicator and including other indicators as well such as an indicator for access to internet, education level, political situation and so on. 
