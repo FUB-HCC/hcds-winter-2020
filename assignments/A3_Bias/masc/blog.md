@@ -39,23 +39,30 @@ To further investigate this issue and to find out whether there is a correlation
 
 Pleas answer the following questions with at least 2-3 sentences each.
 
-1. What biases did you expect to find in the data (before you started working with it), and why?
-    I expected a gap between quality and coverage
+1. What biases did you expect to find in the data (before you started working with it), and why?  
+  
+I expected a gap between quality and coverage
     
-1. What (potential) sources of bias did you discover or introduce during data processing and analysis?
-    Missing information in terms of population size can lead to bias
+1. What (potential) sources of bias did you discover or introduce during data processing and analysis?  
+  
+Missing information in terms of population size can lead to bias
     
-1. What might your results suggest about (English) Wikipedia as a data source?
-    English Wikipedia is biased since not all countries have the same level of English and therefore capability of writing high-quality articles in English.
+1. What might your results suggest about (English) Wikipedia as a data source?  
+  
+English Wikipedia is biased since not all countries have the same level of English and therefore capability of writing high-quality articles in English.
     
-1. What might your results suggest about the internet and global society in general?
-    The internet can be a reflection of society and political structures.
+1. What might your results suggest about the internet and global society in general?  
+  
+The internet can be a reflection of society and political structures.
     
-1. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might create biased or misleading results, due to the inherent gaps and limitations of the data?
-    Definitely, underrepresented countries will be disadvanteged.
+1. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might create biased or misleading results, due to the inherent gaps and limitations of the data?  
+  
+Definitely, underrepresented countries will be disadvanteged.
     
-1. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might still be appropriate and useful, despite its inherent limitations and biases?
-    If bias is uncovered and respected while creating and training the model, data science could even help to reduce systematic bias or point out inequalities.
+1. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might still be appropriate and useful, despite its inherent limitations and biases?  
+  
+If bias is uncovered and respected while creating and training the model, data science could even help to reduce systematic bias or point out inequalities.
     
-1. How might a researcher supplement or transform this dataset to potentially correct for the limitations/biases you observed?
-    The datasets should not be limited to the English wikipedia.
+1. How might a researcher supplement or transform this dataset to potentially correct for the limitations/biases you observed?  
+  
+The datasets should not be limited to the English wikipedia.
