@@ -1,4 +1,4 @@
-# Title of your post
+# Assignment 4
 > **Date:** 24.11.2020 - 15:23 PM *(Due: 01.12.2020 - 03:00 PM)*
 > **Name:** `seku` Sebastian K.
 > **Session:** [04 Exercise - Fairness](https://github.com/FUB-HCC/hcds-winter-2020/wiki/04_exercise)   
