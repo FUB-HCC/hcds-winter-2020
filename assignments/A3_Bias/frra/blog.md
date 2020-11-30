@@ -21,32 +21,36 @@ From a human-centered perspective, the algorithm does poorly, because variables 
 
 ## A3 - Wikipedia, ORES, and BIAS
 
-**Repository:** https://github.com/Francosinus/A3-hcds-hcc/edit/main/blog/blog.md
+**Repository:** https://github.com/Francosinus/A3-hcds-hcc
 
 ### Reflections and implications
 
-Write about `350` words, reflecting on what you have learned, what you found, what (if anything) surprised 😲 you about your findings, and/or what theories you have about why any biases might exist (if you find they exist). Please also include any questions this assignment raised for you about bias, Wikipedia, or machine learning.
+When I started this assignment I had to get used to the ORES API. Downloading the data was no problem and the preprocessing was not time consuming this time. But it took me some time to figure out how to use te API in an efficient way (my first approach took about 2 hours to get all the scores). But I made some improvements to the code and everything worked well and took not that much time to finish. 
 
-_Your 350 words_
+The results:
 
-1. _Your question 1?_
-1. _Your question 2?_
+The top three countries regarding coverage of articles with respect to the population are Albania, New Zealand and Norway. The population is rather small and a lot of articles exist, so it makes sense that these 3 countries are at the top. After filtering only the good quality articles Ireland, Bhutan and New Zealand are on top. So New Zealand not only has the best coverage of articles wrt. population, it also has good quality articles as well. Bhutan only has 2 good quality articles, but since population is small it is still on top. On the bottom of the coverage of articles wrt. population table there are several countries with few articles, but a large population. The same goes for the good quality filter results. On the bottom is Luxembourg with only 1 good quality article but about 600k residents. Looking at the countries on the top and bottom, it can be seen that for example New Zealand and Ireland which are on top are English-speaking countries in comparison to e.g. Luxembourg. 
+After analysing the regions Africa and Latin America are on top regarding coverage of articles wrt. population. Looking at the coverage of good articles wrt. population Oceania and Europe are on the top. Oceania has a rather small population size n comparision to other regions. Australia and New Zealand belong to Oceania and are both English-speaking countries. The total of good quality articles for Oceania is 63, which is not a lot, but regarding to the population size the proportion is higher than for other regions. In addition New Zealand belongs to Ozeania and already has 13 good quality articles. 
+
+In conclusion I can say that small countries or regions with a smaller population size are always on top and vice versa. So the population size matters a lot regarding to the proportion of articles. In addition the language plays an important role, English speaking countries commonly have more good quality articles. 
+
 
 ### Questions
 
-Pleas answer the following questions with at least 2-3 sentences each.
 
 1. What biases did you expect to find in the data (before you started working with it), and why?
-    * _answer_
+    * Since english Wikipedia is the datasource, the data can be biased due to the fact that only english articles are used.
+    * Thus I expected that non english speaking countries could do worse in the prediction
 1. What (potential) sources of bias did you discover or introduce during data processing and analysis?
-    * _answer_
+    * Inspecting the proportion of articles with respect to region e.g. it can be seen that that using the total amount of articles, Africa counts to the top. But     after filtering for quality articles, Oceania and Europe are on the top. This makes sense since in this areas English language is more often used than in Africa for example. Same goes for country.
+    * This would be Publishing bias and selection bias I suppose 
 1. What might your results suggest about (English) Wikipedia as a data source?
-    * _answer_
+    *  English speaking countries articles are of better quality than those with a different geographical background. Thous it would be better to use Wikipedia with different languages and predict the quality. 
 1. What might your results suggest about the internet and global society in general?
-    * _answer_
+    * Don't know how the results could suggest something like this. 
 1. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might create biased or misleading results, due to the inherent gaps and limitations of the data?
-    * _answer_
+    * It would always be biased if the geographical location is used to predict an outcome based on quality scores. 
 1. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might still be appropriate and useful, despite its inherent limitations and biases?
-    * _answer_
+    * Maybe as a suggestion to edit bad quality articles. But still somehow inappropriate ("Hey your article in English sucks" ?).
 1. How might a researcher supplement or transform this dataset to potentially correct for the limitations/biases you observed?
-    * _answer_
+    * Use Wikipedia in other languages as well. This would definitely take more time, since different ORES API models have to be used as well, but in the end the bias can be reduced. 
