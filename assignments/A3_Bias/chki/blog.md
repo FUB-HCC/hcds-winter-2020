@@ -47,12 +47,12 @@ Pleas answer the following questions with at least 2-3 sentences each.
 
 1. What biases did you expect to find in the data (before you started working with it), and why?
 
-Since I don't really know how ORES works (for me it is kind of a black box), there could be a lot of biases introduced through the machine learning pipeline (sampling/processing bias, algorithmic bias). So the results might be biased because of biased prediction of article quality. The other bias that comes to my mind is the data bias. Apart from biased predictions, possible reasons could be incomplete data sets or missing attributes/information that might give more insights and shed a different light on the results.
-I can imagine, that countries with English as their native language and/or countries with a good education system have higher quality articles in English language. If this assumption turns out to be true, the results might give a false impression of general article quality for certain countries.
+	Since I don't really know how ORES works (for me it is kind of a black box), there could be a lot of biases introduced through the machine learning pipeline (sampling/processing bias, algorithmic bias). So the results might be biased because of biased prediction of article quality. The other bias that comes to my mind is the data bias. Apart from biased predictions, possible reasons could be incomplete data sets or missing attributes/information that might give more insights and shed a different light on the results.
+	I can imagine, that countries with English as their native language and/or countries with a good education system have higher quality articles in English language. If this assumption turns out to be true, the results might give a false impression of general article quality for certain countries.
 
 1. What (potential) sources of bias did you discover or introduce during data processing and analysis?
 
-    I think some data bias was introduced by dropping articles without a predicion or which had no corresponding country in the population data set. We might have dropped countries that could have made it to a top-10 or bottom-10 table and articles that were probably of high quality.
+   I think some data bias was introduced by dropping articles without a predicion or which had no corresponding country in the population data set. We might have dropped countries that could have made it to a top-10 or bottom-10 table and articles that were probably of high quality.
 	
 1. What might your results suggest about (English) Wikipedia as a data source?
 
