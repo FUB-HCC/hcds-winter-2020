@@ -20,32 +20,42 @@ _Using full sentences, list at least one question that this video raised in your
 
 ## A3 - Wikipedia, ORES, and BIAS
 
-**Repository:** `<add link to our repo here>`
+**Repository:** [A3-hcds-hcc-bias](https://github.com/malina-scheuer/A3-hcds-hcc-bias)
 
 ### Reflections and implications
 
 Write about `350` words, reflecting on what you have learned, what you found, what (if anything) surprised 😲 you about your findings, and/or what theories you have about why any biases might exist (if you find they exist). Please also include any questions this assignment raised for you about bias, Wikipedia, or machine learning.
 
-_Your 350 words_
+Conducting this project was very interesting to me as I had never worked with ORES before and did not even know that a scoring system for assessing the quality of wikipedia articles exists. I am pleased to know that such a database exists and I think it is important to use it in relation with analyzing wikipedia data. Since wikipedia is an open-source platform and articles can be written and edited by anyone. Therefore, high quality content is not always guaranteed. However, wikipedia is a powerful platform which has an influence on public knowledge and opinion. Analyzing its content can therefore lead to interesting inisghts, especially in the context of looking at wikipedia articles with political content. The quality and amount of political wikipedia articles can be a reflection of the political system of a country.
 
-1. _Your question 1?_
-1. _Your question 2?_
+I was very suprised when I saw the results of my analysis. I expected more Western countries in the Top 10 in terms of coverage and relative quality. Furthermore, I found it interesting to see that there is no relation between high coverage and high quality. None of the top 10 countries with high coverage also appeared in the top 10 of countries with high quality. It therefore seems like the amount of high quality articles is not the same in all countries and it does not increase linear with the amount of articles beeing written. This also means that in countries with high coverage there might be a high amount of bad quality articles which could lead to misinformation of the public. Another fact which really suprised me was the amount of non-democratic countries in the top 10 for relative quality. I was wondering whether internet restrictions and sanctions might limit the amount of bad quality wikipedia articles.
+
+To further investigate this issue and to find out whether there is a correlation between quality and coverage, statistical analysis would need to be performed. However, the analysis of this project already shed light on an important issue and raised interesting questions. It furthermore showed me the importance of putting numbers into perspective and rather looking at relative scores than absolute numbers.
+
+1. Why are there so many non-democratic countries in the top 10 of countries with high amount of high quality articles?
+1. Is there a significant correlation between coverage and quality?
 
 ### Questions
 
 Pleas answer the following questions with at least 2-3 sentences each.
 
 1. What biases did you expect to find in the data (before you started working with it), and why?
-    * _answer_
+    I expected a gap between quality and coverage
+    
 1. What (potential) sources of bias did you discover or introduce during data processing and analysis?
-    * _answer_
+    Missing information in terms of population size can lead to bias
+    
 1. What might your results suggest about (English) Wikipedia as a data source?
-    * _answer_
+    English Wikipedia is biased since not all countries have the same level of English and therefore capability of writing high-quality articles in English.
+    
 1. What might your results suggest about the internet and global society in general?
-    * _answer_
+    The internet can be a reflection of society and political structures.
+    
 1. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might create biased or misleading results, due to the inherent gaps and limitations of the data?
-    * _answer_
+    Definitely, underrepresented countries will be disadvanteged.
+    
 1. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might still be appropriate and useful, despite its inherent limitations and biases?
-    * _answer_
+    If bias is uncovered and respected while creating and training the model, data science could even help to reduce systematic bias or point out inequalities.
+    
 1. How might a researcher supplement or transform this dataset to potentially correct for the limitations/biases you observed?
-    * _answer_
+    The datasets should not be limited to the English wikipedia.
