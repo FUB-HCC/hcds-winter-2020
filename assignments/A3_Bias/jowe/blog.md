@@ -21,13 +21,16 @@ _Using full sentences, list at least one question that this video raised in your
 
 ## A3 - Wikipedia, ORES, and BIAS
 
-**Repository:** `<add link to our repo here>`
+**Repository:** `https://github.com/jonas-weber/A3-hcds-hcc-bias`
 
 ### Reflections and implications
 
 Write about `350` words, reflecting on what you have learned, what you found, what (if anything) surprised 😲 you about your findings, and/or what theories you have about why any biases might exist (if you find they exist). Please also include any questions this assignment raised for you about bias, Wikipedia, or machine learning.
 
 _Your 350 words_
+
+Since this exercise was a lot less guided than the previous ones, it deepened my pandas understanding. I also got introduced to the ORES API which was very interesting as well as easy to use to me. While only some of the data seems to hold any properly interpretable information, the results had some quite suprising points, like North Korea having the highest rate of high quality articles. I think the main bias which exists, stems from only including english Wikipedia entries. Especially when looking at countries with limited education, there may be a lot more articles, as well as higher quality ones, when including the countries respective language. Since a lot of countries english education is quite limited or only present in specific subgroups of the population, the data could also be heavily influenced by educated young people or even users from english speaking countries, writing articles about foreign politicians, which would stop the dataset from providing any useful information about the context its trying to research.
+Besides this bias, this data was also problematic since the country names weren't standardized so quite a lot of countries are missing entirely and the population numbers were wrong for some countries which makes any useful results difficult when starting with data containing mistakes. So overall this exercise reminded me again that, as learned in the lecutre, it is important to not only look at the data itself, which may contain mistakes heavily influencing the results, but also its origins and determining whether this data can even produce any results worth interpreting without additional data or changes.
 
 1. _Your question 1?_
 1. _Your question 2?_
@@ -37,16 +40,16 @@ _Your 350 words_
 Pleas answer the following questions with at least 2-3 sentences each.
 
 1. What biases did you expect to find in the data (before you started working with it), and why?
-    * _answer_
+    * I expected there to be some form of bias against countries with lower quality education and/or internet access, since, in my opinion there is a high chance for that to happen when working with any form of international internet data.
 1. What (potential) sources of bias did you discover or introduce during data processing and analysis?
-    * _answer_
-1. What might your results suggest about (English) Wikipedia as a data source?
-    * _answer_
-1. What might your results suggest about the internet and global society in general?
-    * _answer_
-1. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might create biased or misleading results, due to the inherent gaps and limitations of the data?
-    * _answer_
-1. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might still be appropriate and useful, despite its inherent limitations and biases?
-    * _answer_
-1. How might a researcher supplement or transform this dataset to potentially correct for the limitations/biases you observed?
-    * _answer_
+    * As said above, my main source of bias would be limiting the data to english articles.
+2. What might your results suggest about (English) Wikipedia as a data source?
+    * As mentioned in the lecture, english Wikipedia is mainly used by male, western users. This is an important point one has to keep in mind when using any of Wikipedias data to analyze anything in a international context.
+3. What might your results suggest about the internet and global society in general?
+    * Same, as question 2. Countries with poorer education resulting in lower quality english, as well as worse internet access, are heavily underrepresented in both the internet and global society in general.
+4. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might create biased or misleading results, due to the inherent gaps and limitations of the data?
+    * A possible research situation could be trying to determine the quality of knowledge one countries inhabitants have about their politicians by looking at the article quality rate. Since only english Wikipedia was used, there's a possibility that a high amount of ones countries articles are written by westernes, thus not representing the countries population at all.
+5. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might still be appropriate and useful, despite its inherent limitations and biases?
+    * I think the only situation where this data can be used without adding a lot of other data to it, is when limiting it to only english speaking countries. This would get rid of the main bias I found and may still hold some interesting findings about the countries.
+6. How might a researcher supplement or transform this dataset to potentially correct for the limitations/biases you observed?
+    * Using the given countries respective language instead of english when looking at the articles and their quality would potentially correct the bias and make the data more useful for its intended purpose.
