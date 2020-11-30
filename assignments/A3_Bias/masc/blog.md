@@ -41,28 +41,28 @@ Pleas answer the following questions with at least 2-3 sentences each.
 
 1. What biases did you expect to find in the data (before you started working with it), and why?  
   
-I expected a gap between quality and coverage
+I expected a gap between quality and coverage. Furthermore, I expected that English speaking countries would perform differently than non-English native countries.   
     
 1. What (potential) sources of bias did you discover or introduce during data processing and analysis?  
   
-Missing information in terms of population size can lead to bias
+I noticed that there was missing information in the datasets. Some countries might have less capacity for producing statistics and were therefore disadvantaged in the analysis.
     
 1. What might your results suggest about (English) Wikipedia as a data source?  
   
-English Wikipedia is biased since not all countries have the same level of English and therefore capability of writing high-quality articles in English.
+English Wikipedia is biased since not all countries have the same level of English and therefore capability of writing high-quality articles in English. To perform a less biased analysis, all languages would need to be included.
     
 1. What might your results suggest about the internet and global society in general?  
   
-The internet can be a reflection of society and political structures.
+The internet can be a reflection of society and political structures. However, not every country has the same access to information technology. Therefore, information in the internet is biased and not all countries contribute to the internet and wikipedia in the same way.
     
 1. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might create biased or misleading results, due to the inherent gaps and limitations of the data?  
   
-Definitely, underrepresented countries will be disadvanteged.
+Definitely, underrepresented countries and minorities can easily be disadvanteged. An AI works with the majority, therefore underrepresented groups or countries might be misclassified or not reflected.
     
 1. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might still be appropriate and useful, despite its inherent limitations and biases?  
   
-If bias is uncovered and respected while creating and training the model, data science could even help to reduce systematic bias or point out inequalities.
+If bias is uncovered and respected while creating and training the model, data science could even help to reduce systematic bias or point out inequalities. A good example woud be hiring processes. Currently, most hiring decisions are taken by humans. Humans are biased and therefore certain groups or people are being disadvantaged in the current system. An AI could help to solve this problem as it has the potential to correct human bias. However, it would need to be designed very carefully and with taking all potential bias in mind. It is important to create an AI which is less biased than the human-decision maker instead of creating an AI which simply reflects human bias.    
     
 1. How might a researcher supplement or transform this dataset to potentially correct for the limitations/biases you observed?  
   
-The datasets should not be limited to the English wikipedia.
+The datasets should not be limited to the English wikipedia. Additionally, the country statistics should not contain any missing information.  
