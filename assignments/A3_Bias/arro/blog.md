@@ -48,16 +48,16 @@ Question 2:
 Pleas answer the following questions with at least 2-3 sentences each.
 
 1. What biases did you expect to find in the data (before you started working with it), and why?
-    * _answer_
+    That some countries take control over the articles about their own politicians. They control the media and press and can reference these articles when writing the Wikipedia article. 
 1. What (potential) sources of bias did you discover or introduce during data processing and analysis?
-    * _answer_
+    As assumed above and in my reflection, countries with authoritarian leadership control the content of these articles or sometimes even block all request to Wikipedia for their population.
 1. What might your results suggest about (English) Wikipedia as a data source?
-    * _answer_
+    The English can contain data with a preexisting bias, which in this case roots in the government practices of the countries. They are controlling the access to Wikipedia itself and/or controlling the media and press on which the Wikipedia article are based on. 
 1. What might your results suggest about the internet and global society in general?
-    * _answer_
+    Without a free press and free speech of individuals that is granted by fundamental laws from the government of a country, it is difficult for mediums such as Wikipedia to reflect the reality due to the missing information and reports. As long as these countries control internet access and critics, one could only mitigate the situation by including content from articles written by journalist that operate in the hidden in this country.
 1. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might create biased or misleading results, due to the inherent gaps and limitations of the data?
-    * _answer_
+    Not now. I might add one later.
 1. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might still be appropriate and useful, despite its inherent limitations and biases?
-    * _answer_
+    When comparing this dataset to the Press Freedom Index by countries, the opposite results (High article quality score in the Wikipedia dataset against a low Press Freedom Index) can support a correlation between these datasets.
 1. How might a researcher supplement or transform this dataset to potentially correct for the limitations/biases you observed?
-    * _answer_
+    One solution to mitigate this problem might be to add a correlating score with the press freedom index about the likelihood of the article being written by the government and not based a free press.
