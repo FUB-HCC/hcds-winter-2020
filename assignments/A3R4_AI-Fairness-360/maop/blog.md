@@ -19,4 +19,8 @@ Fairness plays a fundamental role in Human Centered Data Science, there are plen
 ## A3 - Wikipedia, ORES, and BIAS
 Please, put everything regarding `A3` into the `blog.md` file of last week!
 
-[Assignment 3, Wikipedia, ORES and BIAS](https://github.com/mvrcx/A3-hcds-hcc-bias)
+[blogpost for A3](https://github.com/FUB-HCC/hcds-winter-2020/blob/main/assignments/A3_Bias/maop/blog.md)
+
+[Repository](https://github.com/mvrcx/A3-hcds-hcc-bias)
+
+
