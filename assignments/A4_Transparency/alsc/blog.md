@@ -24,7 +24,7 @@ _Answer in at least 2-3 complete sentences_
 
 ### Summary 
 
-_Please summarize your findings and analyzis regarding (1) General understanding, (2) API, (3) ML algorithm and training/test data, and (4) features._
+_Please summarize your findings and analyses regarding (1) general understanding, (2) API, (3) ML algorithm and training/test data, and (4) features._
 
 ### Openness
 ...
