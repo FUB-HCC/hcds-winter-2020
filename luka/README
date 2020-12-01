@@ -1,0 +1,15 @@
+The goal of the project is to analyse the usage of wikipedia from different device types over time. 
+
+The API's that were used are the Legacy Pagecounts and the newer Pageviews API.
+
+Pagecounts: https://wikitech.wikimedia.org/wiki/Analytics/AQS/Legacy_Pagecounts
+Pageviews: https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews
+
+
+The Legacy Pagecount API is the old wikipedia analysis API, which was than replaced by the Pageviews API. There is however a overlapping period of a few months. Also the older version does not include the access type "mobile app", while the newer version does distinguish between "mobile-app" and "mobile-web". Also the Pageviews API excludes data collected from crawlers while Pagecounts takes into consideration all accesses, which explaines the small difference during the overlapping period.
+
+Values: 
+
+Month/Year - specifies the time of access
+Pagecounts - specifies the counted accesses by the older API 
+Pageviews - specifies the counted accesses by the newer API
