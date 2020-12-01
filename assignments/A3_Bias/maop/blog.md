@@ -22,7 +22,7 @@ _Using full sentences, list at least one question that this video raised in your
 
 ## A3 - Wikipedia, ORES, and BIAS
 
-**Repository:** `<add link to our repo here>`
+**Repository:** [Click me](https://github.com/mvrcx/A3-hcds-hcc-bias)
 
 ### Reflections and implications
 
