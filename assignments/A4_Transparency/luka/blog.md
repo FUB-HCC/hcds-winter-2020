@@ -4,7 +4,7 @@
 ----
 
 ## R5 - Reflection
-> **Date:** DD.MM.YYYY - HH:MM PM *(Due: 08.12.2020 - 03:00 PM)*<br>
+> **Date:** 02.12.2020 - 21:32 PM *(Due: 08.12.2020 - 03:00 PM)*<br>
 > **Book:** "Interpretable machine learning. A Guide for Making Black Box Models Explainable" by Molnar
 
 ### 🗨️&nbsp; "How does the reading inform your understanding of human-centered data science?"  
