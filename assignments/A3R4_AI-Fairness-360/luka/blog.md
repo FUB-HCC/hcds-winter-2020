@@ -1,6 +1,6 @@
 # Title of your post
 > **Date:** 24.11.2020 - 15:23 PM *(Due: 01.12.2020 - 03:00 PM)*
-> **Name:** `alsc` Alexa S.
+> **Name:** `luka` Lukas Kaibel
 > **Session:** [04 Exercise - Fairness](https://github.com/FUB-HCC/hcds-winter-2020/wiki/04_exercise)   
 ----
 
