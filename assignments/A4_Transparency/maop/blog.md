@@ -10,12 +10,13 @@
 ### 🗨️&nbsp; "How does the reading inform your understanding of human-centered data science?"  
 _Answer in at least 2-3 complete sentences_
 
-The concept of interpretability has a higher significance than previously assumed. Machine Learning algorithms are not just black boxes, where magic is happening and the result needs to be accepted. It is crucial for us to reconstruct and interpret these decisions. For this, there is a necessity of interpretable models.
+The concept of interpretability has a higher significance than I previously assumed. Machine Learning algorithms are not just black boxes, where magic is happening and the result needs to be accepted. It is crucial for us to reconstruct and interpret these decisions. For this, there is a necessity of interpretable models. There are two types of interpretability: ad-hoc or intrinsic.
 
 ### ❓&nbsp; Questions
-1. ...
+1. I understand the necessity of interpretability, but I wonder if this is not more like looking for a needle in a haystack, since there is no "one-size-fits-all" technique to measure?
 
-**Why:** ...
+
+**Why:** There is no real consensus about what interpretability is in machine learning. Nor is it clear how to measure it. The only way to appriximize the measurement of interpretability is through different level of evaluation (e.g. application, human and function level evaluation). In addition to that, these levels are only simplifications of other levels, so basically there is no way to include all three aspects.
 
 ***
 
