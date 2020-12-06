@@ -4,11 +4,13 @@
 ----
 
 ## R5 - Reflection
-> **Date:** DD.MM.YYYY - HH:MM PM *(Due: 08.12.2020 - 03:00 PM)*<br>
+> **Date:** 06.12.2020 - 19:48 *(Due: 08.12.2020 - 03:00 PM)*<br>
 > **Book:** "Interpretable machine learning. A Guide for Making Black Box Models Explainable" by Molnar
 
 ### 🗨️&nbsp; "How does the reading inform your understanding of human-centered data science?"  
 _Answer in at least 2-3 complete sentences_
+
+The concept of interpretability has a higher significance than previously assumed. Machine Learning algorithms are not just black boxes, where magic is happening and the result needs to be accepted. It is crucial for us to reconstruct and interpret these decisions. For this, there is a necessity of interpretable models.
 
 ### ❓&nbsp; Questions
 1. ...
