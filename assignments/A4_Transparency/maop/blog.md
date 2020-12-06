@@ -16,7 +16,7 @@ The concept of interpretability has a higher significance than I previously assu
 1. I understand the necessity of interpretability, but I wonder if this is not more like looking for a needle in a haystack, since there is no "one-size-fits-all" technique to measure?
 
 
-**Why:** There is no real consensus about what interpretability is in machine learning. Nor is it clear how to measure it. The only way to appriximize the measurement of interpretability is through different level of evaluation (e.g. application, human and function level evaluation). In addition to that, these levels are only simplifications of other levels, so basically there is no way to include all three aspects.
+**Why:** There is no real consensus about what interpretability is in machine learning. Nor is it clear how to measure it. The only way to appriximize the measurement of interpretability is through different level of evaluation (e.g. application, human and function level evaluation). In addition to that, these levels are only simplifications of other levels, so basically there is no way to include all three aspects. So this reminds me a lot of Googles "auf gut Glück" search, where you try your luck and hope to find appropriate results.
 
 ***
 
