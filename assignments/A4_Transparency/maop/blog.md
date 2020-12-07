@@ -21,9 +21,9 @@ The concept of interpretability has a higher significance than I previously assu
 ***
 
 ## A4 - Transparency
-> **Date:** 07.12.2020 - 11:06 PM *(Due: 08.12.2020 - 03:00 PM)*<br>
-> Group: PERSON1 and PERSON2<br>
-> Model: NAME OF MODEL<br>
+> **Date:** 07.12.2020 - 11:06 PM *(Due: 14.12.2020 - 03:00 PM)*<br>
+> Group: PERSON1 and Marc Oprisiu<br>
+> Model: articletopic<br>
 
 ### Summary 
 
