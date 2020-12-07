@@ -1,10 +1,10 @@
-# Title of your post
+# Assignment 5
 > **Name:** `seku` Sebastian K.
 > **Session:** [05 Exercise - Transparency](https://github.com/FUB-HCC/hcds-winter-2020/wiki/05_exercise)   
 ----
 
 ## R5 - Reflection
-> **Date:** DD.MM.YYYY - HH:MM PM *(Due: 08.12.2020 - 03:00 PM)*<br>
+> **Date:** 07.12.2020 - 01:00 PM *(Due: 08.12.2020 - 03:00 PM)*<br>
 > **Book:** "Interpretable machine learning. A Guide for Making Black Box Models Explainable" by Molnar
 
 ### 🗨️&nbsp; "How does the reading inform your understanding of human-centered data science?"  
@@ -13,9 +13,10 @@ which achieves interpretability by restricting the model in its complexity, and 
 methods to interpret the results, such as Feature summary statistic, Feature summary visualization, etc. There are also model specific or model agnostic tools for creating transparency.
 
 ### ❓&nbsp; Questions
-1. ...
+1. Shouldn't intrinsic interpretability always be the best case for a machine learning model? 
 
-**Why:** ...
+**Why:** 
+Reducing complexity of a model isn't always easy but in my oppinion a goal for a good model should always be the least amount of complexity.
 
 ***
 
