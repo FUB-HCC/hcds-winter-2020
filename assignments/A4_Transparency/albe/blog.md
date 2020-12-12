@@ -36,68 +36,83 @@ I am asking this because I understand that per this definition Convolutional Neu
 
 _Please summarize your findings and analyses regarding (1) general understanding, (2) API, (3) ML algorithm and training/test data, and (4) features._
 
-`https://ores.wikimedia.org/v3/scores/`
 
-The reverted model is available in  20  projects. Mainly in version 0.5.0
+####  ORES API (v3) 
 
-|     | model    | project      | version   |
-|----:|:---------|:-------------|:----------|
-|   3 | reverted | bnwiki       | 0.5.0     |
-|  13 | reverted | elwiki       | 0.5.0     |
-|  21 | reverted | enwiktionary | 0.5.0     |
-|  46 | reverted | glwiki       | 0.5.0     |
-|  49 | reverted | hrwiki       | 0.5.0     |
-|  52 | reverted | idwiki       | 0.5.0     |
-|  53 | reverted | iswiki       | 0.5.0     |
-|  91 | reverted | tawiki       | 0.5.0     |
-|  98 | reverted | testwiki     | 0.0.3     |
-| 108 | reverted | viwiki       | 0.5.0     |
-| 117 | reverted | bnwiki       | 0.5.0     |
-| 127 | reverted | elwiki       | 0.5.0     |
-| 135 | reverted | enwiktionary | 0.5.0     |
-| 160 | reverted | glwiki       | 0.5.0     |
-| 163 | reverted | hrwiki       | 0.5.0     |
-| 166 | reverted | idwiki       | 0.5.0     |
-| 167 | reverted | iswiki       | 0.5.0     |
-| 205 | reverted | tawiki       | 0.5.0     |
-| 212 | reverted | testwiki     | 0.0.3     |
-| 222 | reverted | viwiki       | 0.5.0     |
+Our exploration of the API showed us that it provides a lot of information about the different Wikipedia projects and the available models. 
+It provides information on availability of a given model for different Wikipedia projects and exposes various information about the models 
+which expect some exceptions we describe in the *openness* section below offers information which are useful for the interoperability and the reproducibilityof the models predictions. 
+<br>
+In the following we are showing some of the insights were able to gather using the API. 
 
-`https://ores.wikimedia.org/v3/scores/enwiki?models=YOURMODELNAME&model_info`
-`https://ores.wikimedia.org/v3/scores/enwiki/REVID/YOURMODELNAME?model_info`
+#### Model and project availability overview
 
-Following is an overview of the information each properties provides on an model: 
+With the help of the API call `https://ores.wikimedia.org/v3/scores/` we were able to find out in which projects our model is available in which version: 
 
-|    | params                   | environment           | statistics   | score_schema   |
-|---:|:-------------------------|:----------------------|:-------------|:---------------|
-|  0 | ccp_alpha                | machine               | !f1          | properties     |
-|  1 | center                   | platform              | !precision   | title          |
-|  2 | criterion                | processor             | !recall      | type           |
-|  3 | init                     | python_branch         | accuracy     |                |
-|  4 | label_weights            | python_build          | counts       |                |
-|  5 | labels                   | python_compiler       | f1           |                |
-|  6 | learning_rate            | python_implementation | filter_rate  |                |
-|  7 | loss                     | python_revision       | fpr          |                |
-|  8 | max_depth                | python_version        | match_rate   |                |
-|  9 | max_features             | release               | pr_auc       |                |
-| 10 | max_leaf_nodes           | revscoring_version    | precision    |                |
-| 11 | min_impurity_decrease    | system                | rates        |                |
-| 12 | min_impurity_split       | version               | recall       |                |
-| 13 | min_samples_leaf         |                       | roc_auc      |                |
-| 14 | min_samples_split        |                       |              |                |
-| 15 | min_weight_fraction_leaf |                       |              |                |
-| 16 | multilabel               |                       |              |                |
-| 17 | n_estimators             |                       |              |                |
-| 18 | n_iter_no_change         |                       |              |                |
-| 19 | population_rates         |                       |              |                |
-| 20 | presort                  |                       |              |                |
-| 21 | random_state             |                       |              |                |
-| 22 | scale                    |                       |              |                |
-| 23 | subsample                |                       |              |                |
-| 24 | tol                      |                       |              |                |
-| 25 | validation_fraction      |                       |              |                |
-| 26 | verbose                  |                       |              |                |
-| 27 | warm_start               |                       |              |                |
+| model    | project      | version   |
+|:---------|:-------------|:----------|
+| reverted | bnwiki       | 0.5.0     |
+| reverted | elwiki       | 0.5.0     |
+| reverted | enwiktionary | 0.5.0     |
+| reverted | glwiki       | 0.5.0     |
+| reverted | hrwiki       | 0.5.0     |
+| reverted | idwiki       | 0.5.0     |
+| reverted | iswiki       | 0.5.0     |
+| reverted | tawiki       | 0.5.0     |
+| reverted | testwiki     | 0.0.3     |
+| reverted | viwiki       | 0.5.0     |
+| reverted | bnwiki       | 0.5.0     |
+| reverted | elwiki       | 0.5.0     |
+| reverted | enwiktionary | 0.5.0     |
+| reverted | glwiki       | 0.5.0     |
+| reverted | hrwiki       | 0.5.0     |
+| reverted | idwiki       | 0.5.0     |
+| reverted | iswiki       | 0.5.0     |
+| reverted | tawiki       | 0.5.0     |
+| reverted | testwiki     | 0.0.3     |
+| reverted | viwiki       | 0.5.0     |
+
+
+#### Model information
+
+With the following two API calls it is possible to gather information on properties of a model like the *parameters* used for the model<br> 
+<br>
+`https://ores.wikimedia.org/v3/scores/enwiki?models=YOURMODELNAME&model_info`<br>
+`https://ores.wikimedia.org/v3/scores/enwiki/REVID/YOURMODELNAME?model_info`<br>
+<br>
+
+On the following table we summarized for each property which information is available for a model in detail. 
+
+| params                   | environment           | statistics   | score_schema   |
+|:-------------------------|:----------------------|:-------------|:---------------|
+| ccp_alpha                | machine               | !f1          | properties     |
+| center                   | platform              | !precision   | title          |
+| criterion                | processor             | !recall      | type           |
+| init                     | python_branch         | accuracy     |                |
+| label_weights            | python_build          | counts       |                |
+| labels                   | python_compiler       | f1           |                |
+| learning_rate            | python_implementation | filter_rate  |                |
+| loss                     | python_revision       | fpr          |                |
+| max_depth                | python_version        | match_rate   |                |
+| max_features             | release               | pr_auc       |                |
+| max_leaf_nodes           | revscoring_version    | precision    |                |
+| min_impurity_decrease    | system                | rates        |                |
+| min_impurity_split       | version               | recall       |                |
+| min_samples_leaf         |                       | roc_auc      |                |
+| min_samples_split        |                       |              |                |
+| min_weight_fraction_leaf |                       |              |                |
+| multilabel               |                       |              |                |
+| n_estimators             |                       |              |                |
+| n_iter_no_change         |                       |              |                |
+| population_rates         |                       |              |                |
+| presort                  |                       |              |                |
+| random_state             |                       |              |                |
+| scale                    |                       |              |                |
+| subsample                |                       |              |                |
+| tol                      |                       |              |                |
+| validation_fraction      |                       |              |                |
+| verbose                  |                       |              |                |
+| warm_start               |                       |              |                |
 
 
 Here is an overview about the parameters of the model "reverted" for the wikipedia project "hrwiki":
@@ -200,21 +215,35 @@ We checked if the stats are realy the same as the general modelinfo API call pro
 | 40 | roc_auc (micro)      | 0.923                                                                           |
 
 
+#### Scrore schema: 
+
 Score schema of the 'reverted model':
 
 **prediction**: 
-description: 'The most likely label predicted by the estimator', 'type': 'boolean',
+description: The most likely label predicted by the estimator, type: boolean<br>
               
 **probability**: 
-'description': 'A mapping of probabilities onto each of the potential output labels',
-              'properties': 'false': 'type': 'number', 'true': 'type': 'number'
+description: A mapping of probabilities onto each of the potential output labels<br>
+             properties: 'false': 'type': 'number', 'true': 'type': 'number'<br>
 
-**title**: 'Scikit learn-based classifier score with probability'
+**title**: Scikit learn-based classifier score with probability
 
 The API call https://ores.wikimedia.org/v3/scores/elwiki/807457197/reverted?features=true returns information about the models features it is looking at for making a prediction about an article revision.
 
 The reverted model has  78  features. But most of them have the vlaue 0.
 Number of features where the value is different from 0:  29
+
+
+
+#### Feature injection: 
+
+|    | injected feature                                               |   probability (false) |   probability (true) |   prediction |
+|---:|:---------------------------------------------------------------|----------------------:|---------------------:|-------------:|
+|  0 | without feature injection                                      |              0.826583 |            0.173417  |            0 |
+|  1 | user.is_bot=true                                               |              0.958514 |            0.0414857 |            0 |
+|  2 | is_trusted=false                                               |              0.826583 |            0.173417  |            0 |
+|  3 | feature.croatian.badwords.revision.diff.match_delta_increase=2 |              0.81254  |            0.18746   |            0 |
+|  4 | feature.english.badwords.revision.diff.match_delta_increase=2  |              0.826583 |            0.173417  |            0 |
 
 ### Openness
 ...
