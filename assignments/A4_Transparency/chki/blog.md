@@ -31,7 +31,7 @@ _Please summarize your findings and analyses regarding (1) general understanding
 ### Openness
  * The model (code) and training/test data are publicly inspectable
  
-  After some research, we did manage to find the model's repository [Edit Quality(https://github.com/wikimedia/editquality).
+  After some research, we did manage to find the model's repository [Edit Quality](https://github.com/wikimedia/editquality).
   It contains datasets for different wikis and some information about the used models.
   We could not find the model's code and believe that it lies here [Revscoring](https://github.com/wikimedia/revscoring).
   It seems, that the [Gradient Boosting Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html) of scikit-learn was used which uses regression trees. Regarding the training and test data, it is unclear to us how the provided data sets were used/split. In general, we were unable to find the code for building and training the model. On the positive side, there is a [notebook](https://github.com/wikimedia/editquality/blob/master/ipython/reverted_detection_demo.ipynb) that demonstrates how a model based on reversions could be build and that gives some insights about made decisions (note: it is only a demo).
