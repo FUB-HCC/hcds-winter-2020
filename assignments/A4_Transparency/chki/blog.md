@@ -31,15 +31,15 @@ _Please summarize your findings and analyses regarding (1) general understanding
 ### Openness
  * The model (code) and training/test data are publicly inspectable
  
-  After some research, we did manage to find the model's repository (Edit Quality)[https://github.com/wikimedia/editquality].
+  After some research, we did manage to find the model's repository [Edit Quality(https://github.com/wikimedia/editquality).
   It contains datasets for different wikis and some information about the used models.
-  We could not find the model's code and believe that it lies here (Revscoring)[https://github.com/wikimedia/revscoring].
-  It seems, that the (Gradient Boosting Classifier)[https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html] of scikit-learn was used which uses regression trees. Regarding the training and test data, it is unclear to us how the provided data sets were used/split. In general, we were unable to find the code for building and training the model. On the positive side, there is a notebook that demonstrates how a model based on reversions could be build and that gives some insights about made decisions (note: it is only a demo).  https://github.com/wikimedia/editquality/blob/master/ipython/reverted_detection_demo.ipynb
+  We could not find the model's code and believe that it lies here [Revscoring](https://github.com/wikimedia/revscoring).
+  It seems, that the [Gradient Boosting Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html) of scikit-learn was used which uses regression trees. Regarding the training and test data, it is unclear to us how the provided data sets were used/split. In general, we were unable to find the code for building and training the model. On the positive side, there is a [notebook](https://github.com/wikimedia/editquality/blob/master/ipython/reverted_detection_demo.ipynb) that demonstrates how a model based on reversions could be build and that gives some insights about made decisions (note: it is only a demo).
   Overall it was quite difficult to find information about the models used and the corresponding test/training data. Not only were the repositories hard to find, their READMEs also did not provide a lot of information.
  
  * Individual decisions are reproducible 
  
- There are some tutorials on how to create feature lists and how to train models. These do not give many insights on how a specific model was built. As mentioned above, there is a demo (notebook) on how to build/train/test a model using revisions. Overall, the repositories' documentation is rather poor and it takes time to gather information looking through many files and code.
+ There are some tutorials on how to create feature lists and how to train models. These do not give many insights on how a specific model was built. As mentioned above, there is a demo (notebook) on how to build/train/test a model using revision. Since the notebook is only a demo, it also does not show the code used for specific models but at least gives a good impression on how they were built. This makes it hard to judge and evaluate specific models. Overall, the repositories' documentation is rather poor and it takes time to gather information looking through many files and code.
  
  * Changes are logged and version controlled
  
