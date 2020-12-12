@@ -34,7 +34,7 @@ _Please summarize your findings and analyses regarding (1) general understanding
   After some research, we did manage to find the model's repository [Edit Quality](https://github.com/wikimedia/editquality).
   It contains datasets for different wikis and some information about the used models.
   We could not find the model's code and believe that it lies here [Revscoring](https://github.com/wikimedia/revscoring).
-  It seems, that the [Gradient Boosting Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html) of scikit-learn was used which uses regression trees. Regarding the training and test data, it is unclear to us how the provided data sets were used/split. In general, we were unable to find the code for building and training the model. On the positive side, there is a [notebook](https://github.com/wikimedia/editquality/blob/master/ipython/reverted_detection_demo.ipynb) that demonstrates how a model based on reversions could be build and that gives some insights about made decisions (note: it is only a demo).
+  It seems, that the [Gradient Boosting Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html) of scikit-learn was used which uses regression trees. Regarding the training and test data, it is unclear to us how the provided data sets were used/split. In general, we were unable to find the code for building and training the model (although we believe it is openly available somewhere). On the positive side, there is a [notebook](https://github.com/wikimedia/editquality/blob/master/ipython/reverted_detection_demo.ipynb) that demonstrates how a model based on reversions could be build and that gives some insights about made decisions (note: it is only a demo).
   Overall it was quite difficult to find information about the models used and the corresponding test/training data. Not only were the repositories hard to find, their READMEs also did not provide a lot of information.
  
  * Individual decisions are reproducible 
@@ -47,13 +47,20 @@ _Please summarize your findings and analyses regarding (1) general understanding
  
 
 ### Intrinsic interpretability
-Intrinsic interpretability refers to models that are interpretable by themselves. It can be achieved, for example, through the imposition of constraints on the model. 
+* Intrinsic interpretability refers to models that are interpretable by themselves. It can be achieved, for example, through the imposition of constraints on the model. 
+
+Gradient Boosting with decision trees was used. Simple decision trees are easy to interpret. An ensemble of simple decision trees is more complex and harder to interpret. Depending on the complexity the model migth still be instrinsically interpretable. However, the models use over one hundred trees and there are no visualizations (even for just a single example) available. Both these things make the model hard to interpret intrinsically.
 
 
 ### Algorithmic transparency
- * Transparency applies at the level of the learning algorithm itself. 
- * Example: Understand the error metrics in linear regression
+* Transparency applies at the level of the learning algorithm itself. This includes whether the used (error) metrics are understandable.
 
+Once you know that scikit learn is used, you can look up important information from the documentation. The chosen parameters for the model are provided via the API (model_info).
+For example, often 'deviance' is chosen as the loss function to be optimized. The documentation tells us 'deviance' refers to deviance (= logistic regression) for classification with probabilistic outputs. To measure the quality of a split many models used 'friedman_mse'. On the [scikit learn website](https://scikit-learn.org/stable/modules/ensemble.html#gradient-boosting) a lot of information and further references about Gradient Boosting Classifier can be found. 
+Whether the metrics and the algorithm are well understood and relativley easy to understand is hard to judge. After getting an initial overview, the metrics to choose from (split criterion and loss function) seem relativley simple.
 
 ### Conclusion
 _From a human-centered perspective - what do you think about your model and ORES in general?_
+
+- Which variant of the model is used? For example, Gradient Boosting is usually used with decision trees but theoretically, it can be used with other weak learners as well.
+- Description of features missing
