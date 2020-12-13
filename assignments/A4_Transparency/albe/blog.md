@@ -37,17 +37,26 @@ I am asking this because I understand that per this definition Convolutional Neu
 _Please summarize your findings and analyses regarding (1) general understanding, (2) API, (3) ML algorithm and training/test data, and (4) features._
 
 
-####  ORES API (v3) 
+### (1) general understanding
+
+
+
+### (2) ORES API (v3) 
 
 Our exploration of the API showed us that it provides a lot of information about the different Wikipedia projects and the available models. 
-It provides information on availability of a given model for different Wikipedia projects and exposes various information about the models 
-which expect some exceptions we describe in the *openness* section below offers information which are useful for the interpretability and the reproducibility of the model. 
+It provides information on availability of a given model for different Wikipedia projects and exposes various information about the models.
+
+Despite some some issues regarding the documentation we describe in the *openness* section below we belive the API offers information which are useful for the interpretability and the reproducibility of the model. 
 <br>
+
 In the following we are showing some of the insights were able to gather using the API. 
 
 #### Model and project availability overview
 
-With the help of the API call `https://ores.wikimedia.org/v3/scores/` we were able to find out in which projects our model is available in which version: 
+With the help of the API call `https://ores.wikimedia.org/v3/scores/` we were able to find out in which version our model is available in which project: 
+
+<details>
+  <summary>Table: Model availability overview</summary>
 
 | model    | project      | version   |
 |:---------|:-------------|:----------|
@@ -72,19 +81,25 @@ With the help of the API call `https://ores.wikimedia.org/v3/scores/` we were ab
 | reverted | testwiki     | 0.0.3     |
 | reverted | viwiki       | 0.5.0     |
 
+</details>
 
 #### Model information
 
-With the following two API calls it is possible to gather information on properties of a model like the *parameters* used for the model<br> 
+With the following two API calls it is possible to gather various information like the used parameters, environment and performance metrics of the model.<br> 
+
 <br>
 `https://ores.wikimedia.org/v3/scores/enwiki?models=YOURMODELNAME&model_info`<br>
 `https://ores.wikimedia.org/v3/scores/enwiki/REVID/YOURMODELNAME?model_info`<br>
 <br>
 
-On the following table we summarized for each property (column) which information is available for a model in detail. 
-It is notable that aside of performace metrics model parameters such as the used loss function, learning rate etc. also 
-detailed environment and system information is provided. We belive this are useful information for the reproducablity and also 
-helps for the interpretablity. 
+On the following table we summarized columnwise for each property of the model which information is available in detail. 
+
+It is notable that aside of performace metrics information a lot more information such as the model parameters, the used loss function, learning rate etc. as well as detailed about the environment and system information is provided. 
+We consider this information to be useful for the reproducablity and belive that it is also helpfull for the interpretablity of the model. 
+
+<details>
+  <summary>Table: Model information overview</summary>
+    
 
 | params                   | environment           | statistics   | score_schema   |
 |:-------------------------|:----------------------|:-------------|:---------------|
@@ -117,8 +132,14 @@ helps for the interpretablity.
 | verbose                  |                       |              |                |
 | warm_start               |                       |              |                |
 
+</details>
 
-Here is an overview about the parameters of the model "reverted" for the wikipedia project "hrwiki":
+In the following we show more detailed information about the various model properties.
+
+Following is an overview about the parameters of the "reverted" model version 0.5.0:
+
+<details>
+  <summary>Table: Reverted model parameters</summary>
 
 | param                    | value         |
 |:-------------------------|:--------------|
@@ -151,8 +172,12 @@ Here is an overview about the parameters of the model "reverted" for the wikiped
 | verbose                  | 0             |
 | warm_start               | False         |
 
+</details>
 
-#### Environment p
+The following table contains information about the environent used for training the `reverted` model version 0.5.0.
+
+<details>
+  <summary>Table: Reverted model environment properties</summary>
 
 | environment property   | value                                        |
 |:-----------------------|:---------------------------------------------|
@@ -170,8 +195,18 @@ Here is an overview about the parameters of the model "reverted" for the wikiped
 | system                 | Linux                                        |
 | version                | #1 SMP Debian 4.9.189-3+deb9u1 (2019-09-20)  |
 
+</details>
 
-We checked if the stats are realy the same as the general modelinfo API call provides for the reverted model. We can confirm that it does provide consistent information.
+The following table contains numerous performace measures for the reverted model version 0.5.0. Altough we do not 
+understan know all of these metrics we belive that many of them like the f1 score, the recall, precision and the confusion 
+metrics is very usefull information for judging and interpreting predictions of the model. 
+
+By asking ourselves why the model information is available via two different API calls (1) where the model info for all models 
+is returned (2) where a prdedition for a revision id together with the modelinfo is returned we belive that the latter is available 
+to inspect a prediction side by side with the used models information.
+
+<details>
+  <summary>Table: Reverted model performance metrics</summary>
 
 | metrics              | value                                                                           |
 |:---------------------|:--------------------------------------------------------------------------------|
@@ -217,10 +252,12 @@ We checked if the stats are realy the same as the general modelinfo API call pro
 | roc_auc (macro)      | 0.923                                                                           |
 | roc_auc (micro)      | 0.923                                                                           |
 
+</details>
 
-#### Scrore schema: 
+The modelinfo API call also provides a brief but in our opinion understandable description of the score which is returned by the model: 
 
-Score schema of the 'reverted model':
+<details>
+  <summary>Reverted model score schema</summary>
 
 **prediction**: 
 description: The most likely label predicted by the estimator, type: boolean<br>
@@ -231,11 +268,171 @@ description: A mapping of probabilities onto each of the potential output labels
 
 **title**: Scikit learn-based classifier score with probability
 
-The API call https://ores.wikimedia.org/v3/scores/elwiki/807457197/reverted?features=true returns information about the models features it is looking at for making a prediction about an article revision.
+</details>
 
-The reverted model has  78  features. But most of them have the vlaue 0.
-Number of features where the value is different from 0:  29
 
+### Model features:
+
+The API call `https://ores.wikimedia.org/v3/scores/hrwiki/807457197/reverted?features=true` returns information about the models 
+features and the activation values for these features for the specified revision id and project. 
+
+In the section [model features](#model-features) we describe our understanding of these features and show our results with injecting 
+some chosen featutes. 
+
+<details>
+  <summary>Reverted model all freatures</summary>
+
+| feature                                                              |           value |
+|:---------------------------------------------------------------------|----------------:|
+| feature.croatian.badwords.revision.diff.match_delta_decrease         |     0           |
+| feature.croatian.badwords.revision.diff.match_delta_increase         |     0           |
+| feature.croatian.badwords.revision.diff.match_delta_sum              |     0           |
+| feature.croatian.badwords.revision.diff.match_prop_delta_decrease    |     0           |
+| feature.croatian.badwords.revision.diff.match_prop_delta_increase    |     0           |
+| feature.croatian.badwords.revision.diff.match_prop_delta_sum         |     0           |
+| feature.croatian.informals.revision.diff.match_delta_decrease        |     0           |
+| feature.croatian.informals.revision.diff.match_delta_increase        |     0           |
+| feature.croatian.informals.revision.diff.match_delta_sum             |     0           |
+| feature.croatian.informals.revision.diff.match_prop_delta_decrease   |     0           |
+| feature.croatian.informals.revision.diff.match_prop_delta_increase   |     0           |
+| feature.croatian.informals.revision.diff.match_prop_delta_sum        |     0           |
+| feature.english.badwords.revision.diff.match_delta_decrease          |     0           |
+| feature.english.badwords.revision.diff.match_delta_increase          |     0           |
+| feature.english.badwords.revision.diff.match_delta_sum               |     0           |
+| feature.english.badwords.revision.diff.match_prop_delta_decrease     |     0           |
+| feature.english.badwords.revision.diff.match_prop_delta_increase     |     0           |
+| feature.english.badwords.revision.diff.match_prop_delta_sum          |     0           |
+| feature.english.informals.revision.diff.match_delta_decrease         |     0           |
+| feature.english.informals.revision.diff.match_delta_increase         |     0           |
+| feature.english.informals.revision.diff.match_delta_sum              |     0           |
+| feature.english.informals.revision.diff.match_prop_delta_decrease    |     0           |
+| feature.english.informals.revision.diff.match_prop_delta_increase    |     0           |
+| feature.english.informals.revision.diff.match_prop_delta_sum         |     0           |
+| feature.len(datasource.tokenized(datasource.revision.parent.text))   |  9877           |
+| feature.len(datasource.tokenized(datasource.revision.text))          |  9902           |
+| feature.len(datasource.wikitext.revision.markups)                    |  3384           |
+| feature.len(datasource.wikitext.revision.parent.markups)             |  3380           |
+| feature.len(datasource.wikitext.revision.parent.uppercase_words)     |    46           |
+| feature.len(datasource.wikitext.revision.parent.words)               |  2083           |
+| feature.len(datasource.wikitext.revision.words)                      |  2089           |
+| feature.revision.comment.has_link                                    |     0           |
+| feature.revision.comment.suggests_section_edit                       |     1           |
+| feature.revision.diff.longest_new_repeated_char                      |     1           |
+| feature.revision.diff.longest_new_token                              |     1           |
+| feature.revision.page.is_articleish                                  |     0           |
+| feature.revision.page.is_draftspace                                  |     0           |
+| feature.revision.page.is_mainspace                                   |     0           |
+| feature.revision.user.has_advanced_rights                            |     0           |
+| feature.revision.user.is_admin                                       |     0           |
+| feature.revision.user.is_anon                                        |     0           |
+| feature.revision.user.is_bot                                         |     0           |
+| feature.revision.user.is_curator                                     |     0           |
+| feature.revision.user.is_patroller                                   |     0           |
+| feature.revision.user.is_trusted                                     |     0           |
+| feature.temporal.revision.user.seconds_since_registration            |     4.62928e+08 |
+| feature.wikitext.revision.chars                                      | 27321           |
+| feature.wikitext.revision.diff.markup_delta_decrease                 |     0           |
+| feature.wikitext.revision.diff.markup_delta_increase                 |     4           |
+| feature.wikitext.revision.diff.markup_delta_sum                      |     4           |
+| feature.wikitext.revision.diff.markup_prop_delta_decrease            |     0           |
+| feature.wikitext.revision.diff.markup_prop_delta_increase            |     0.0036065   |
+| feature.wikitext.revision.diff.markup_prop_delta_sum                 |     0.0036065   |
+| feature.wikitext.revision.diff.number_delta_decrease                 |     0           |
+| feature.wikitext.revision.diff.number_delta_increase                 |     1           |
+| feature.wikitext.revision.diff.number_delta_sum                      |     1           |
+| feature.wikitext.revision.diff.number_prop_delta_decrease            |     0           |
+| feature.wikitext.revision.diff.number_prop_delta_increase            |     0.5         |
+| feature.wikitext.revision.diff.number_prop_delta_sum                 |     0.5         |
+| feature.wikitext.revision.diff.uppercase_word_delta_decrease         |     0           |
+
+</details>
+
+
+## (3) ML algorithm and training/test data
+
+
+## (4) features
+
+For the `reverted` model we found the obove listed 78 features. We noticed that only around one third of these features 
+are have values differnt from zero. 
+
+<details>
+  <summary>Reverted model features where value is different from zero</summary>
+
+| feature                                                              |           value |
+|:---------------------------------------------------------------------|----------------:|
+| feature.len(datasource.tokenized(datasource.revision.parent.text))   |  9877           |
+| feature.len(datasource.tokenized(datasource.revision.text))          |  9902           |
+| feature.len(datasource.wikitext.revision.markups)                    |  3384           |
+| feature.len(datasource.wikitext.revision.parent.markups)             |  3380           |
+| feature.len(datasource.wikitext.revision.parent.uppercase_words)     |    46           |
+| feature.len(datasource.wikitext.revision.parent.words)               |  2083           |
+| feature.len(datasource.wikitext.revision.words)                      |  2089           |
+| feature.revision.comment.suggests_section_edit                       |     1           |
+| feature.revision.diff.longest_new_repeated_char                      |     1           |
+| feature.revision.diff.longest_new_token                              |     1           |
+| feature.temporal.revision.user.seconds_since_registration            |     4.62928e+08 |
+| feature.wikitext.revision.chars                                      | 27321           |
+| feature.wikitext.revision.diff.markup_delta_increase                 |     4           |
+| feature.wikitext.revision.diff.markup_delta_sum                      |     4           |
+| feature.wikitext.revision.diff.markup_prop_delta_increase            |     0.0036065   |
+| feature.wikitext.revision.diff.markup_prop_delta_sum                 |     0.0036065   |
+| feature.wikitext.revision.diff.number_delta_increase                 |     1           |
+| feature.wikitext.revision.diff.number_delta_sum                      |     1           |
+| feature.wikitext.revision.diff.number_prop_delta_increase            |     0.5         |
+| feature.wikitext.revision.diff.number_prop_delta_sum                 |     0.5         |
+| feature.wikitext.revision.headings                                   |    12           |
+| feature.wikitext.revision.parent.chars                               | 27253           |
+| feature.wikitext.revision.parent.headings                            |    12           |
+| feature.wikitext.revision.parent.tags                                |   945           |
+| feature.wikitext.revision.parent.templates                           |     7           |
+| feature.wikitext.revision.parent.wikilinks                           |   830           |
+| feature.wikitext.revision.tags                                       |   946           |
+| feature.wikitext.revision.templates                                  |     7           |
+| feature.wikitext.revision.wikilinks                                  |   831           |
+
+</details>
+
+
+By trying to sort the features into groups we we abl to identify two groups of featues. 
+Features related to (1) **language** *english*/*articles native language* & **delta in increase/decrease of bad words** (2) *user* related
+features. 
+
+<details>
+    <summary>User related freatures:</summary>
+
+feature.revision.user.has_advanced_rights
+feature.revision.user.is_admin
+feature.revision.user.is_anon
+feature.revision.user.is_bot
+feature.revision.user.is_curator
+feature.revision.user.is_patroller
+feature.revision.user.is_trusted
+feature.temporal.revision.user.seconds_since_registration
+feature.enwiki.revision.cite_templates
+</details>
+
+<details>
+    <summary>Bad words and language related:</summary>
+
+feature.croatian.badwords.revision.diff.match_delta_decrease
+feature.croatian.badwords.revision.diff.match_delta_increase
+feature.croatian.badwords.revision.diff.match_delta_sum    
+feature.croatian.badwords.revision.diff.match_prop_delta_decrease
+feature.croatian.badwords.revision.diff.match_prop_delta_increase
+feature.croatian.badwords.revision.diff.match_prop_delta_sum
+
+feature.english.badwords.revision.diff.match_delta_decrease    
+feature.english.badwords.revision.diff.match_delta_increase    
+feature.english.badwords.revision.diff.match_delta_sum    
+feature.english.badwords.revision.diff.match_prop_delta_decrease
+feature.english.badwords.revision.diff.match_prop_delta_increase
+feature.english.badwords.revision.diff.match_prop_delta_sum  
+</details>
+
+We selected 4 features for injecting because we assumed these to have and impoact on the prediction of the model. The table below 
+lists the outcome of the feature injection for the revision id 5618117 in the hrwiki project. The first line *without feature injection*
+shows the prediction for this revision without a feature injected.
 
 
 #### Feature injection: 
@@ -247,6 +444,12 @@ Number of features where the value is different from 0:  29
 | is_trusted=false                                               |              0.826583 |            0.173417  |            0 |
 | feature.croatian.badwords.revision.diff.match_delta_increase=2 |              0.81254  |            0.18746   |            0 |
 | feature.english.badwords.revision.diff.match_delta_increase=2  |              0.826583 |            0.173417  |            0 |
+
+Very suprising for us was the change in the probabilities when injecting the feature `user.is_bot=true`. We interpret this change in the probability distribution for true\false probability as the the model is trusting the edit more if it was made from a bot. 
+
+By looking on the results for features *bad words increase delta* for cratian and english language we noticed that for the original language of the article the prediction changes in the negative direction while by an increase of bad words in enlish language the probabilites stay the same (we tested also with different values). 
+
+How ever we consider this test as a quick exploration and try out of the *feature injection* feature of the API. As we tested only with one revision we cannot make any conclusion about the impact of the features with the outcome of this test. 
 
 ### Openness
 ...

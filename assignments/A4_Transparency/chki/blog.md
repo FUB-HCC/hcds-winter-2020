@@ -28,6 +28,24 @@ There are model-specific methods/tools for model interpretation and model-agnost
 
 _Please summarize your findings and analyses regarding (1) general understanding, (2) API, (3) ML algorithm and training/test data, and (4) features._
 
+1. General understanding
+
+The _reverted_ model is part of ORES whis is an API that provides machine learning as a service for Wikimedia projects. The model predicts whether an edit to an article will eventually be reverted. It is used, for example, by quality control tools like [Edit Review Improvements (ERI)](https://www.mediawiki.org/wiki/Edit_Review_Improvements/New_filters_for_edit_review) and [Huggle](https://en.wikipedia.org/wiki/Wikipedia:Huggle). A list of tools can be found [here](https://www.mediawiki.org/wiki/ORES/Applications). The model can help reviewers find potentially damaging contributions and helps filtering through the Special:RecentChanges feed. That way the model aims to reduce the work of reviewers/editors and to increase their productivity.
+The model is mainly used by editors/reviewers, developers (of third party tools, at the Wikimedia Foundation and Wikimedia Deutschland) but also by scientists.
+
+_reverted_ is only available for very few projects: bnwiki, elwiki, enwiktionary, glwiki, hrwiki, idwiki, iswiki, tawiki, testwiki, viwiki.  
+
+2. API
+
+
+3. ML algorithm and training/test data
+
+For building the model a Gradient Boosting Classifier was used. Gradient boosting creates an ensemble learner by iteratively adding weak learners (in this case decision trees) to an ensemble. The only two exceptions are enwiktionary (a dictionary) which uses a RandomForest model and testwiki that uses RevIDScorer. In this assignment we focus on the Wikipedia projects for different languages which means that we exclude enwiktionary and testwiki. The training and test data for the different wikis is available on GitHub and is based on the history of edits (and reverted edits) from a wiki.
+Using the API, one can retrieve information about the model and it's performance. We further discuss this information in chapter "Openness".
+
+4. Features
+
+
 ### Openness
  * The model (code) and training/test data are publicly inspectable
  
@@ -39,7 +57,7 @@ _Please summarize your findings and analyses regarding (1) general understanding
  
  * Individual decisions are reproducible 
  
- There are some tutorials on how to create feature lists and how to train models. These do not give many insights on how a specific model was built. As mentioned above, there is a demo (notebook) on how to build/train/test a model using revision. Since the notebook is only a demo, it also does not show the code used for specific models but at least gives a good impression on how they were built. This makes it hard to judge and evaluate specific models. Overall, the repositories' documentation is rather poor and it takes time to gather information looking through many files and code.
+ There are some tutorials on how to create feature lists and how to train models. These do not give many insights on how a specific model was built. As mentioned above, there is a demo (notebook) on how to build/train/test a model using reversions. Since the notebook is only a demo, it also does not show the code used for specific models but at least gives a good impression on how they were built. This makes it hard to judge and evaluate specific models. Overall, the repositories' documentation is rather poor and it takes time to gather information looking through many files and code.
  
  * Changes are logged and version controlled
  
@@ -62,5 +80,9 @@ Whether the metrics and the algorithm are well understood and relativley easy to
 ### Conclusion
 _From a human-centered perspective - what do you think about your model and ORES in general?_
 
-- Which variant of the model is used? For example, Gradient Boosting is usually used with decision trees but theoretically, it can be used with other weak learners as well.
-- Description of features missing
+The developers and maintainers of ORES did a good job on making information, source code and data available in GitHub. But, there are a few issues: One the one hand, it takes some effort to find the right repositories since they are not referenced in overview articles ([like this](https://www.mediawiki.org/wiki/ORES)). On the other hand, the repositories themselves are not extensivly documented which makes it hard to orient and find useful information.
+
+The API provides information about a model's Machine Learning algorithm, the chosen parameters and features as well as performance metrics. Unfortunately, a good documentation is missing here as well so the meaning of some metrics and features remains unclear. 
+
+Overall, a lot of important information is provided but often in a way that it takes some time and effort for it to be really useful. Some information had to be searched for because it was not available or referenced in a wiki or repository. As an example, the description of the parameters for the machine learning model can be mentioned (which we consider as important). This has a negative impact on reproducibility and the overall transpareny. 
+
