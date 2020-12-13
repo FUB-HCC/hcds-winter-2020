@@ -27,10 +27,22 @@ There are model-specific methods/tools for model interpretation and model-agnost
 ### Summary 
 
 _Please summarize your findings and analyses regarding (1) general understanding, (2) API, (3) ML algorithm and training/test data, and (4) features._
-1. foo
-2. foo
-3. foo
-4. foo
+
+1. General understanding
+
+The _reverted_ model is part of ORES whis is an API that provides machine learning as a service for Wikimedia projects. The model predicts whether an edit to an article will eventually be reverted. It is used, for example, by quality control tools like [Edit Review Improvements (ERI)](https://www.mediawiki.org/wiki/Edit_Review_Improvements/New_filters_for_edit_review) and [Huggle](https://en.wikipedia.org/wiki/Wikipedia:Huggle). A list of tools can be found [here](https://www.mediawiki.org/wiki/ORES/Applications). The model can help reviewers find potentially damaging contributions and helps filtering through the Special:RecentChanges feed. That way the model aims to reduce the work of reviewers/editors and to increase their productivity.
+The model is mainly used by editors/reviewers, developers (of third party tools, at the Wikimedia Foundation and Wikimedia Deutschland) but also by scientists.
+
+_reverted_ is only available for very few projects: bnwiki, elwiki, enwiktionary, glwiki, hrwiki, idwiki, iswiki, tawiki, testwiki, viwiki.  
+
+2. API
+
+
+3. ML algorithm and training/test data
+For building the model a Gradient Boosting Classifier was used. Gradient boosting creates an ensemble learner by iteratively adding weak learners (in this case decision trees) to an ensemble. The only two exceptions are enwiktionary (a dictionary) which uses a RandomForest model and testwiki that uses RevIDScorer. In this assignment we focus on the Wikipedia projects for different languages which means that we exclude enwiktionary and testwiki. The training and test data for the different wikis is available on GitHub and is based on the history of edits (and reverted edits) from a wiki.
+Using the API, one can retrieve information about the model and it's performance. We further discuss this information in chapter "Openness".
+
+4. Features
 
 
 ### Openness
