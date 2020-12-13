@@ -29,6 +29,8 @@ _Please summarize your findings and analyses regarding (1) general understanding
 
 ### (1) general understanding
 
+The ORES review tool is the key user-facing feature of the ORES extension, which provides objective revision evaluation services to automatically rate a revision's characteristics. In this section we will discuss the model `goodfaith` which predicts the likelihood of an article's revertions of being good faith.
+
 ### (2) API
 
 ### (3) ML algorithm and training/test data
