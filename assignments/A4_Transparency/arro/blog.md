@@ -60,11 +60,10 @@ It is assumed that the following features are playing an important role in ORES 
 - [x] changes are logged and version controlled
 
 ### Intrinsic interpretability
-...
+Intrinsic interpretability is only partly given. The API provides a good overview about the features of the model and their rating, but not how they are weighted. Detailed information on how the model was trained in terms of used tools, platform, machine learning algorithm and parameters, result schema, version and statistics is given. Feature Injection can be used to get a better understanding on how a single metric effects the final score, but this is a laborious task until someone gets a better knowledge of the inner workings. Information provided on the corresponding [Wikipedia page](https://meta.wikimedia.org/wiki/Objective_Revision_Evaluation_Service/goodfaith) is sparse and outdated.
 
 ### Algorithmic transparency
 We figured out, that ORES is basically an application of an algorithm in the [SciKit](https://scikit-learn.org/stable/modules/ensemble.html). The SciKit library is very well documented. We found all the information we needed for [Gradient Boosting](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingRegressor.html#sklearn.ensemble.GradientBoostingRegressor) and [friedman_mse]( https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingRegressor.html#sklearn.ensemble.GradientBoostingRegressor). The exact mode of operation is explained and the corresponding parameter information can be found in the documentation. Although the code was not available to us, the detailed documentation leads us to believe that the algorithm which is being used in this model meets the requirements in terms of algorithmic transparency. Further information could be found on the Scikit learn website. Even though the mode of function seems to be relatively easy after getting an overview we do believe that understanding the exact impacts of each metric is extremely hard and not obvious.
 
 ### Conclusion
-_From a human-centered perspective - what do you think about your model and ORES in general?_
 ORES is a great tool for analyzing the quality of wikipedia articles. It provides an efficient way to generate a quick analysis for assessing quality. From a human-centered perspective it is a great methodology - it is very well documented and therefore great in terms of transparency. However, in terms of Openness, not all requirements were fulfilled.
