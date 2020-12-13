@@ -20,12 +20,18 @@ They mentioned that intrinsic interpretability can be applied to models with sho
 
 ## A4 - Transparency
 > **Date:** 06.12.2020 - 21:39 PM *(Due: 08.12.2020 - 03:00 PM)*<br>
-> Group: Arne Rolf (`arro`) and Malina S. (`masc`)<br>
+> Group: Arne Rolf (`arro`) and Malina S. (`masc`) and Marc O. (`maop`)<br>
 > Model: `goodfaith`<br>
 
 ### Summary 
 
 _Please summarize your findings and analyses regarding (1) general understanding, (2) API, (3) ML algorithm and training/test data, and (4) features._
+
+We were able to find out what Machine Learning Algorithm is being used through the provided API request. We found out, that the underlaying algorithm is called `GradientBoosting`. This is a machine learning technique for regression and classification problems, which produces a prediction model in the form of an ensemble of weak prediction models, typically decision trees. It builds the model in a stage-wise fashion like other boosting methods do, and it generalizes them by allowing optimization of an arbitrary differentiable loss function. This algortithm Gradient boosting can be used in the field of learning to rank. It uses the ` friedman_mse` (Friedman Mean Squared Error) criterion. The used loss function is called `deviance`. In fact, we had difficulties distinguishing between the `friedman_mse` and `deviance` terms. `friedman_mse` We figured out that the default value of ‘friedman_mse’ is generally the best as it can provide a better approximation in some cases. When it comes to loss functions, the goal of those is to be optimized. The term `deviance` is refering to deviance (= logistic regression) for classification with probabilistic outputs.
+
+Analyzing the model performance we dived deeper into the metrics provided by the `model_info` API call. It contains information about basic performance measurements (i.e. Precision, Rates, Recall, Damaging and true/false positive/negative values (Confusion Matrix). The Algorithm makes use of these common performance measurement metrics. Although it is not clear if an exclamation mark in front of a parameter refers to its negation, the model_info query provides a detailed overview of used classification methods. Also we are still unsure about how the algorithm applies so called micro and macro values to its test set. It is unclear to us what metric is the most powerful. Therefore an interpretation of performance in consideration of the resulting data which has been applied to the algorithm previously cannot be made with certainty.
+
+o	Having a closer look to the training and test data it is necessary to look closer into the ORES documentation and other ressources: Halfaker et. al. states, that “ORES is a collection of machine classifier models and an API […] [the models are] using varied sources of training data” [ref](https://www-users.cs.umn.edu/~halfaker/files/halfaker18ores.pdf). Although test and training data is supposed to be found on [GitHub](https://github.com/wikimedia/ores), we were not able to gain insights of the data.
 
 ### Openness
 ...
