@@ -14,8 +14,7 @@ Interpretability can be offered through different methods regarding different re
 Intrisic method for interpretation is normally model specific and is closely related to model features, where as post hoc methods is normally applied after model training and provides more flexibility. On the other hand, the various interpretation methods can also be differentiated according to their results. Some interpretation methods may share common features are related with one other. 
 
 ### ❓&nbsp; Questions
-1. I am still a little bit confused on difference between explanations and interpretations. In the chapter 2.2 (or generally chapter 2), it seems that the author use them as synonyms. 
-<br>**Why:** I have read some general papers on XAI which describes interpretability as intrinsic explanability, therefore, it seems that interpretability is subconcept of explanability. I am unsure how to clearly differentiate them apart from each other or they are actually the synonyms. 
+1. I am still a little bit confused on difference between explanations and interpretations. In the chapter 2.2 (or generally chapter 2), it seems that the author use them as synonyms. <br>**Why:** I have read some general papers on XAI which describes interpretability as intrinsic explanability, therefore, it seems that interpretability is subconcept of explanability. I am unsure how to clearly differentiate them apart from each other or they are actually the synonyms. 
 
 1. Is there any difference between interpretability or interpretation methods for parametric and non-parametric learning models? <br>**Why:** This question is interesting for me because some interpretation methods are based on parametric statistics, and I am wondering if there is something we need to consider of when choose an interpretation method. 
 
@@ -41,7 +40,7 @@ We think the openness of the model is somehow well supported by following aspect
 
 ### Intrinsic interpretability
 
-We can't say that the intrinsic interpretability is well supported here since the gradient boosting is an emsemble of decision tree and we are currently unclear about all technique details. Although the gradient boosting classifier is an emsemble technique of decision trees, we were unable to figure out how the different decision trees are combined together by viewing the given information. At least, we found the model doesn't satisfy intrinsic interpretability at this stage, at least for non-experts in machine learning.
+We can't say that the intrinsic interpretability is well supported here since the gradient boosting is an emsemble of decision tree and we are currently unclear about all technique details. Although the gradient boosting classifier is an emsemble technique of decision trees, we were unable to figure out how the different decision trees are combined together by viewing the given information. At least, we found the model doesn't satisfy intrinsic interpretability at this stage, especially for non-experts in machine learning.
 
 ### Algorithmic transparency
 
