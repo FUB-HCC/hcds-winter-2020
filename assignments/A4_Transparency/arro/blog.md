@@ -32,6 +32,7 @@ _Please summarize your findings and analyses regarding (1) general understanding
 The ORES review tool is the key user-facing feature of the ORES extension, which provides objective revision evaluation services to automatically rate a revision's characteristics. In this section we will discuss the model `goodfaith` which predicts the likelihood of an article's revertions of being good faith.
 
 ### (2) API
+The API provides general information on which model (`articlequality`, `damaging`, `goodfaith`, `wp10`) is supported on which Wikipedia language (`enwiki`, `nlwiki`, `plwiki`). For each model you can request additional information such as the platform used to train the model, what parameters were used to train it, what the score schema looks like and what statistics the trained model has. A prediction for the `goodfaith` model provides a probability score in percent to a provided revision id. For each prediction you can also see what metrics affected the score, but not how they are weighted. These metrics include `number of words`, `usertype`, `external links`, `wiki links`, `time passed since the user registered` and a variety of dictionary based evaluations.
 
 ### (3) ML algorithm and training/test data
 
