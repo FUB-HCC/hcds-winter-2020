@@ -23,12 +23,15 @@ Intrisic method for interpretation is normally model specific and is closely rel
 
 ## A4 - Transparency
 > **Date:** 10.12.2020 - 20:09 PM *(Due: 14.12.2020 - 12:00 PM)*<br>
-> Group: PERSON1 and PERSON2<br>
-> Model: NAME OF MODEL<br>
+> Group 5: Xin and Gorgin<br>
+> Model: `articlequality`<br>
 
 ### Summary 
 
 _Please summarize your findings and analyses regarding (1) general understanding, (2) API, (3) ML algorithm and training/test data, and (4) features._
+
+About _general understanding_: The path of learning started at an article of Wikimedia about [Ores](https://diff.wikimedia.org/2015/11/30/artificial-intelligence-x-ray-specs/) where there was an outdated [link to Ores](https://meta.wikimedia.org/wiki/Objective_Revision_Evaluation_Service), but there was the [up-to-date link](https://www.mediawiki.org/wiki/ORES) available. The style of writing is in a way so even non-technicals could follow, which is nice but also lacks in-depth explanation.
+For the _API usage_ we get then to the ["Ores homepage"](https://ores.wikimedia.org/) where the [documentation](https://ores.wikimedia.org/v3/), which is actually a swagger page with only brief comments.
 
 ### Openness
 ...
