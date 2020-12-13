@@ -39,7 +39,7 @@ Analyzing the model performance we dived deeper into the metrics provided by the
 
 Having a closer look to the training and test data it is necessary to look closer into the ORES documentation and other ressources: Halfaker et. al. states, that “ORES is a collection of machine classifier models and an API […] [the models are] using varied sources of training data” [ref](https://www-users.cs.umn.edu/~halfaker/files/halfaker18ores.pdf). Although test and training data is supposed to be found on [GitHub](https://github.com/wikimedia/ores), we were not able to gain insights of the data.
 
-![IMG](assignments/A4_Transparency/arro/Bildschirmfoto .png)
+![IMG](Bildschirmfoto .png)
 
 ### (4) features
 
