@@ -41,18 +41,19 @@ _Please summarize your findings and analyses regarding (1) general understanding
 
 
 
-###  ORES API (v3) 
+### (2) ORES API (v3) 
 
 Our exploration of the API showed us that it provides a lot of information about the different Wikipedia projects and the available models. 
 It provides information on availability of a given model for different Wikipedia projects and exposes various information about the models.
 
 Despite some some issues regarding the documentation we describe in the *openness* section below we belive the API offers information which are useful for the interpretability and the reproducibility of the model. 
 <br>
+
 In the following we are showing some of the insights were able to gather using the API. 
 
 #### Model and project availability overview
 
-With the help of the API call `https://ores.wikimedia.org/v3/scores/` we were able to find out in which projects our model is available in which version: 
+With the help of the API call `https://ores.wikimedia.org/v3/scores/` we were able to find out in which version our model is available in which project: 
 
 <details>
   <summary>Table: Model availability overview</summary>
@@ -84,17 +85,17 @@ With the help of the API call `https://ores.wikimedia.org/v3/scores/` we were ab
 
 #### Model information
 
-With the following two API calls it is possible to gather information on properties of a model like the *parameters* used for the model<br> 
+With the following two API calls it is possible to gather various information like the used parameters, environment and performance metrics of the model.<br> 
+
 <br>
 `https://ores.wikimedia.org/v3/scores/enwiki?models=YOURMODELNAME&model_info`<br>
 `https://ores.wikimedia.org/v3/scores/enwiki/REVID/YOURMODELNAME?model_info`<br>
 <br>
 
-On the following table we summarized for each property (column) which information is available for a model in detail. 
-It is notable that aside of performace metrics model parameters such as the used loss function, learning rate etc. also 
-detailed environment and system information is provided. We belive this are useful information for the reproducablity and also 
-helps for the interpretablity. 
+On the following table we summarized columnwise for each property of the model which information is available in detail. 
 
+It is notable that aside of performace metrics information a lot more information such as the model parameters, the used loss function, learning rate etc. as well as detailed about the environment and system information is provided. 
+We consider this information to be useful for the reproducablity and belive that it is also helpfull for the interpretablity of the model. 
 
 <details>
   <summary>Table: Model information overview</summary>
@@ -133,7 +134,9 @@ helps for the interpretablity.
 
 </details>
 
-Here is an overview about the parameters of the model "reverted" for the wikipedia project "hrwiki":
+In the following we show more detailed information about the various model properties.
+
+Following is an overview about the parameters of the "reverted" model version 0.5.0:
 
 <details>
   <summary>Table: Reverted model parameters</summary>
@@ -171,6 +174,7 @@ Here is an overview about the parameters of the model "reverted" for the wikiped
 
 </details>
 
+The following table contains information about the environent used for training the `reverted` model version 0.5.0.
 
 <details>
   <summary>Table: Reverted model environment properties</summary>
@@ -193,7 +197,13 @@ Here is an overview about the parameters of the model "reverted" for the wikiped
 
 </details>
 
-We checked if the stats are realy the same as the general modelinfo API call provides for the reverted model. We can confirm that it does provide consistent information.
+The following table contains numerous performace measures for the reverted model version 0.5.0. Altough we do not 
+understan know all of these metrics we belive that many of them like the f1 score, the recall, precision and the confusion 
+metrics is very usefull information for judging and interpreting predictions of the model. 
+
+By asking ourselves why the model information is available via two different API calls (1) where the model info for all models 
+is returned (2) where a prdedition for a revision id together with the modelinfo is returned we belive that the latter is available 
+to inspect a prediction side by side with the used models information.
 
 <details>
   <summary>Table: Reverted model performance metrics</summary>
@@ -244,7 +254,7 @@ We checked if the stats are realy the same as the general modelinfo API call pro
 
 </details>
 
-Score schema of the 'reverted model':
+The modelinfo API call also provides a brief but in our opinion understandable description of the score which is returned by the model: 
 
 <details>
   <summary>Reverted model score schema</summary>
@@ -260,9 +270,13 @@ description: A mapping of probabilities onto each of the potential output labels
 
 </details>
 
+#### Model features:
+
+
 <details>
   <summary>Reverted model all freatures</summary>
 
+|    | feature                                                              |           value |
 |---:|:---------------------------------------------------------------------|----------------:|
 |  0 | feature.croatian.badwords.revision.diff.match_delta_decrease         |     0           |
 |  1 | feature.croatian.badwords.revision.diff.match_delta_increase         |     0           |
@@ -288,13 +302,13 @@ description: A mapping of probabilities onto each of the potential output labels
 | 21 | feature.english.informals.revision.diff.match_prop_delta_decrease    |     0           |
 | 22 | feature.english.informals.revision.diff.match_prop_delta_increase    |     0           |
 | 23 | feature.english.informals.revision.diff.match_prop_delta_sum         |     0           |
-| 24 | feature.len(<datasource.tokenized(datasource.revision.parent.text)>) |  9877           |
-| 25 | feature.len(<datasource.tokenized(datasource.revision.text)>)        |  9902           |
-| 26 | feature.len(<datasource.wikitext.revision.markups>)                  |  3384           |
-| 27 | feature.len(<datasource.wikitext.revision.parent.markups>)           |  3380           |
-| 28 | feature.len(<datasource.wikitext.revision.parent.uppercase_words>)   |    46           |
-| 29 | feature.len(<datasource.wikitext.revision.parent.words>)             |  2083           |
-| 30 | feature.len(<datasource.wikitext.revision.words>)                    |  2089           |
+| 24 | feature.len(datasource.tokenized(datasource.revision.parent.text))   |  9877           |
+| 25 | feature.len(datasource.tokenized(datasource.revision.text))          |  9902           |
+| 26 | feature.len(datasource.wikitext.revision.markups)                    |  3384           |
+| 27 | feature.len(datasource.wikitext.revision.parent.markups)             |  3380           |
+| 28 | feature.len(datasource.wikitext.revision.parent.uppercase_words)     |    46           |
+| 29 | feature.len(datasource.wikitext.revision.parent.words)               |  2083           |
+| 30 | feature.len(datasource.wikitext.revision.words)                      |  2089           |
 | 31 | feature.revision.comment.has_link                                    |     0           |
 | 32 | feature.revision.comment.suggests_section_edit                       |     1           |
 | 33 | feature.revision.diff.longest_new_repeated_char                      |     1           |
@@ -324,26 +338,48 @@ description: A mapping of probabilities onto each of the potential output labels
 | 57 | feature.wikitext.revision.diff.number_prop_delta_increase            |     0.5         |
 | 58 | feature.wikitext.revision.diff.number_prop_delta_sum                 |     0.5         |
 | 59 | feature.wikitext.revision.diff.uppercase_word_delta_decrease         |     0           |
-| 60 | feature.wikitext.revision.diff.uppercase_word_delta_increase         |     0           |
-| 61 | feature.wikitext.revision.diff.uppercase_word_delta_sum              |     0           |
-| 62 | feature.wikitext.revision.diff.uppercase_word_prop_delta_decrease    |     0           |
-| 63 | feature.wikitext.revision.diff.uppercase_word_prop_delta_increase    |     0           |
-| 64 | feature.wikitext.revision.diff.uppercase_word_prop_delta_sum         |     0           |
-| 65 | feature.wikitext.revision.external_links                             |     0           |
+
+</details>
+
+Number of features where the value is different from zero:  29
+
+<details>
+  <summary>Reverted model features where value is different from zero</summary>
+
+|    | feature                                                              |           value |
+|---:|:---------------------------------------------------------------------|----------------:|
+| 24 | feature.len(datasource.tokenized(datasource.revision.parent.text))   |  9877           |
+| 25 | feature.len(datasource.tokenized(datasource.revision.text))          |  9902           |
+| 26 | feature.len(datasource.wikitext.revision.markups)                    |  3384           |
+| 27 | feature.len(datasource.wikitext.revision.parent.markups)             |  3380           |
+| 28 | feature.len(datasource.wikitext.revision.parent.uppercase_words)     |    46           |
+| 29 | feature.len(datasource.wikitext.revision.parent.words)               |  2083           |
+| 30 | feature.len(datasource.wikitext.revision.words)                      |  2089           |
+| 32 | feature.revision.comment.suggests_section_edit                       |     1           |
+| 33 | feature.revision.diff.longest_new_repeated_char                      |     1           |
+| 34 | feature.revision.diff.longest_new_token                              |     1           |
+| 45 | feature.temporal.revision.user.seconds_since_registration            |     4.62928e+08 |
+| 46 | feature.wikitext.revision.chars                                      | 27321           |
+| 48 | feature.wikitext.revision.diff.markup_delta_increase                 |     4           |
+| 49 | feature.wikitext.revision.diff.markup_delta_sum                      |     4           |
+| 51 | feature.wikitext.revision.diff.markup_prop_delta_increase            |     0.0036065   |
+| 52 | feature.wikitext.revision.diff.markup_prop_delta_sum                 |     0.0036065   |
+| 54 | feature.wikitext.revision.diff.number_delta_increase                 |     1           |
+| 55 | feature.wikitext.revision.diff.number_delta_sum                      |     1           |
+| 57 | feature.wikitext.revision.diff.number_prop_delta_increase            |     0.5         |
+| 58 | feature.wikitext.revision.diff.number_prop_delta_sum                 |     0.5         |
 | 66 | feature.wikitext.revision.headings                                   |    12           |
 | 67 | feature.wikitext.revision.parent.chars                               | 27253           |
-| 68 | feature.wikitext.revision.parent.external_links                      |     0           |
 | 69 | feature.wikitext.revision.parent.headings                            |    12           |
-| 70 | feature.wikitext.revision.parent.ref_tags                            |     0           |
 | 71 | feature.wikitext.revision.parent.tags                                |   945           |
 | 72 | feature.wikitext.revision.parent.templates                           |     7           |
 | 73 | feature.wikitext.revision.parent.wikilinks                           |   830           |
-| 74 | feature.wikitext.revision.ref_tags                                   |     0           |
 | 75 | feature.wikitext.revision.tags                                       |   946           |
 | 76 | feature.wikitext.revision.templates                                  |     7           |
 | 77 | feature.wikitext.revision.wikilinks                                  |   831           |
 
- </details>
+</details>
+
 
 The API call https://ores.wikimedia.org/v3/scores/elwiki/807457197/reverted?features=true returns information about the models features it is looking at for making a prediction about an article revision.
 
