@@ -273,6 +273,11 @@ description: A mapping of probabilities onto each of the potential output labels
 #### Model features:
 
 
+The API call `https://ores.wikimedia.org/v3/scores/hrwiki/807457197/reverted?features=true` returns information about the models 
+features and the activation values for these features for the specified revision id and project. 
+
+By viewing these features we cou
+
 <details>
   <summary>Reverted model all freatures</summary>
 
@@ -380,9 +385,6 @@ Number of features where the value is different from zero:  29
 
 </details>
 
-
-The API call https://ores.wikimedia.org/v3/scores/elwiki/807457197/reverted?features=true returns information about the models features it is looking at for making a prediction about an article revision.
-
 The reverted model has  78  features. But most of them have the vlaue 0.
 Number of features where the value is different from 0:  29
 
@@ -397,6 +399,7 @@ Number of features where the value is different from 0:  29
 | is_trusted=false                                               |              0.826583 |            0.173417  |            0 |
 | feature.croatian.badwords.revision.diff.match_delta_increase=2 |              0.81254  |            0.18746   |            0 |
 | feature.english.badwords.revision.diff.match_delta_increase=2  |              0.826583 |            0.173417  |            0 |
+
 
 
 ## (3) ML algorithm and training/test data, and (4) features._
