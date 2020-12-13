@@ -15,7 +15,7 @@ It is harder to find the cause from effect and it is easier to do it the other w
 
 
 ### ❓&nbsp; Questions
-1. Can you express every question mathimatically?
+1. Can you express every question mathematically?
 
 **Why:** The interviewee got asked what is a good way to do a reasearch. He responded with we should state every question mathimatically first before trying to find an answer. 
 
