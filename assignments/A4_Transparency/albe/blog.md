@@ -270,124 +270,169 @@ description: A mapping of probabilities onto each of the potential output labels
 
 </details>
 
-#### Model features:
 
+### Model features:
 
 The API call `https://ores.wikimedia.org/v3/scores/hrwiki/807457197/reverted?features=true` returns information about the models 
 features and the activation values for these features for the specified revision id and project. 
 
-By viewing these features we cou
+In the section [model features](#model-features) we describe our understanding of these features and show our results with injecting 
+some chosen featutes. 
 
 <details>
   <summary>Reverted model all freatures</summary>
 
-|    | feature                                                              |           value |
-|---:|:---------------------------------------------------------------------|----------------:|
-|  0 | feature.croatian.badwords.revision.diff.match_delta_decrease         |     0           |
-|  1 | feature.croatian.badwords.revision.diff.match_delta_increase         |     0           |
-|  2 | feature.croatian.badwords.revision.diff.match_delta_sum              |     0           |
-|  3 | feature.croatian.badwords.revision.diff.match_prop_delta_decrease    |     0           |
-|  4 | feature.croatian.badwords.revision.diff.match_prop_delta_increase    |     0           |
-|  5 | feature.croatian.badwords.revision.diff.match_prop_delta_sum         |     0           |
-|  6 | feature.croatian.informals.revision.diff.match_delta_decrease        |     0           |
-|  7 | feature.croatian.informals.revision.diff.match_delta_increase        |     0           |
-|  8 | feature.croatian.informals.revision.diff.match_delta_sum             |     0           |
-|  9 | feature.croatian.informals.revision.diff.match_prop_delta_decrease   |     0           |
-| 10 | feature.croatian.informals.revision.diff.match_prop_delta_increase   |     0           |
-| 11 | feature.croatian.informals.revision.diff.match_prop_delta_sum        |     0           |
-| 12 | feature.english.badwords.revision.diff.match_delta_decrease          |     0           |
-| 13 | feature.english.badwords.revision.diff.match_delta_increase          |     0           |
-| 14 | feature.english.badwords.revision.diff.match_delta_sum               |     0           |
-| 15 | feature.english.badwords.revision.diff.match_prop_delta_decrease     |     0           |
-| 16 | feature.english.badwords.revision.diff.match_prop_delta_increase     |     0           |
-| 17 | feature.english.badwords.revision.diff.match_prop_delta_sum          |     0           |
-| 18 | feature.english.informals.revision.diff.match_delta_decrease         |     0           |
-| 19 | feature.english.informals.revision.diff.match_delta_increase         |     0           |
-| 20 | feature.english.informals.revision.diff.match_delta_sum              |     0           |
-| 21 | feature.english.informals.revision.diff.match_prop_delta_decrease    |     0           |
-| 22 | feature.english.informals.revision.diff.match_prop_delta_increase    |     0           |
-| 23 | feature.english.informals.revision.diff.match_prop_delta_sum         |     0           |
-| 24 | feature.len(datasource.tokenized(datasource.revision.parent.text))   |  9877           |
-| 25 | feature.len(datasource.tokenized(datasource.revision.text))          |  9902           |
-| 26 | feature.len(datasource.wikitext.revision.markups)                    |  3384           |
-| 27 | feature.len(datasource.wikitext.revision.parent.markups)             |  3380           |
-| 28 | feature.len(datasource.wikitext.revision.parent.uppercase_words)     |    46           |
-| 29 | feature.len(datasource.wikitext.revision.parent.words)               |  2083           |
-| 30 | feature.len(datasource.wikitext.revision.words)                      |  2089           |
-| 31 | feature.revision.comment.has_link                                    |     0           |
-| 32 | feature.revision.comment.suggests_section_edit                       |     1           |
-| 33 | feature.revision.diff.longest_new_repeated_char                      |     1           |
-| 34 | feature.revision.diff.longest_new_token                              |     1           |
-| 35 | feature.revision.page.is_articleish                                  |     0           |
-| 36 | feature.revision.page.is_draftspace                                  |     0           |
-| 37 | feature.revision.page.is_mainspace                                   |     0           |
-| 38 | feature.revision.user.has_advanced_rights                            |     0           |
-| 39 | feature.revision.user.is_admin                                       |     0           |
-| 40 | feature.revision.user.is_anon                                        |     0           |
-| 41 | feature.revision.user.is_bot                                         |     0           |
-| 42 | feature.revision.user.is_curator                                     |     0           |
-| 43 | feature.revision.user.is_patroller                                   |     0           |
-| 44 | feature.revision.user.is_trusted                                     |     0           |
-| 45 | feature.temporal.revision.user.seconds_since_registration            |     4.62928e+08 |
-| 46 | feature.wikitext.revision.chars                                      | 27321           |
-| 47 | feature.wikitext.revision.diff.markup_delta_decrease                 |     0           |
-| 48 | feature.wikitext.revision.diff.markup_delta_increase                 |     4           |
-| 49 | feature.wikitext.revision.diff.markup_delta_sum                      |     4           |
-| 50 | feature.wikitext.revision.diff.markup_prop_delta_decrease            |     0           |
-| 51 | feature.wikitext.revision.diff.markup_prop_delta_increase            |     0.0036065   |
-| 52 | feature.wikitext.revision.diff.markup_prop_delta_sum                 |     0.0036065   |
-| 53 | feature.wikitext.revision.diff.number_delta_decrease                 |     0           |
-| 54 | feature.wikitext.revision.diff.number_delta_increase                 |     1           |
-| 55 | feature.wikitext.revision.diff.number_delta_sum                      |     1           |
-| 56 | feature.wikitext.revision.diff.number_prop_delta_decrease            |     0           |
-| 57 | feature.wikitext.revision.diff.number_prop_delta_increase            |     0.5         |
-| 58 | feature.wikitext.revision.diff.number_prop_delta_sum                 |     0.5         |
-| 59 | feature.wikitext.revision.diff.uppercase_word_delta_decrease         |     0           |
+| feature                                                              |           value |
+|:---------------------------------------------------------------------|----------------:|
+| feature.croatian.badwords.revision.diff.match_delta_decrease         |     0           |
+| feature.croatian.badwords.revision.diff.match_delta_increase         |     0           |
+| feature.croatian.badwords.revision.diff.match_delta_sum              |     0           |
+| feature.croatian.badwords.revision.diff.match_prop_delta_decrease    |     0           |
+| feature.croatian.badwords.revision.diff.match_prop_delta_increase    |     0           |
+| feature.croatian.badwords.revision.diff.match_prop_delta_sum         |     0           |
+| feature.croatian.informals.revision.diff.match_delta_decrease        |     0           |
+| feature.croatian.informals.revision.diff.match_delta_increase        |     0           |
+| feature.croatian.informals.revision.diff.match_delta_sum             |     0           |
+| feature.croatian.informals.revision.diff.match_prop_delta_decrease   |     0           |
+| feature.croatian.informals.revision.diff.match_prop_delta_increase   |     0           |
+| feature.croatian.informals.revision.diff.match_prop_delta_sum        |     0           |
+| feature.english.badwords.revision.diff.match_delta_decrease          |     0           |
+| feature.english.badwords.revision.diff.match_delta_increase          |     0           |
+| feature.english.badwords.revision.diff.match_delta_sum               |     0           |
+| feature.english.badwords.revision.diff.match_prop_delta_decrease     |     0           |
+| feature.english.badwords.revision.diff.match_prop_delta_increase     |     0           |
+| feature.english.badwords.revision.diff.match_prop_delta_sum          |     0           |
+| feature.english.informals.revision.diff.match_delta_decrease         |     0           |
+| feature.english.informals.revision.diff.match_delta_increase         |     0           |
+| feature.english.informals.revision.diff.match_delta_sum              |     0           |
+| feature.english.informals.revision.diff.match_prop_delta_decrease    |     0           |
+| feature.english.informals.revision.diff.match_prop_delta_increase    |     0           |
+| feature.english.informals.revision.diff.match_prop_delta_sum         |     0           |
+| feature.len(datasource.tokenized(datasource.revision.parent.text))   |  9877           |
+| feature.len(datasource.tokenized(datasource.revision.text))          |  9902           |
+| feature.len(datasource.wikitext.revision.markups)                    |  3384           |
+| feature.len(datasource.wikitext.revision.parent.markups)             |  3380           |
+| feature.len(datasource.wikitext.revision.parent.uppercase_words)     |    46           |
+| feature.len(datasource.wikitext.revision.parent.words)               |  2083           |
+| feature.len(datasource.wikitext.revision.words)                      |  2089           |
+| feature.revision.comment.has_link                                    |     0           |
+| feature.revision.comment.suggests_section_edit                       |     1           |
+| feature.revision.diff.longest_new_repeated_char                      |     1           |
+| feature.revision.diff.longest_new_token                              |     1           |
+| feature.revision.page.is_articleish                                  |     0           |
+| feature.revision.page.is_draftspace                                  |     0           |
+| feature.revision.page.is_mainspace                                   |     0           |
+| feature.revision.user.has_advanced_rights                            |     0           |
+| feature.revision.user.is_admin                                       |     0           |
+| feature.revision.user.is_anon                                        |     0           |
+| feature.revision.user.is_bot                                         |     0           |
+| feature.revision.user.is_curator                                     |     0           |
+| feature.revision.user.is_patroller                                   |     0           |
+| feature.revision.user.is_trusted                                     |     0           |
+| feature.temporal.revision.user.seconds_since_registration            |     4.62928e+08 |
+| feature.wikitext.revision.chars                                      | 27321           |
+| feature.wikitext.revision.diff.markup_delta_decrease                 |     0           |
+| feature.wikitext.revision.diff.markup_delta_increase                 |     4           |
+| feature.wikitext.revision.diff.markup_delta_sum                      |     4           |
+| feature.wikitext.revision.diff.markup_prop_delta_decrease            |     0           |
+| feature.wikitext.revision.diff.markup_prop_delta_increase            |     0.0036065   |
+| feature.wikitext.revision.diff.markup_prop_delta_sum                 |     0.0036065   |
+| feature.wikitext.revision.diff.number_delta_decrease                 |     0           |
+| feature.wikitext.revision.diff.number_delta_increase                 |     1           |
+| feature.wikitext.revision.diff.number_delta_sum                      |     1           |
+| feature.wikitext.revision.diff.number_prop_delta_decrease            |     0           |
+| feature.wikitext.revision.diff.number_prop_delta_increase            |     0.5         |
+| feature.wikitext.revision.diff.number_prop_delta_sum                 |     0.5         |
+| feature.wikitext.revision.diff.uppercase_word_delta_decrease         |     0           |
 
 </details>
 
-Number of features where the value is different from zero:  29
+
+## (3) ML algorithm and training/test data
+
+
+## (4) features
+
+For the `reverted` model we found the obove listed 78 features. We noticed that only around one third of these features 
+are have values differnt from zero. 
 
 <details>
   <summary>Reverted model features where value is different from zero</summary>
 
-|    | feature                                                              |           value |
-|---:|:---------------------------------------------------------------------|----------------:|
-| 24 | feature.len(datasource.tokenized(datasource.revision.parent.text))   |  9877           |
-| 25 | feature.len(datasource.tokenized(datasource.revision.text))          |  9902           |
-| 26 | feature.len(datasource.wikitext.revision.markups)                    |  3384           |
-| 27 | feature.len(datasource.wikitext.revision.parent.markups)             |  3380           |
-| 28 | feature.len(datasource.wikitext.revision.parent.uppercase_words)     |    46           |
-| 29 | feature.len(datasource.wikitext.revision.parent.words)               |  2083           |
-| 30 | feature.len(datasource.wikitext.revision.words)                      |  2089           |
-| 32 | feature.revision.comment.suggests_section_edit                       |     1           |
-| 33 | feature.revision.diff.longest_new_repeated_char                      |     1           |
-| 34 | feature.revision.diff.longest_new_token                              |     1           |
-| 45 | feature.temporal.revision.user.seconds_since_registration            |     4.62928e+08 |
-| 46 | feature.wikitext.revision.chars                                      | 27321           |
-| 48 | feature.wikitext.revision.diff.markup_delta_increase                 |     4           |
-| 49 | feature.wikitext.revision.diff.markup_delta_sum                      |     4           |
-| 51 | feature.wikitext.revision.diff.markup_prop_delta_increase            |     0.0036065   |
-| 52 | feature.wikitext.revision.diff.markup_prop_delta_sum                 |     0.0036065   |
-| 54 | feature.wikitext.revision.diff.number_delta_increase                 |     1           |
-| 55 | feature.wikitext.revision.diff.number_delta_sum                      |     1           |
-| 57 | feature.wikitext.revision.diff.number_prop_delta_increase            |     0.5         |
-| 58 | feature.wikitext.revision.diff.number_prop_delta_sum                 |     0.5         |
-| 66 | feature.wikitext.revision.headings                                   |    12           |
-| 67 | feature.wikitext.revision.parent.chars                               | 27253           |
-| 69 | feature.wikitext.revision.parent.headings                            |    12           |
-| 71 | feature.wikitext.revision.parent.tags                                |   945           |
-| 72 | feature.wikitext.revision.parent.templates                           |     7           |
-| 73 | feature.wikitext.revision.parent.wikilinks                           |   830           |
-| 75 | feature.wikitext.revision.tags                                       |   946           |
-| 76 | feature.wikitext.revision.templates                                  |     7           |
-| 77 | feature.wikitext.revision.wikilinks                                  |   831           |
+| feature                                                              |           value |
+|:---------------------------------------------------------------------|----------------:|
+| feature.len(datasource.tokenized(datasource.revision.parent.text))   |  9877           |
+| feature.len(datasource.tokenized(datasource.revision.text))          |  9902           |
+| feature.len(datasource.wikitext.revision.markups)                    |  3384           |
+| feature.len(datasource.wikitext.revision.parent.markups)             |  3380           |
+| feature.len(datasource.wikitext.revision.parent.uppercase_words)     |    46           |
+| feature.len(datasource.wikitext.revision.parent.words)               |  2083           |
+| feature.len(datasource.wikitext.revision.words)                      |  2089           |
+| feature.revision.comment.suggests_section_edit                       |     1           |
+| feature.revision.diff.longest_new_repeated_char                      |     1           |
+| feature.revision.diff.longest_new_token                              |     1           |
+| feature.temporal.revision.user.seconds_since_registration            |     4.62928e+08 |
+| feature.wikitext.revision.chars                                      | 27321           |
+| feature.wikitext.revision.diff.markup_delta_increase                 |     4           |
+| feature.wikitext.revision.diff.markup_delta_sum                      |     4           |
+| feature.wikitext.revision.diff.markup_prop_delta_increase            |     0.0036065   |
+| feature.wikitext.revision.diff.markup_prop_delta_sum                 |     0.0036065   |
+| feature.wikitext.revision.diff.number_delta_increase                 |     1           |
+| feature.wikitext.revision.diff.number_delta_sum                      |     1           |
+| feature.wikitext.revision.diff.number_prop_delta_increase            |     0.5         |
+| feature.wikitext.revision.diff.number_prop_delta_sum                 |     0.5         |
+| feature.wikitext.revision.headings                                   |    12           |
+| feature.wikitext.revision.parent.chars                               | 27253           |
+| feature.wikitext.revision.parent.headings                            |    12           |
+| feature.wikitext.revision.parent.tags                                |   945           |
+| feature.wikitext.revision.parent.templates                           |     7           |
+| feature.wikitext.revision.parent.wikilinks                           |   830           |
+| feature.wikitext.revision.tags                                       |   946           |
+| feature.wikitext.revision.templates                                  |     7           |
+| feature.wikitext.revision.wikilinks                                  |   831           |
 
 </details>
 
-The reverted model has  78  features. But most of them have the vlaue 0.
-Number of features where the value is different from 0:  29
 
+By trying to sort the features into groups we we abl to identify two groups of featues. 
+Features related to (1) **language** *english*/*articles native language* & **delta in increase/decrease of bad words** (2) *user* related
+features. 
+
+<details>
+    <summary>User related freatures:</summary>
+
+feature.revision.user.has_advanced_rights
+feature.revision.user.is_admin
+feature.revision.user.is_anon
+feature.revision.user.is_bot
+feature.revision.user.is_curator
+feature.revision.user.is_patroller
+feature.revision.user.is_trusted
+feature.temporal.revision.user.seconds_since_registration
+feature.enwiki.revision.cite_templates
+</details>
+
+<details>
+    <summary>Bad words and language related:</summary>
+
+feature.croatian.badwords.revision.diff.match_delta_decrease
+feature.croatian.badwords.revision.diff.match_delta_increase
+feature.croatian.badwords.revision.diff.match_delta_sum    
+feature.croatian.badwords.revision.diff.match_prop_delta_decrease
+feature.croatian.badwords.revision.diff.match_prop_delta_increase
+feature.croatian.badwords.revision.diff.match_prop_delta_sum
+
+feature.english.badwords.revision.diff.match_delta_decrease    
+feature.english.badwords.revision.diff.match_delta_increase    
+feature.english.badwords.revision.diff.match_delta_sum    
+feature.english.badwords.revision.diff.match_prop_delta_decrease
+feature.english.badwords.revision.diff.match_prop_delta_increase
+feature.english.badwords.revision.diff.match_prop_delta_sum  
+</details>
+
+We selected 4 features for injecting because we assumed these to have and impoact on the prediction of the model. The table below 
+lists the outcome of the feature injection for the revision id 5618117 in the hrwiki project. The first line *without feature injection*
+shows the prediction for this revision without a feature injected.
 
 
 #### Feature injection: 
@@ -400,10 +445,11 @@ Number of features where the value is different from 0:  29
 | feature.croatian.badwords.revision.diff.match_delta_increase=2 |              0.81254  |            0.18746   |            0 |
 | feature.english.badwords.revision.diff.match_delta_increase=2  |              0.826583 |            0.173417  |            0 |
 
+Very suprising for us was the change in the probabilities when injecting the feature `user.is_bot=true`. We interpret this change in the probability distribution for true\false probability as the the model is trusting the edit more if it was made from a bot. 
 
+By looking on the results for features *bad words increase delta* for cratian and english language we noticed that for the original language of the article the prediction changes in the negative direction while by an increase of bad words in enlish language the probabilites stay the same (we tested also with different values). 
 
-## (3) ML algorithm and training/test data, and (4) features._
-
+How ever we consider this test as a quick exploration and try out of the *feature injection* feature of the API. As we tested only with one revision we cannot make any conclusion about the impact of the features with the outcome of this test. 
 
 ### Openness
 ...
