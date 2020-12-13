@@ -51,7 +51,12 @@ It is assumed that the following features are playing an important role in ORES 
 
 
 ### Openness
-...
+
+###### Openness checklist
+- [ ] the model (code) is publicly inspectable
+- [ ] the training/test data are publicly inspectable
+- [ ] individual decisions are reproducible
+- [ ] changes are logged and version controlled
 
 ### Intrinsic interpretability
 ...
