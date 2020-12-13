@@ -400,33 +400,33 @@ By trying to sort the features into groups we we abl to identify two groups of f
 <details>
     <summary>User related freatures:</summary>
 
-feature.revision.user.has_advanced_rights
-feature.revision.user.is_admin
-feature.revision.user.is_anon
-feature.revision.user.is_bot
-feature.revision.user.is_curator
-feature.revision.user.is_patroller
-feature.revision.user.is_trusted
-feature.temporal.revision.user.seconds_since_registration
-feature.enwiki.revision.cite_templates
+feature.revision.user.has_advanced_rights<br>
+feature.revision.user.is_admin<br>
+feature.revision.user.is_anon<br>
+feature.revision.user.is_bot<br>
+feature.revision.user.is_curator<br>
+feature.revision.user.is_patroller<br>
+feature.revision.user.is_trusted<br>
+feature.temporal.revision.user.seconds_since_registration<br>
+feature.enwiki.revision.cite_templates<br>
 </details>
 
 <details>
     <summary>Bad words and language related:</summary>
 
-feature.croatian.badwords.revision.diff.match_delta_decrease
-feature.croatian.badwords.revision.diff.match_delta_increase
-feature.croatian.badwords.revision.diff.match_delta_sum    
-feature.croatian.badwords.revision.diff.match_prop_delta_decrease
-feature.croatian.badwords.revision.diff.match_prop_delta_increase
-feature.croatian.badwords.revision.diff.match_prop_delta_sum
+feature.croatian.badwords.revision.diff.match_delta_decrease<br>
+feature.croatian.badwords.revision.diff.match_delta_increase<br>
+feature.croatian.badwords.revision.diff.match_delta_sum<br>
+feature.croatian.badwords.revision.diff.match_prop_delta_decrease<br>
+feature.croatian.badwords.revision.diff.match_prop_delta_increase<br>
+feature.croatian.badwords.revision.diff.match_prop_delta_sum<br>
 
-feature.english.badwords.revision.diff.match_delta_decrease    
-feature.english.badwords.revision.diff.match_delta_increase    
-feature.english.badwords.revision.diff.match_delta_sum    
-feature.english.badwords.revision.diff.match_prop_delta_decrease
-feature.english.badwords.revision.diff.match_prop_delta_increase
-feature.english.badwords.revision.diff.match_prop_delta_sum  
+feature.english.badwords.revision.diff.match_delta_decrease<br>    
+feature.english.badwords.revision.diff.match_delta_increase<br>    
+feature.english.badwords.revision.diff.match_delta_sum<br>    
+feature.english.badwords.revision.diff.match_prop_delta_decrease<br>
+feature.english.badwords.revision.diff.match_prop_delta_increase<br>
+feature.english.badwords.revision.diff.match_prop_delta_sum<br>  
 </details>
 
 We selected 4 features for injecting because we assumed these to have and impact on the prediction of the model. The table below lists the outcome of the feature injection for the revision id 5618117 in the hrwiki project. The first line *without feature injection* shows the prediction for this revision without a feature injected.
