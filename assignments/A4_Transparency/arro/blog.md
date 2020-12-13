@@ -67,4 +67,4 @@ We figured out, that ORES is basically an application of an algorithm in the [Sc
 
 ### Conclusion
 _From a human-centered perspective - what do you think about your model and ORES in general?_
-ORES is a great tool for analyzing the quality of wikipedia articles. It provides an efficient way to generate a quick analysis for assessing quality. From a human-centered perspective it is a great methodology - it is very well documented and therefore great in terms of transparency.
+ORES is a great tool for analyzing the quality of wikipedia articles. It provides an efficient way to generate a quick analysis for assessing quality. From a human-centered perspective it is a great methodology - it is very well documented and therefore great in terms of transparency. However, in terms of Openness, not all requirements were fulfilled.
