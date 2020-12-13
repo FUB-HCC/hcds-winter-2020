@@ -45,6 +45,10 @@ Having a closer look to the training and test data it is necessary to look close
 
 ### (4) features
 
+The model is using roughly 80 different features. Such as `feature.english.badwords`, `feature.english.informals`, `feature.revision.user.is_anon` etc.
+It is assumed that the following features are playing an important role in ORES classifications: `feature.english.badwords` (checks if the reversion of an article is containing bad words (e.g. informal words)) and `feature.revision.user.is_anon` (checks if the revision of an article has been made by an anonymous user). We believe that this plays an important role because the classification strongly depends on whether the change was made by a "trusted" user and whether the article was written in a high linguistic standard which is virulent for maintaining Wikipedia article's quality.
+
+
 
 ### Openness
 ...
