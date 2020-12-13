@@ -56,8 +56,8 @@ It is assumed that the following features are playing an important role in ORES 
 ### Openness
 
 ###### Openness checklist
-- [ ] the model (code) is publicly inspectable (Marc: nicht gefunden)
-- [ ] the training/test data are publicly inspectable (Marc: habe im git repo von ores keine training/test daten gefunden)
+- [ ] the model (code) is publicly inspectable
+- [ ] the training/test data are publicly inspectable
 - [x] individual decisions are reproducible
 - [x] changes are logged and version controlled
 
