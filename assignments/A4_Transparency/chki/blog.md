@@ -39,6 +39,7 @@ _reverted_ is only available for very few projects: bnwiki, elwiki, enwiktionary
 
 
 3. ML algorithm and training/test data
+
 For building the model a Gradient Boosting Classifier was used. Gradient boosting creates an ensemble learner by iteratively adding weak learners (in this case decision trees) to an ensemble. The only two exceptions are enwiktionary (a dictionary) which uses a RandomForest model and testwiki that uses RevIDScorer. In this assignment we focus on the Wikipedia projects for different languages which means that we exclude enwiktionary and testwiki. The training and test data for the different wikis is available on GitHub and is based on the history of edits (and reverted edits) from a wiki.
 Using the API, one can retrieve information about the model and it's performance. We further discuss this information in chapter "Openness".
 
