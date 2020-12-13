@@ -23,6 +23,8 @@ They mentioned that intrinsic interpretability can be applied to models with sho
 > Group: Arne Rolf (`arro`) and Malina S. (`masc`) and Marc O. (`maop`)<br>
 > Model: `goodfaith`<br>
 
+Jupyter Notebook: [Here](https://github.com/FUB-HCC/hcds-winter-2020/blob/main/assignments/A4_Transparency/arro/A4_Transparency.ipynb)
+
 ### Summary 
 
 _Please summarize your findings and analyses regarding (1) general understanding, (2) API, (3) ML algorithm and training/test data, and (4) features._
@@ -54,8 +56,8 @@ It is assumed that the following features are playing an important role in ORES 
 ### Openness
 
 ###### Openness checklist
-- [ ] the model (code) is publicly inspectable (Marc: nicht gefunden)
-- [ ] the training/test data are publicly inspectable (Marc: habe im git repo von ores keine training/test daten gefunden)
+- [ ] the model (code) is publicly inspectable
+- [ ] the training/test data are publicly inspectable
 - [x] individual decisions are reproducible
 - [x] changes are logged and version controlled
 
@@ -64,6 +66,9 @@ Intrinsic interpretability is only partly given. The API provides a good overvie
 
 ### Algorithmic transparency
 We figured out, that ORES is basically an application of an algorithm in the [SciKit](https://scikit-learn.org/stable/modules/ensemble.html). The SciKit library is very well documented. We found all the information we needed for [Gradient Boosting](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingRegressor.html#sklearn.ensemble.GradientBoostingRegressor) and [friedman_mse]( https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingRegressor.html#sklearn.ensemble.GradientBoostingRegressor). The exact mode of operation is explained and the corresponding parameter information can be found in the documentation. Although the code was not available to us, the detailed documentation leads us to believe that the algorithm which is being used in this model meets the requirements in terms of algorithmic transparency. Further information could be found on the Scikit learn website. Even though the mode of function seems to be relatively easy after getting an overview we do believe that understanding the exact impacts of each metric is extremely hard and not obvious.
+
+### From a human-centered perspective - what do you think about your model and ORES in general?
+ORES itself provides a good variety on models to keep article quality to high standard and to also automate tasks that otherwise wouldn't be possible to do by hand at the scale of the daily Wikipedia interactions. The introduction of the `goodfaith` model was not only necessary to distinguish between edits from vandals and newly registered users, but to also stop the drop in active newcomers participation. To guide those users to information about what makes a good article quality is effective in the long run and will hopefully increase their interaction instead of leaving them alone with their frustration because they didn't know what they were doing wrong.
 
 ### Conclusion
 ORES is a great tool for analyzing the quality of wikipedia articles. It provides an efficient way to generate a quick analysis for assessing quality. From a human-centered perspective it is a great methodology - it is very well documented and therefore great in terms of transparency. However, in terms of Openness, not all requirements were fulfilled.
