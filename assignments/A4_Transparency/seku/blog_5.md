@@ -22,12 +22,22 @@ Reducing complexity of a model isn't always easy but in my oppinion a goal for a
 
 ## A4 - Transparency
 > **Date:** DD.MM.YYYY - HH:MM PM *(Due: 08.12.2020 - 03:00 PM)*<br>
-> Group: PERSON1 and PERSON2<br>
-> Model: NAME OF MODEL<br>
+> Group: Jonas W. and Sebastian K.<br>
+> Model: drafttopic<br>
 
 ### Summary 
 
-_Please summarize your findings and analyses regarding (1) general understanding, (2) API, (3) ML algorithm and training/test data, and (4) features._
+#### (1) general understanding 
+The drafttopic model is designed to route newly created articles based on their apparent topical nature to interested reviewers. This is useful, because one of the biggest difficulies with reviewing new articles is finding someone appropriate to do this task. Due to a a gigantic variety of topics on Wikipedia, reviewers have to be picked accordingly to their skills and knowlegde to judge notability, relevance, and accuracy of an article. 
+The drafttopic model can be used by anyone due to the fact that it is open source. Most probably it is used mostly by data scientists. Stakeholders are for example people that are releasing content on wikipedia or want to understand user activity on the website.
+This is equally useful for Wikipedia and users on the website, because by redirecting new articles to suitable reviewers, the overall quality of information is more likely to increase.
+The model is used only within enwiki.
+
+#### (2) API 
+The API has several different API calls that give information about specific models. One can check where a model is being used (with its used version) and then analyse the use in those specific projects. Then more detailed information can be retrieved like environment of the model, used params, the score_schema and different statistics. The API also allows to check the data for specific revisions.
+
+#### (3) ML algorithm and training/test data 
+#### (4) features
 
 ### Openness
 ...
