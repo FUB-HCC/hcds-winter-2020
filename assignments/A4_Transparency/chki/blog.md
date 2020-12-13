@@ -27,6 +27,11 @@ There are model-specific methods/tools for model interpretation and model-agnost
 ### Summary 
 
 _Please summarize your findings and analyses regarding (1) general understanding, (2) API, (3) ML algorithm and training/test data, and (4) features._
+1. foo
+2. foo
+3. foo
+4. foo
+
 
 ### Openness
  * The model (code) and training/test data are publicly inspectable
@@ -39,7 +44,7 @@ _Please summarize your findings and analyses regarding (1) general understanding
  
  * Individual decisions are reproducible 
  
- There are some tutorials on how to create feature lists and how to train models. These do not give many insights on how a specific model was built. As mentioned above, there is a demo (notebook) on how to build/train/test a model using revision. Since the notebook is only a demo, it also does not show the code used for specific models but at least gives a good impression on how they were built. This makes it hard to judge and evaluate specific models. Overall, the repositories' documentation is rather poor and it takes time to gather information looking through many files and code.
+ There are some tutorials on how to create feature lists and how to train models. These do not give many insights on how a specific model was built. As mentioned above, there is a demo (notebook) on how to build/train/test a model using reversions. Since the notebook is only a demo, it also does not show the code used for specific models but at least gives a good impression on how they were built. This makes it hard to judge and evaluate specific models. Overall, the repositories' documentation is rather poor and it takes time to gather information looking through many files and code.
  
  * Changes are logged and version controlled
  
@@ -62,5 +67,9 @@ Whether the metrics and the algorithm are well understood and relativley easy to
 ### Conclusion
 _From a human-centered perspective - what do you think about your model and ORES in general?_
 
-- Which variant of the model is used? For example, Gradient Boosting is usually used with decision trees but theoretically, it can be used with other weak learners as well.
-- Description of features missing
+The developers and maintainers of ORES did a good job on making information, source code and data available in GitHub. But, there are a few issues: One the one hand, it takes some effort to find the right repositories since they are not referenced in overview articles ([like this](https://www.mediawiki.org/wiki/ORES)). On the other hand, the repositories themselves are not extensivly documented which makes it hard to orient and find useful information.
+
+The API provides information about a model's Machine Learning algorithm, the chosen parameters and features as well as performance metrics. Unfortunately, a good documentation is missing here as well so the meaning of some metrics and features remains unclear. 
+
+Overall, a lot of important information is provided but often in a way that it takes some time and effort for it to be really useful. Some information had to be searched for because it was not available or referenced in a wiki or repository. As an example, the description of the parameters for the machine learning model can be mentioned (which we consider as important). This has a negative impact on reproducibility and the overall transpareny. 
+
