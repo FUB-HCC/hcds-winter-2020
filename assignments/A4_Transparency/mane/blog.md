@@ -24,12 +24,20 @@ The reading informs me about the different taxonomies that exist when we are tal
 
 ## A4 - Transparency
 > **Date:** DD.MM.YYYY - HH:MM PM *(Due: 08.12.2020 - 03:00 PM)*<br>
-> Group: PERSON1 and PERSON2<br>
-> Model: NAME OF MODEL<br>
+> Group: ansa and mane <br>
+> Model: damaging<br>
 
 ### Summary
 
 _Please summarize your findings and analyses regarding (1) general understanding, (2) API, (3) ML algorithm and training/test data, and (4) features._
+
+#### General Understanding
+
+Getting a good understanding how this model is functioning and how it is integrated on a bigger scale inside the project is defenitely managable. Every article that is edited does go through this model and it decides wheter a edit is flagged as damaging or not. In case it is flagged as damaging the changes it made will be reverted.
+
+#### API
+
+The API was accessible and with feature injection we could gain more information about the model and the version currently running. Furthermore through the API we could see a little more into the model and if a certaing project is using this model. We can confidently say that API is an easy to access tool and it helped us to get a little more details. The problem we faced at the end of this phase was that we could not use the data without digging deeper in the algorithm. So there was data displayed but we could not really interpret it. That's where the next phase is playing role.
 
 #### ML algorithm and training/test data 
 
