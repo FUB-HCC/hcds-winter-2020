@@ -66,3 +66,7 @@ What can be said about the algorithmic transparency of the model is, that the ac
 
 ### Conclusion
 _From a human-centered perspective - what do you think about your model and ORES in general?_
+
+All in all the general understanding of the machine model was quite accessible. There was not a page exclusively for the damaging model which would defenitely increase the interpretability of the machine model. But still the information regarding the model was not hidden either. With a little engagement it was doable to get a general understanding. Now for our definition for transparency this model does not fullfill our criterias. Furthermore it lacks in all parts in our definition. That's why we would say this model fails in transparency.
+
+Our advice to enhace transparency would be to create a seperate wikipage for the damaging model and to elaborate on the function of the model inside the wikimedia project. For the algorithmic transparency they could link a github repository where they could give us the model algorithm and the training and test data. In best case the repository should follow our reproducible workflow framework with a good README which explains the model even further. An important step also would be that they state hows they got the training and test data.
