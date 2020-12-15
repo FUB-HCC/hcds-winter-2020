@@ -1,5 +1,5 @@
 # Title of your post
-> **Name:** `alsc` Alexa S.
+> **Name:** `jowe` Jonas W.
 > **Session:** [06 Exercise - Post-hoc Interpretability](https://github.com/FUB-HCC/hcds-winter-2020/wiki/06_exercise)   
 ----
 
@@ -8,12 +8,11 @@
 > **Podcast:** "Judea Pearl: Causal Reasoning, Counterfactuals, Bayesian Networks, and the Path to AGI" (Lex Fridman)
 
 ### 🗨️&nbsp; "How does the podcast inform your understanding of human-centered data science?"  
-_Answer in at least 2-3 complete sentences_
+
+The podcast touches on a lot of different topics. Probably the most central one was the importance of causal reasoning. A topic that was very interesting to me as well, was the discussion of the distinction between human and artificial intelligence.
 
 ### ❓&nbsp; Questions
-1. ...
-
-**Why:** ...
+1. Should it really be the goal to replicate human intelligence or should we just accept that it will be not possible due to the limited understanding of the human brain and conciousness and focus our energy of different aspects of artifical intelligence research? 
 
 ***
 
