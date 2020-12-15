@@ -11,7 +11,7 @@
 _Answer in at least 2-3 complete sentences_
 
 The podcast was about a conversation with Judea Pearl on a very phylosophical level. The conversation started with 
-questions like if *"Is the universe deterministic or stochastic"*, *Is free will an illusion? And what will ML tell us about that?*. 
+questions like if *"Is the universe deterministic or stochastic"*, *"Is free will an illusion? And what will ML tell us about that?"*. 
 Very interesting was the conversation about Causation and Effect. Judea Pearl explains the importance to start with a Research Question. 
 A question which is not easy to answer with human cognition and the importance of formulating the question in mathematical language. 
 
