@@ -1,5 +1,5 @@
 # Title of your post
-> **Name:** `albr` Ali Bektas
+> **Name:** `albe` Ali Bektas
 > **Session:** [06 Exercise - Post-hoc Interpretability](https://github.com/FUB-HCC/hcds-winter-2020/wiki/06_exercise)   
 ----
 
