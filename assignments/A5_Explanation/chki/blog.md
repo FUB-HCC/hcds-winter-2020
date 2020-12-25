@@ -10,7 +10,9 @@
 
 #### ORES Scenario
 __Please describe the roles and the different explanation needs in the context of ORES by writing your own scenario.__
+
 **Tool to fight vandalism in wikis**
+
 Description: To detect vandalism in wikis, many machine learning algorithms have been developed and deployed.
 These algorithms are often used by tools which then again assist editors and maintainers of wikis. For example, they can
 highlight recent edits of articles that are likely to be damaging.
@@ -49,17 +51,15 @@ __Explanation needs__
 * Editors whose edits were reverted might want to know the reasons for this decision.
 
 #### Reflection
-Please consider yourself as a developer/data scientist using a human-centered design process to develop a new ML system:
-When would you use this HCI method (role-based model) in your design process and for what reason?
-(🔲 Illustration + 2-3 sentences)
-_your TEXT here_
+__Please consider yourself as a developer/data scientist using a human-centered design process to develop a new ML system:
+When would you use this HCI method (role-based model) in your design process and for what reason?__
+
 I think, that the role-based model can be effectively used in phase one and two of the Human-Centered Design process.
 In the analyzing phase, it can help to identify the users and their (explanation) needs. Analyzing the users (machines or humans)
 will clarify how data and explanations have to be presented (see first illustration).
 It might be enough to consider the direct users of the machine learning system in most cases.
 But, I think it is also useful to think about the links between other roles as well to fully understand what has to be provided (see second illustration).
 
-_your IMAGE here_
 ![](Role_based_model_HCI_process.png)
 ![](Role_based_model.png)
 
