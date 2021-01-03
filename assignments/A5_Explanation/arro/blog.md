@@ -1,6 +1,7 @@
 # Assignment 5
-> **Date:** 02.01.2020 - 19:22 PM *(Due: 11.01.2020 - 03:00 PM)*
-> **Name:** `arro` Arne Rolf
+> **Date:** 02.01.2020 - 19:22 PM *(Due: 11.01.2020 - 03:00 PM)*<br>
+> **Name:** `arro` Arne Rolf<br>
+> **Group:** Arne Rolf (`arro`) and Malina S. (`masc`) and Marc O. (`maop`)<br>
 > **Session:** [07 Exercise - Explanations](https://github.com/FUB-HCC/hcds-winter-2020/wiki/07_exercise)   
 ----
 
@@ -22,15 +23,18 @@ _your IMAGE here_
 [LIME notebook](https://github.com/FUB-HCC/hcds-winter-2020/blob/main/assignments/A5_Explanation/arro/Lime.ipynb)
 
 #### 1:
-![01_01](01_01.png)
+<img src="01_01.png" style="background-color:white;" />
+
 ![01_02](01_02.png)
 
 #### 2:
-![02_01](02_01.png)
+<img src="02_01.png" style="background-color:white;" />
+
 ![02_02](02_02.png)
 
 #### 3:
-![03_01](03_01.png)
+<img src="03_01.png" style="background-color:white;" />
+
 ![03_02](03_02.png)
 
 #### Reflection
