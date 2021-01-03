@@ -18,11 +18,44 @@ _your IMAGE here_
 
 ### Task 2: Explanation method: LIME
 
-[LIME notebook]()
+<!-- [LIME notebook](/assignments/A5_Explanation/arro/Lime.ipynb) -->
+[LIME notebook](https://github.com/FUB-HCC/hcds-winter-2020/blob/main/assignments/A5_Explanation/arro/Lime.ipynb)
 
-_1: ID and IMAGE of your LIME explanations_
-_2: ID and IMAGE of your LIME explanations_
-_3: ID and IMAGE of your LIME explanations_
+#### 1:
+![01_01](01_01.png)
+![01_02](01_02.png)
+
+#### 2:
+![02_01](02_01.png)
+![02_02](02_02.png)
+
+#### 3:
+![03_01](03_01.png)
+![03_02](03_02.png)
 
 #### Reflection
-_your TEXT here_
+
+##### 1. Which documents did you choose? 
+We choose the documents with the following ids: `102, 48, 54`.
+
+The first document with the id `102` is predicted with a probability of 90,2% to be christian. The mail is from an educational domain, but contains a christian content.
+Here we see again that the model learned aspects such as the domain ending `.edu` to be associated to atheism. Words such as `Christians` and `God` tend to favor for the christian category.
+
+The second document with the id `48` contains a pure christian content, where the model weighted the words `God`, `the`, `Christ` and `Baptism` the most to be associated with christian category. Words such as `So` and `writes` tend to occur more in the atheism category.
+
+The last document with the id `54` is again from an educational domain but this time the body content actually contains words such as `God`, `anti-Catholic`, `protestants` but none of them were in the six features. So we increased the feature number to `20` until we saw the first words associated with the christian category. Here we see again that the most relevant aspects seem to be in some form of meta information and not from the text content itself.
+
+##### 2. What did you learn about the model?
+The machine learning classifier learned the wrong aspects by providing it for this instance with unnecessary meta information. The lime explainer helped to find out a flaw, which should be initially detected in the data pre-processing phase. All X training and test data should only contain the relevant body text of the e-mails.
+
+##### 3. How well do you think the classifier works? Why?
+The classifier is flawed as described in the previous question. The model can only be used partly to indicate, if an e-mail was written by an christian. Here the model seemed to have learned some correct aspects, but this can't be said for the atheism category where the model relied often on metadata such as an education `.edu` domain.
+
+##### 4. For what role(s) (from task 1) are LIME explanations useful? Why?
+TBD
+
+##### 5. How useful is LIME for a non-data-scientist (e.g. non-ml-experts or designer)? Why?
+Lime might be able to provide some sort of knowledge with its examples and documentary, but I find it hard to believe that someone without a basic understanding of the ML code can really use lime effectively. You have to know where and how to implement lime into a code sequence which isn't something a designer for example usually does. Non ml experts however might be able to interpret an explained model by lime that someone else programmed.
+
+##### 6. What question types is LIME able to answer? Why?
+Lime can explain individual classifier predictions that are made based on numerical, categorical or image data. You can get a better understanding on what parts from the input data X is used and weighted the most to create the prediction result.
