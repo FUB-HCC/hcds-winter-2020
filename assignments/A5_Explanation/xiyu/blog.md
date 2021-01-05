@@ -21,6 +21,7 @@ _Examiners_: not sure if our scenarion contains examiners
 
 #### Reflection
 _your TEXT here_
+We will use the HCI method (role-based model) especially when the results of our machine learning models directly affect the end-users for not fully developed area. If the problem are REALLY well studied and has plenty of complete databases for training, then we won't invest in HCI method. But for significant areas such as healthcare or object recognition in autonomous driving, we will definitely use the role-based model and try to have a higher level of interpretability.
 
 _your IMAGE here_
 
