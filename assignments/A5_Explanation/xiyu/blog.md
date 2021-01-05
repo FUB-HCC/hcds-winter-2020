@@ -9,7 +9,15 @@
 ### Task 1: Different Explanation Needs
 
 #### ORES Scenario
-_your TEXT here_
+Social science researchers may use the ORES model to discover and compare the online knowledge discourse sharing dynamics by assessing edit qualities of different topics on a specific wikimedia project. Take English Wikipedia for instance, the researchers may choose edits around different social debate topics such as "me too", "climate change", "covid 19" etc to discover how well is the knowledge base discussed on wikipedia. <br>
+_Creators_: The Wikipedia group and the ML model designer. <br>
+_Operator_: Researchers <br>
+_Executors_: Researchers <br>
+_Decision-Subjects_: Researchers <br>
+_Data-Subjects_: selected articles on wikipedia <br>
+_Examiners_: not sure if our scenarion contains examiners
+
+
 
 #### Reflection
 _your TEXT here_
