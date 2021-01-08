@@ -10,7 +10,10 @@
 ### Task 1: Different Explanation Needs
 
 #### ORES Scenario
-_your TEXT here_
+**Tool to detect incomplete and unsufficiently proven articles**
+
+*Description:* Machine learning algorithms are used to detect incomplete and unsufficiently proven articles. These algorithms are used by editors and administrators which are then able to detect deficient articles. They find articles that are not yet complete in terms of content and at the same time check whether the articles are adequately supported with evidence. This tool finds articles that are not yet complete in terms of content and at the same time check whether the articles are adequately supported with evidence. This is important to maintain the quality of articles on Wikipedia. The data is being retrieved through a specific Wikipedia article, compares it to other ones of a similar kind and outputs if all important information of a topic is included and proven. 
+
 
 #### Reflection
 _your TEXT here_
