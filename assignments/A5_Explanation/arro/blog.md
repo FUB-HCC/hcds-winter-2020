@@ -14,9 +14,9 @@
 **Please describe the roles and the different explanation needs in the context of ORES by writing your own scenario.**
 **Tool to detect incomplete and unsufficiently proven articles**
 
-*Description:* Machine learning algorithms are used to detect incomplete and unsufficiently proven articles. These algorithms are used by editors and administrators which are then able to detect deficient articles. This tool finds articles that are not yet complete in terms of content and at the same time check whether the articles are adequately supported with evidence. This is important to maintain the quality of articles on Wikipedia. The data is being retrieved through a specific Wikipedia article and compared to other ones of a similar kind. The algorithm outputs whether all important information of a topic is included and proven. This ecosystem contains a machine learning system for rating, (a team of) editors that have written the article and editors that are ........... HIER FEHLT WAS
+*Description:* Machine learning algorithms are used to detect incomplete and unsufficiently proven articles. These algorithms are used by editors and administrators which are then able to detect deficient articles. This tool finds articles that are not yet complete in terms of content and at the same time check whether the articles are adequately supported with evidence. This is important to maintain the quality of articles on Wikipedia. The data is being retrieved through a specific Wikipedia article and compared to other ones of a similar kind. The algorithm outputs whether all important information of a topic is included and proven. This ecosystem contains a machine learning system for rating, (a team of) editors that have written the article and developer.
 
-* Creators: Who creates the machine learning system? ORES is a web service that provides machine learning as a service for Wikimedia Projects. Therefore the Creators are Wikimedia employees.
+* Creators: Who creates the machine learning system? ORES is a web service that provides machine learning as a service for Wikimedia Projects. Therefore the Creators are Wikimedia developer and employees.
 * Operators: Who interacts directly with the machine learning system? In this case, operators are developers as well as the contributors of this project.
 * Executors: Who makes decisions that are informed by the machine learning system? Executors are editors because their decisions are based on the output of this tool
 * Decision-subjects: Who is affected by decision(s) made by the executor(s)? Affected by these decisions are articles and implicitly also editors.
@@ -31,8 +31,7 @@
 * Examiners: Examiners also need an explanations on how this output was induced in order to investigate the machine learning system and how to deal with this system.
 
 ### Reflection
-_your TEXT here_
-
+A key principle of Human Centered Design is..
 _your IMAGE here_
 
 ### Task 2: Explanation method: LIME
