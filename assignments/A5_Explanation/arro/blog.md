@@ -23,8 +23,9 @@
 * Data-subjects: Whose data has been used to train the machine learning system? Training and Test data is mostly based on reviewed articles. That means that the machine learning system uses the data (articles) that has been created by contributors/editors
 * Examiners: Who is investigating the machine learning system? Examiners can be experts on the articles topic. They are most likely to be able to examine whether an article meets the topic and sufficiently scientifically proven.
 
+**2. Explanation needs**
 
-#### Reflection
+**3. Reflection**
 _your TEXT here_
 
 _your IMAGE here_
