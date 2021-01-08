@@ -67,20 +67,32 @@ But, I think it is also useful to think about the links between other roles as w
 
 [Annotated Notebook](https://github.com/FUB-HCC/hcds-winter-2020/blob/main/assignments/A5_Explanation/albe/Lime%20-%20basic%20usage%2C%20two%20class%20case.ipynb)
 
-_1: 84 
+#### 1: 84 
 
 ![](doc_84_expl.png)
 
-_2: 85 
+#### 2: 85 
 
 ![](doc_85_local_expl.png)
 
 ![](doc_85_expl.png)
 
-_3: 86 
+#### 3: 86 
 
 ![](doc_86_expl.png)
 
 
 #### Reflection
-_your TEXT here_
+
+**Which documents did you choose?**<br>
+We selected the documents with ID 84, 85 and 86.
+
+**What did you learn about the model?**<br>
+
+**How well do you think the classifier works? Why?**<br>
+
+**For what role(s) (from task 1) are LIME explanations useful? Why?**<br>
+
+**How useful is LIME for a non-data-scientist (e.g. non-ml-experts or designer)? Why?**<br>
+
+**What question types is LIME able to answer? Why?**<br>
