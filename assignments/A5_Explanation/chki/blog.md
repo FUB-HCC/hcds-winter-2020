@@ -65,11 +65,22 @@ But, I think it is also useful to think about the links between other roles as w
 
 ### Task 2: Explanation method: LIME
 
-_LINK to your annotated notebook here_
+[Annotated Notebook](https://github.com/FUB-HCC/hcds-winter-2020/blob/main/assignments/A5_Explanation/albe/Lime%20-%20basic%20usage%2C%20two%20class%20case.ipynb)
 
-_1: ID and IMAGE of your LIME explanations_
-_2: ID and IMAGE of your LIME explanations_
-_3: ID and IMAGE of your LIME explanations_
+_1: 84 
+
+![](doc_84_expl.png)
+
+_2: 85 
+
+![](doc_85_local_expl.png)
+
+![](doc_85_expl.png)
+
+_3: 86 
+
+![](doc_86_expl.png)
+
 
 #### Reflection
 _your TEXT here_
