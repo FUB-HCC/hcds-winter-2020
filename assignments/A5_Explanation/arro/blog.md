@@ -11,7 +11,7 @@
 
 #### ORES Scenario
 
-**1. Please describe the roles and the different explanation needs in the context of ORES by writing your own scenario.**
+**Please describe the roles and the different explanation needs in the context of ORES by writing your own scenario.**
 **Tool to detect incomplete and unsufficiently proven articles**
 
 *Description:* Machine learning algorithms are used to detect incomplete and unsufficiently proven articles. These algorithms are used by editors and administrators which are then able to detect deficient articles. This tool finds articles that are not yet complete in terms of content and at the same time check whether the articles are adequately supported with evidence. This is important to maintain the quality of articles on Wikipedia. The data is being retrieved through a specific Wikipedia article and compared to other ones of a similar kind. The algorithm outputs whether all important information of a topic is included and proven. This ecosystem contains a machine learning system for rating, (a team of) editors that have written the article and editors that are ........... HIER FEHLT WAS
@@ -19,13 +19,18 @@
 * Creators: Who creates the machine learning system? ORES is a web service that provides machine learning as a service for Wikimedia Projects. Therefore the Creators are Wikimedia employees.
 * Operators: Who interacts directly with the machine learning system? In this case, operators are developers as well as the contributors of this project.
 * Executors: Who makes decisions that are informed by the machine learning system? Executors are editors because their decisions are based on the output of this tool
-* Decision: Who is affected by decision(s) made by the executor(s)? Affected by these decisions are articles and implicitly also editors.
+* Decision-subjects: Who is affected by decision(s) made by the executor(s)? Affected by these decisions are articles and implicitly also editors.
 * Data-subjects: Whose data has been used to train the machine learning system? Training and Test data is mostly based on reviewed articles. That means that the machine learning system uses the data (articles) that has been created by contributors/editors
 * Examiners: Who is investigating the machine learning system? Examiners can be experts on the articles topic. They are most likely to be able to examine whether an article meets the topic and sufficiently scientifically proven.
 
-**2. Explanation needs**
+**Explanation needs**
+* Operators need explanations of how this machine learning systems works and need to take its features into consideration.
+* Executors also need explanations of how this system works and what input may lead to a specific output.
+* Decision-subjects: Decision-subject agents need explanations on what feature affects a certain result in order to understand what feature lead to this prediction and why an executer decided accordingly.
+* Data-subjects: Data-subjects might need explanations on how certain training/test data is being used to train the model.
+* Examiners: Examiners also need an explanations on how this output was induced in order to investigate the machine learning system and how to deal with this system.
 
-**3. Reflection**
+### Reflection
 _your TEXT here_
 
 _your IMAGE here_
