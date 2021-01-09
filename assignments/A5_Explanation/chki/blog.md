@@ -85,14 +85,42 @@ But, I think it is also useful to think about the links between other roles as w
 #### Reflection
 
 **Which documents did you choose?**<br>
-We selected the documents with ID 84, 85 and 86.
+We selected the documents `84`, `85` and `86`.
+
+The first document `84` has correctly predicted to belong to the class `christian` with a probability of 0.81. 
+It is notable that most of the words pussing the prediction into the direction of the `christian` class is contained
+in the mail body and are words wich are related to that class like `God` and `Jesus`. 
+On the other hand there are words the classifier seems to use where no semantic meaning can be mapped to the 
+two classes (E.g. `He` for `christian` and `murder` for `atheism`) 
+
+The second document `85` is correctly predicted to belong the the `atheism` class but the classifier seems to be not so 
+certain with this prediction with a probability of 0.57. Clearly notable in the explnation of this document is that most 
+of the words pushing the prediction to the `atheism` class is contained in the mail headder. Important features for the 
+classifier seems to be that the e-mail is from the `edu` domain and words like `artile` or `writes` pushed the prediction to the 
+`atheism` class. 
+
+The third document `86` has also correctly predicted to belong to the class `atheism` with a high probability of 0.86. The classifier seems 
+to be very sensitive to the words `Nntp`, `Posting` and `Host` for predicting the document as `atheism`. 
 
 **What did you learn about the model?**<br>
 
+With the help of he explanation I learned that the model is looking mostly in the mail headder for pushing a prediction to the `atheism` class. 
+It is checking if the mail is from the education domain and words like `edu`, `Nntp`, `Posting` and `Host` in the mail headder are pushing the prediction 
+towards the `atheism` class. For the class `chirstian` the classifier seems to learned some meaningful relationship of words corresponding to the class `crhistian`
+but still there are many words like `he` and `the` etc. which has no semantic relationship. 
+
 **How well do you think the classifier works? Why?**<br>
 
+For this dataset the classfier is working very well but I think with many other datasets it will fail because as describe in the question before 
+the classifier seems to learned the sturcture of the documents instead of words semantically belongs to the classes.<br>
+This could be because Decision Trees tend to learn the structure of the data. Maybe removing the email headders and some words in the mail bodies 
+could help for better results. 
+
 **For what role(s) (from task 1) are LIME explanations useful? Why?**<br>
+TODO
 
 **How useful is LIME for a non-data-scientist (e.g. non-ml-experts or designer)? Why?**<br>
+TODO
 
 **What question types is LIME able to answer? Why?**<br>
+TODO
