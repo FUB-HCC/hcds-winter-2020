@@ -1,6 +1,7 @@
 # Explanation
 > **Date:** 23.12.2020 - 18:35 PM *(Due: 11.01.2020 - 03:00 PM)*
 > **Name:** `chki` Christopher K.
+> **Group:** `albe` Ali B. and `chki` Christopher K.
 > **Session:** [07 Exercise - Explanations](https://github.com/FUB-HCC/hcds-winter-2020/wiki/07_exercise)   
 ----
 
@@ -120,7 +121,20 @@ could help for better results.
 TODO
 
 **How useful is LIME for a non-data-scientist (e.g. non-ml-experts or designer)? Why?**<br>
-TODO
+
+I think for non-ml-expers without basic knowledge of machine learning to use the lime explainer could be difficult. 
+Although lime explanation is a model-agnostic a basic understanding of the of the model type would be good to better understand 
+the explanation. Also the if the models input and output is not in the desired format which the LIME explainer understands some 
+preparation steps are may reqired. 
+
+But I think the LIME explanations once they are produced are very usefull for comunicate and share knowledge about the model 
+with non-ml-experts e.g. with designers, domain experts. 
 
 **What question types is LIME able to answer? Why?**<br>
-TODO
+
+The LIME explainer is able to explain individual/(Local) predictions of any classifier which takes raw text or numpy 
+array as input (can be numerical, categorical or image data) and outputs a probabilty. With LIME it is possible to get 
+more understanding of what input features has more or less influence on the prediction. 
+So to some degree it is possible to answer the Question **Why** the classifier is giving an individual prediction. 
+By chaning some of the input features and repeating a prediction one can the Question **What if** can be answered. 
+
