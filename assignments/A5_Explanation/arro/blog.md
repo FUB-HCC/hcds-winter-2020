@@ -32,7 +32,7 @@
 
 ### Reflection
 A key principle of Human Centered Design is..
-_your IMAGE here_
+<img src="HCDP.jpeg" />
 
 ### Task 2: Explanation method: LIME
 
