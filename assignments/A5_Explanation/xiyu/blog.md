@@ -53,9 +53,12 @@ We think the role-based model should be considered throughout the human-centered
 
 [Link to the Github-repository](https://github.com/Nigrog/A7-hcds-hcc-explanations)
 
-_1: ID and IMAGE of your LIME explanations_
-_2: ID and IMAGE of your LIME explanations_
-_3: ID and IMAGE of your LIME explanations_
+> LIME explanations for ID 22
+
+
+> LIME explanations for ID 42
+ 
+> LIME explanations for ID 60
 
 #### Reflection
 
@@ -74,7 +77,9 @@ _3: ID and IMAGE of your LIME explanations_
 6. What question types is LIME able to answer? Why?
 <br> The explanation question types chould be: the reason of the classification, the marginal effect of respective attributes, etc. 
 
-
+<div>
+<iframe src="https://github.com/Nigrog/A7-hcds-hcc-explanations/blob/main/exp_22.html"></iframe>
+</div>
 
 
 #### References
