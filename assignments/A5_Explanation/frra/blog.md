@@ -22,7 +22,7 @@ I think this role-based model would be especially useful in the planning phase o
 
 ### Task 2: Explanation method: LIME
 
-_LINK to your annotated notebook here_
+[Notebook](https://github.com/FUB-HCC/hcds-winter-2020/blob/main/assignments/A5_Explanation/frra/Lime_basic_usage%2C_two_class_case.ipynb)
 
 #### 650
 ![](pred1.png)
