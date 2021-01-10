@@ -47,20 +47,28 @@ We think the role-based model should be considered throughout the human-centered
 
 ![Human Centered Design Process](https://github.com/FUB-HCC/hcds-winter-2020/blob/main/assignments/A5_Explanation/xiyu/Process%20of%20Human%20Centered%20Design.PNG)
 
+
 ---
 
-### Task 2: Explanation method: LIME
+## Task 2: Explanation method: LIME
 
-[Link to the Github-repository](https://github.com/Nigrog/A7-hcds-hcc-explanations)
+> Here is the link to our Github-Repository: **[click](https://github.com/Nigrog/A7-hcds-hcc-explanations)**
 
-> LIME explanations for ID 22
+#### _LIME explanations for ID 22_
 
+![](22.png)
 
-> LIME explanations for ID 42
+#### _LIME explanations for ID 42_
+
+![](42.png)
  
-> LIME explanations for ID 60
+#### _LIME explanations for ID 60_
 
-#### Reflection
+![](60.png)
+
+---
+
+### Reflection
 
 1. Which documents did you choose?
     <br> We choose the documents 42, 60, 22. The documents are chosen completely randomly and arbitrarily.
