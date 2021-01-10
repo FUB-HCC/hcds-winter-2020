@@ -47,6 +47,21 @@ _3: ID and IMAGE of your LIME explanations_
 
 #### Reflection
 
+1. Which documents did you choose?
+    <br> We choose the documents 42, 60, 22. The documents are chosen completely randomly and arbitrarily.
+2. What did you learn about the model?
+    <br>The model gives local explanation by giving representitive feature sets. It also shows the users the weighted features, as how the marginal change in a feature will influence the classification result. 
+3. How well do you think the classifier works? Why?
+    <br> Generally Lime gives a good local explanation for classification, but the classifier seems not trustworthy by feature extraction. 
+    * Advantages: The visualisation of representitive feature sets is clear and easy to understand. It represents the presence/absence of words. Additionaly, they designed a function for [fidelity and interpretability trade-off](https://design-ai.de/2020/04/01/lime.html) which garantees the accuracy of the model when producing understandable explanations for users.
+    * Disadvantages: we only tested LIME with text data and it seems the LIME can only use single words as features but not word pairs or phrases. For example in our document classification, document 42 represents a result of Chrisitan and shows the word 'NOT' is highly seen as atheism. We doubt that whether the single word 'NOT' can be representitive. From our point of view, some feature words such as 'edu' are not that representitive for a classification in human logic.
+4. For what role(s) (from task 1) are LIME explanations useful? Why?
+<br> It can be useful for operators, executors and decision-subjects. In a scenario of credit issuing, operators nd executors can see why a credit applicant classified to qualified applicant or not. It the given representitive feature sets are meaningful and are in accordance with the decision attributes in human decision process, the result of classifier could be taken into consideration. Otherwise, the executors and the decision subjects can doubt the results. Additionally, it is good to see if some biased attributes (gender for example) are used in the classifier, decision subjects may refuse the result because of a biased case.
+5. How useful is LIME for a non-data-scientist (e.g. non-ml-experts or designer)? Why?
+<br> The answer to this question is similar to Q4. Decision subjects can clearly see why they are assigned to a class and for what reasons. They can see if they are biased and what influece different attributes have on their classification results.
+6. What question types is LIME able to answer? Why?
+<br> The explanation question types chould be: the reason of the classification, the marginal effect of respective attributes, etc. 
+
 
 
 
