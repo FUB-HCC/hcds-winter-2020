@@ -73,7 +73,7 @@ The machine learning classifier learned the wrong aspects by providing it for th
 The classifier is flawed as described in the previous question. The model can only be used partly to indicate, if an e-mail was written by an christian. Here the model seemed to have learned some correct aspects, but this can't be said for the atheism category where the model relied often on metadata such as an education `.edu` domain.
 
 ##### 4. For what role(s) (from task 1) are LIME explanations useful? Why?
-TBD
+LIME explanations are useful for Operators and Executors mainly. Those roles are in charge of the direct interaction and make decisions that are informed by the machine learning system. The knowledge of what features are being used might have significant impacts on the machine learning system efficiency and interpretability. Examiners on the other side can profit from LIME explanations in that way, that they are the ones investigating the machine learning system. Knowing what feature might lead to what output can help when it comes to debugging and ensuring interpretability, too.
 
 ##### 5. How useful is LIME for a non-data-scientist (e.g. non-ml-experts or designer)? Why?
 Lime might be able to provide some sort of knowledge with its examples and documentary, but I find it hard to believe that someone without a basic understanding of the ML code can really use lime effectively. You have to know where and how to implement lime into a code sequence which isn't something a designer for example usually does. Non ml experts however might be able to interpret an explained model by lime that someone else programmed.
