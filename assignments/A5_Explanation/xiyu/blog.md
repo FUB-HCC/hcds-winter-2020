@@ -1,10 +1,11 @@
-# Title of your post
-> **Date:** 04.01.2021 - 14:47 PM *(Due: 11.01.2020 - 03:00 PM)*
-> **Name:** `xiyu` Xin Y. 
-> **Session:** [07 Exercise - Explanations](https://github.com/FUB-HCC/hcds-winter-2020/wiki/07_exercise)   
-----
-
 ## A5 - Explanations
+<br>
+
+> **Date:** 04.01.2021 - 14:47 PM *(Due: 11.01.2020 - 03:00 PM)*
+> **Name:** `xiyu` Xin Y. and `goto` Gorgin T.
+> **Session:** [07 Exercise - Explanations](https://github.com/FUB-HCC/hcds-winter-2020/wiki/07_exercise)   
+
+----
 
 ### Task 1: Different Explanation Needs
 
@@ -16,6 +17,17 @@ _Executors_: Researchers <br>
 _Decision-Subjects_: Researchers <br>
 _Data-Subjects_: selected articles on wikipedia <br>
 _Examiners_: not sure if our scenarion contains examiners
+
+To be a bit more specific, we will assume a more detailled scenario (wether or not it is realistic):
+It's about a **magazine for birders**. They demand a system that assists them in finding changes regarding specific keywords: For example, the software should check from time to time if the article "starling" has changed. Imagine the ORES 'articlequality' score for that bird changed lately: This may indicate a higher interest for that bird by the public (just like "google trend") and therefore the editors might consider writing something about starlings in their next issue:
+
+_Creators_: _Owners_ are the **programmers**: Agents who create and maintain said software that _uses_ ORES. The _Implementer_ of ORES itself are outside of this ecosystem.<br>
+_Operator_: The software should be adjustable, e.g. the keywords should be changeable. it makes most sense if this is done by the same agents who are **executers**: <br>
+_Executors_: these agents act on the results that the software gives to them, they're the part of the newspaper team who searches for topics to write aboout, we call them **topic hunters** as they dont necessarily have to be the writers themselves.<br>
+_Decision-Subjects_: Agents affected by the decisions would be the **readers** (_also in a way the writers, their next task is subject to that decision, too_) <br>
+_Data-Subjects_: **none** (there is no personal data used, just words) <br>
+_Examiners_: **none**, since _examiners_ means "_agents auditing or investigating the ML system_" - here, that's the developers of ORES who are out of scope. However, if we were to extend our view, we could let the _creators_ examine the _significance_ of the (whole) systems outputs and, if necessary, adjust it (that includes using another ORES model).
+
 
 
 
@@ -32,14 +44,14 @@ We think the role-based model should be considered throughout the human-centered
 **Feedback** : As mentioned in the first stage (analysis), different roles of users have different expectations on the system, in this case we should consider their feedback seperately and maybe have some tradeoffs for next iterative step. 
 
 
-**Feedback**:
-
 
 ![Human Centered Design Process](https://github.com/FUB-HCC/hcds-winter-2020/blob/main/assignments/A5_Explanation/xiyu/Process%20of%20Human%20Centered%20Design.PNG)
 
+---
+
 ### Task 2: Explanation method: LIME
 
-_LINK to your annotated notebook here_
+[Link to the Github-repository](https://github.com/Nigrog/A7-hcds-hcc-explanations)
 
 _1: ID and IMAGE of your LIME explanations_
 _2: ID and IMAGE of your LIME explanations_
