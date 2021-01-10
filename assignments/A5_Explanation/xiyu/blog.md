@@ -54,19 +54,11 @@ We think the role-based model should be considered throughout the human-centered
 [Link to the Github-repository](https://github.com/Nigrog/A7-hcds-hcc-explanations)
 
 > LIME explanations for ID 22
-<div>
-<iframe src="https://github.com/Nigrog/A7-hcds-hcc-explanations/blob/main/exp_22.html"></iframe>
-</div>
+
 
 > LIME explanations for ID 42
-<div>
-<iframe src="https://github.com/Nigrog/A7-hcds-hcc-explanations/blob/main/exp_42.html"></iframe>
-</div>
  
 > LIME explanations for ID 60
-<div>
-<iframe src="https://github.com/Nigrog/A7-hcds-hcc-explanations/blob/main/exp_60.html"></iframe>
-</div>
 
 #### Reflection
 
