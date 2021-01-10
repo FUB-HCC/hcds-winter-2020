@@ -31,7 +31,7 @@
 * Examiners: Examiners also need an explanations on how this output was induced in order to investigate the machine learning system and how to deal with this system.
 
 ### Reflection
-If we have the aim to develop a human-centered machine learning model, we will want the model to be interpretable. As the role-based model helps to understand for whom interpretability needs to be guaranteed, it is important to think about the user groups in the beginning. At the beginning of a human-centered design process, we want to define the user groups, in this case, the person who needs to be able to interpretate the model. In the further process, once we have developed a first version of our model, we want to check whether the model is interpretable for this user group. The first step, "Analyze" is hence key.
+If we have the aim to develop a human-centered machine learning model, we will want the model to be interpretable. As the role-based model helps to understand for whom interpretability needs to be guaranteed, it is important to think about the user groups in the beginning. At the beginning of a human-centered design process, we want to define the user groups, in this case, the group of people who need to be able to interpretate the model. In the further process, once we have developed a first version of our model, we want to check whether the model is interpretable for this user group. The first step, "Analyze" is hence key.
 <img src="HCDP.jpeg" />
 
 ### Task 2: Explanation method: LIME
