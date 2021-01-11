@@ -118,7 +118,8 @@ This could be because Decision Trees tend to learn the structure of the data. Ma
 could help for better results. 
 
 **For what role(s) (from task 1) are LIME explanations useful? Why?**<br>
-TODO
+LIME Explanations can be used by all Roles as they all have and interest to know what features producing a certain prediction. But the explanations are most useful for 
+the roles Executor and Operators I think because these roles are directly interacting with the model and make decisions based on the predictions of the model. 
 
 **How useful is LIME for a non-data-scientist (e.g. non-ml-experts or designer)? Why?**<br>
 
