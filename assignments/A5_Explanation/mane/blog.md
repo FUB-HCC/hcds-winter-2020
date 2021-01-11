@@ -19,47 +19,36 @@ When a Wikipedia user does an edit to Wikipedia, other Wikipedia users or aplica
 * Aaron Halfaker and Dario Taraborelli
 * Probably other not transparently listed volunteers and collaborators
 
-**Explanation needs**
-
-The creators need explanations about the systems performance to *improve their understanding of the system such that they can better optimize it for their preferred metrics* (e.g. how good the predicted scores align with the reality).
+Explanation needs: The creators need explanations about the systems performance to *improve their understanding of the system such that they can better optimize it for their preferred metrics* (e.g. how good the predicted scores align with the reality).
 
 2. Operators:
 * The ORES API itself, which provide ORES scores to other Wikipedia users or applications
 * Applications (e.g. tools, features, gadgets, bots and services) that directly access the ORES API and provide the scores to other Wikipedia users or use the ORES scores by themself
 * Wikimedia users that directly access the ORES API and use the ORES scores by themself
 
-**Explanation needs**
-
-The operator needs explanations about how the system works. That means how to input data and query the system such that the operator can fullfill the needs of the excutor. The operator also need explantions about how and why a decision was made to be able to pass that infromation to the executor.
+Explanation needs: The operator needs explanations about how the system works. That means how to input data and query the system such that the operator can fullfill the needs of the excutor. The operator also need explantions about how and why a decision was made to be able to pass that infromation to the executor.
 
 3. Executor:
 * Applications, which use the ORES scores by themself (e.g. bots, which decide based on an ORES score whether to revert an edit or not)
 * Wikimedia users, which are either also operators or get the scores from applications (e.g. so called patrollers, who decide based on an ORES score provided by a gadget whether to revert an edit or not)
 
-**Explanation needs**
-
-The executor needs explanations about the system’s outputs, that means how and why decisions were made (e.g. why an revision is calssified as damaging). 
+Explanation needs: The executor needs explanations about the system’s outputs, that means how and why decisions were made (e.g. why an revision is calssified as damaging). 
 
 4. Decision-subject: 
 * Wikimedia users, who did edits
 
-**Explanation needs**
-The decision-subject needs explanations about why an executor made a particular decision (e.g. why a revison was reverted).
+Explanation needs: The decision-subject needs explanations about why an executor made a particular decision (e.g. why a revison was reverted).
 
 5. Data-subjects: 
 * Other Wikimedia users, who did edits
 * Other Wikimedia users, who classified these edits manually
 
-**Explanation needs**
-
-The data-subjects may what to have explanations about how their data is being used to make decisions, so they *may want to understand how their data affects a machine learning system’s outputs* (e.g. if other users edits are more or less classified as damaging).
+Explanation needs: The data-subjects may what to have explanations about how their data is being used to make decisions, so they *may want to understand how their data affects a machine learning system’s outputs* (e.g. if other users edits are more or less classified as damaging).
 
 6. Examiners:
 * There are no dedicated examiners, but it is possible for other Wikipedia users to report problems (e.g. via Phabricator, JADE, Wiki pages, or directly contact Wikimedia Scoring Platform Team).
 
-**Explanation needs**
-
-The examiners need both explanations about the system's performance and about how to interact with the system, that means how to input data and query the system to be able to test the system's work (e.g. testing which revisons are classified as damaging, etc.).
+Explanation needs: The examiners need both explanations about the system's performance and about how to interact with the system, that means how to input data and query the system to be able to test the system's work (e.g. testing which revisons are classified as damaging, etc.).
 
 
 #### Reflection
