@@ -64,9 +64,9 @@ The examiners need both explanations about the system's performance and about ho
 
 #### Reflection
 
-_your TEXT here_
+We would use this HCI method in every step of the human centered design process, beginning with the very first step: the analysis. We think that this role-based model can help in each step, because the system that is bulid, is bulid for humans with diffenrent types of needs and requirements and not only for one type of human being. This has to be considered in every step. Furthermore this method can help to better differentiate and understand the different user-roles and how these roles interact with each user.
 
-_your IMAGE here_
+![](HCDP.png)
 
 ### Task 2: Explanation method: LIME
 
