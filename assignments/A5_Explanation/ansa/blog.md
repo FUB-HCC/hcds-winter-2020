@@ -59,11 +59,14 @@ We would use this HCI method in every step of the human centered design process,
 
 [LIME-Notebook](LIME.ipynb)
 
-ID: 84: ![ID: 84](id84.png)
+ID: 84: 
+![ID: 84](id84.png)
 
-ID: 66: ![ID: 66](id66.png)
+ID: 66: 
+![ID: 66](id66.png)
 
-ID: 01: ![ID: 01](id1.png)
+ID: 01: 
+![ID: 01](id1.png)
 
 
 #### Reflection
