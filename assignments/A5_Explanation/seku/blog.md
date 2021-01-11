@@ -12,39 +12,62 @@
 
 ** Please describe the roles and the different explanation needs in the context of ORES by writing your own scenario. Tool to detect incomplete and unsufficiently proven articles
 
-*Description:* Machine learning systems are being used in photo gallery applications inside of phones and computers to categorize photos. On use case is to enable extended photo search functionality, for example, the user can search for the keyword "car" and the app will return all gallery pictures containing objects that have been identified as a car. Additionally they are being used to detect persons in pictures to match them with a specific contact from the users contact list. In the latter case, the application already cathegorizes detected persons, but the user has to link the person collection to a specific contact. The user can also decide, wether a detected person matches with its assigned group or if the application has made a mismatch.
+*Description:* ORES is a web service and API providing different machine learning tools for Wikimedia projects. It is used directly or by other tools and bots to provide other services in Wikimedia projects. Its main uses are the generation of article and edit quality scores.
 
-* Creators: the software company and its employees that developed the gallery app
+* Creators: The Wikimedia Foundation developers and open source contributors.
 
-* Operators: the users of the application
+* Operators: Any agent directly using the API, as well as tools and bots using it to provide their service.
 
-* Executors: the user of the application
+* Executors: Any agent directly using the API, as well as tools and bots using it to provide their service and users being influenced by these tools or Wikimedias use of ORES while using Wikimedia projects.
 
-* Decision-subject: the user of the application
+* Decision-subject: The users of Wikimedia projects.
 
-* Data-subject: the user of the application and every person and object that has been photographed. Also all objects and people which have been photographed to train the ML System before releasing the app
+* Data-subject: The users of Wikimedia who have created or are creating new articles or edits.
 
-* Examiners: mostly the quality assurance department of the software company, but also the user that decides wether a photo was cathegorized correctly
+* Examiners: The Wikimedia Foundation or any person inspecting the open source repository.
 
 **Explanation needs**
-* The creators need to explain the idea of the ML system to the developers, that implement the application
-* Operators need to know, how to use the ML feature in the gallery application
-* Data-subjects need to know how to cathegorize photos properly to make the best out of the application function
-* Data-subjects should get an explanation how their data is being used
-* Examiners need an explanation on the expected application behavior
+* Users of Wikimedia projects may want to understand how a specific decision, like reverting an edit, was made, so the system has to give that information.
+* Any outside Examiners inspecting the open source repository want to understand the inner workings of the system so all information and source code have to be displayed and well documented
+* Providers of third party services and bots for Wikimedia projects need to understand how the tool works to properly develop tools and bots using it.
 
 #### Reflection
-_your TEXT here_
+The main use of this method would be in the Analyzing part of the planning. Here all users, their needs and requirements for using the product need to be defined, so the role-based model helps structure this part and the different user groups.
 
-_your IMAGE here_
+Though the usage would be most apparent in this part, we think that the role-based model could be used in all parts of the Human-Centered Design Process. While designing the product the user groups, their use scenarios and interactions need to be kept in mind. When evaluating the product and gathering feedback the role-based model can be useful to focus on the right groups of users and their suggestions.
+
+Since the Human-Centered Design Process focuses on the Human/User at all times, it is apparent that defining the different Stakeholders and user groups through the role-based model can greatly help at all steps of the process.
+
+![](index1.png)
 
 ### Task 2: Explanation method: LIME
 
 _LINK to your annotated notebook here_
 
-_1: ID and IMAGE of your LIME explanations_
-_2: ID and IMAGE of your LIME explanations_
-_3: ID and IMAGE of your LIME explanations_
+### 81
+![](81.png)
+### 82
+![](82.png)
+### 84
+![](84.png)
 
 #### Reflection
-_your TEXT here_
+
+1. Which documents did you choose?
+  
+    documents with the ids: 81, 82 and 84
+
+2. What did you learn about the model?
+  
+    Even with the features listed it is quite hard to understand how the model classifies the data, since most features seem to be quite random, Such as names or the 'Re:' in the subject line being used to predict atheism. Some features make a lot of sense though, like 'God', 'Jesus' or 'murder'. When looking at the positions of the used words it becomes very apparent that the classifier uses the header and its structure for most of its atheism classification, which is why the words used don't really make a lot of sense in some cases.
+3. How well do you think the classifier works? Why?
+  
+    Since the classifier a high F score of 0.924 as shown in the example notebook, the classifier seems to work very well. Since the classifier uses the header for most of its atheism classification, this may be very different when working with data with a different structure, though
+4. For what role(s) (from task 1) are LIME explanations useful? Why?
+    The created explanations can be useful for all roles. As stated in the 'Explenation Needs' section, pretty much all roles have an interest to understand the inner workings of the model for different reasons.
+5. How useful is LIME for a non-data-scientist (e.g. non-ml-experts or designer)? Why?
+    
+    I would say it is quite useful, since it is very easy to use with a little guidance and can provide valuable insights for non-data-scientist as well.
+6. What question types is LIME able to answer? Why?
+  
+    LIME is able to explain the inner workings of a model after it was used on data by answering how a classifier got to a specific chosen result and display the feature weights used.
