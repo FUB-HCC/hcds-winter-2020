@@ -59,11 +59,26 @@ We would use this HCI method in every step of the human centered design process,
 
 ### Task 2: Explanation method: LIME
 
-_LINK to your annotated notebook here_
+[LIME-Notebook](Lime.ipynb)
 
-_1: ID and IMAGE of your LIME explanations_
-_2: ID and IMAGE of your LIME explanations_
-_3: ID and IMAGE of your LIME explanations_
+ID 84: ![](id84.png) 
+\
+ID 66: ![](id66.png) 
+\
+ID 01: ![](id1.png) 
+\
+
 
 #### Reflection
-_your TEXT here_
+
+i. We choose the documents listed with the ID 01, 66 and 84. From which two of them where christian class and the other one (66) was from the atheism class.
+
+ii. We learned that the model is a binary classifier. It extracts text from emails and is looking to classify an email as either atheism or christan through the use of recurring words represented from the class. Here it is important to note that the model itself chooses the words and weighs them respectivley. Another note should be that emais headers etc. are not removed neither from the model nor from any human in the pre-processing.
+
+iii. The results for all 3 of the ID's was correct and the one classifying the atheist email was remarkably good in aspect to it's certainty. In case for the christian email it classified it correctly but not as certain. Looking further into the explanations one can see that the classifier is giving words from the email headers to the atheism class (NNTP, Re, ...). That could be a major reason why the classifier was more certain for atheism than for christian since these words occur in every or at least most emails. The results of the model are correct but in aspect to how well it is doing we actually have to answer this with the model is not well enough in doing it's job.
+
+iv. Executor and Decision-subject: Since they need to see further explanation on why a decision from the model was made.
+
+v. Pretty useful since they can understand the model without the full knowledge about machine learning. For example for a skin cancer classifier anyone can determine with LIME what aspects of the tumor lead to a positive decision and can exclude a biased decision like skin color etc.
+
+vi. "What factors lead to this decision?"

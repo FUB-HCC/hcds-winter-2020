@@ -57,11 +57,14 @@ We would use this HCI method in every step of the human centered design process,
 ![](HCDP.png)
 ### Task 2: Explanation method: LIME
 
-[LIME-Notebook]()
+[LIME-Notebook](Lime.ipynb)
 
-_1: ![ID: 84](id84.png)
-_2: ![ID: 66](id66.png)
-_3: ![ID: 01](id1.png)
+ID 84: ![](id84.png) 
+\
+ID 66: ![](id66.png) 
+\
+ID 01: ![](id1.png) 
+\
 
 
 #### Reflection
