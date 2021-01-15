@@ -1,5 +1,5 @@
 # Title of your pos
-> **Name:** `alsc` Alexa S.
+> **Name:** `luka` Lukas K.
 > **Session:** [08 Exercise - Explanations](https://github.com/FUB-HCC/hcds-winter-2020/wiki/08_exercise)   
 ----
 
