@@ -1,4 +1,4 @@
-# Title of your pos
+# Reflection 7
 > **Name:** `luka` Lukas K.
 > **Session:** [08 Exercise - Explanations](https://github.com/FUB-HCC/hcds-winter-2020/wiki/08_exercise)   
 ----
@@ -11,5 +11,3 @@ The Human-AI Interaction Design Guidelines by Microsoft emphasized how important
 
 How much controll should a user get over adjusting the system, since it might also be overwhelming and take away from the user experience, when asked too often to validate a system produced prediction. (The AI system could feel very dependant on the users verfication, which might make the whole system feel obsolet)
 
-## A6 - xxx
-...
