@@ -23,5 +23,12 @@ it is mentioned that the system should give this feedback *Immediately*. I wonde
 experience? 
 
 
-## A6 - xxx
-...
+## A6 - Guidelines for Human-AI interaction
+
+
+1. What is the COMPAS dataset about? Describe the COMPAS dataset.
+
+The COMPAS Dataset is a dataset about criminal offenders screened in Florida (US) during 2013-14 and contains data about 5855 observations. It contains features with numeric values like `number of juvenile felonies`, `number of juvenile misdemeanors`, `age` etc. and categorical feature values like `sex` and `race`. The ground truth feature `recidivism_within_2_years` is if the offender was recidivism within the timeframe of 2 years. It was a bit difficult to find description of the features but finally I could find this one 
+[here](https://rdrr.io/cran/fairml/man/compas.html).
+
+5 categorical values like Inference value, Inference
