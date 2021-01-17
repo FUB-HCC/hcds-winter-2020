@@ -14,19 +14,19 @@ There are many barriers to human-AI interaction. A well-defined human design pro
 The category of "when wrong" (G7-G11) seems particularly important to me. Therefore, I wonder if there is a prioritization in these guidelines, as I can imagine that not every one of these guidelines gets attention considering very short development times. A prioritization would help establish a ranking of importance in order to cover the most important aspects.
 
 ## `A6`- Guidelines for Human-AI interaction **[10 points]**
-🕐&nbsp;&nbsp;&nbsp;**Deadline**: Mon, 2021-01-16 12:00 PM noon (ONE week)<br>
+🕐&nbsp;&nbsp;&nbsp;**Deadline**: Mon, 2021-01-16 12:00 PM noon<br>
 👥&nbsp;&nbsp;&nbsp;**Name**: Arne R.(`arro`), Malina S. (`masc`), Marc O. (`maop`)<br>
 
 #### 1️⃣&nbsp;&nbsp;Preparation
-1. Check out the section _Resources and concepts_ below, if you want to know more about the 18 Human-AI Guidelines, What-if-tool (WIT), COMPAS (dataset), or heuristic evaluations. This is **not mandatory**, but it should help you, if you need some more information or if you are just very curious!
-1. Please note: The reading reflection (R7) will help you with this assignment. Please do this first. It lays the foundation regarding understanding the 18 human-AI interaction guidelines.
-1. Please open the COMPAS Demo ➡️ https://pair-code.github.io/what-if-tool/demos/compas.html. We will evaluate this UI.
-1. Please have the 18 guidelines open (examples for each are provided in the appendix of the original paper<sup>[2]</sup>).
+1. ✅ Check out the section _Resources and concepts_ below, if you want to know more about the 18 Human-AI Guidelines, What-if-tool (WIT), COMPAS (dataset), or heuristic evaluations. This is **not mandatory**, but it should help you, if you need some more information or if you are just very curious!
+1. ✅ Please note: The reading reflection (R7) will help you with this assignment. Please do this first. It lays the foundation regarding understanding the 18 human-AI interaction guidelines.
+1. ✅ Please open the COMPAS Demo ➡️ https://pair-code.github.io/what-if-tool/demos/compas.html. We will evaluate this UI.
+1. ✅ Please have the 18 guidelines open (examples for each are provided in the appendix of the original paper<sup>[2]</sup>).
 
 #### 2️⃣&nbsp;&nbsp;Getting to know the context
-1. What is the COMPAS dataset about? Describe the COMPAS dataset. **(3-4 sentences)**
+1. ✅ What is the COMPAS dataset about? Describe the COMPAS dataset. **(3-4 sentences)**
 * COMPAS is a landmark dataset to study algorithmic (un)fairness. This data was used to predict recidivism (whether a criminal will reoffend or not) in the USA. The tool was meant to overcome human biases and offer an algorithmic, fair solution to predict recidivism in a diverse population. However, the algorithm ended up propagating existing social biases and thus, offered an unfair algorithmic solution to the problem. In this dataset, a model to predict recidivism has already been fit and predicted probabilities and predicted status (yes/no) for recidivism have been concatenated to the original data.
-2. What kind of unfairness did ProPublica found in their analysis? Check out the provided resources below. Especially check the article on ["Machine Bias"](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)<sup>[2]</sup> and focus on the following table. **(3-4 sentences)**
+2. ✅ What kind of unfairness did ProPublica found in their analysis? Check out the provided resources below. Especially check the article on ["Machine Bias"](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)<sup>[2]</sup> and focus on the following table. **(3-4 sentences)**
 * ProPublica found that the tool inadvertently undermine the efforts made so far to ensure individualized and equal justice. The analysis exacerbates unwarranted and unjusts disparities that are already far too common in our criminal justice system and in our society. Also, the formula used in the algorithm formula was particularly likely to falsely flag black defendants as future criminals, wrongly labeling them this way at almost twice the rate as white defendants. In addition to that white defendants were mislabeled as low risk more often than black defendants. Speaking about racial discrimination, ProPublica found out that African Americans who didn’t re-offend, were labeled higher risk twice as often than whites. But ProPublica did not only find ethnic discriminations: A guy who has molested a small child every day for a year could still come out as a low risk because he probably has a job. Meanwhile, a drunk guy will look high risk because he’s homeless.
 
 |                                           | WHITE | AFRICAN AMERICAN |
