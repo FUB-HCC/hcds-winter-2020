@@ -51,6 +51,7 @@ In the case of COMPAS: **P(Y = "Low Risk" |S = s, G =  "Caucasian") = P(Y = "Low
 3. **Please describe your thoughts (positive and negative), when first looking and exploring the tool. (3-4 sentences in a pro/contra table)**<br>
 
 |   **Pro** |   **Contra** |
+|---	|---	|
 |    After a few minutes learning time with just exploring the tool it was quite easy to understand on which part of the tool what functionaly was offered. Nicely sorted to the 3 Tabs on the Top.   | At first view on the inferface I was a bit overhelmed and didn't knew where I a start from. |
 | Great overview of the features and the distribution of datapoints for each feature under the tab `Features`. | It was/is difficult for me to find which feature is the correct label *Ground thruth* | 
 |  After a few minutes of learning time it was easy to change attributes of a datapoint and see how the prediction changes. It was nice to see the prediction with and without the modified attribute at once to compare. |   When first opening the view `X-Axis` and `Label by` for the visualization of the datapoints is set to *default*. I have difficulties to understand what the default actually is. |
