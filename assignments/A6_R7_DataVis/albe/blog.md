@@ -34,7 +34,7 @@ The COMPAS Dataset is a dataset about criminal offenders screened in Florida (US
 
 1. **What kind of unfairness did ProPublica found in their analysis? Check out the provided resources below. Especially check the article on "Machine Bias"[2] and focus on the following table.**
 
-By considering the analysis results that Black defendants have more risk to being labeled as "High risk" when they actually does not re-offend [see Table under 'Prediction Fails Differently for Black Defendants'](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)for me it looks like that the model violates the fairness definition `Predictive Parity`. 
+By considering the analysis results that Black defendants have more risk to being labeled as "High risk" when they actually does not re-offend [see Table under 'Prediction Fails Differently for Black Defendants](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing) for me it looks like that the model violates the fairness definition `Predictive Parity`. 
 
 >*"A classifier satisfies this definition if both protected and unprotected groups have equal PPV – the probability of a subject with positive predictive value to truly belong to the positive class."* 
 
