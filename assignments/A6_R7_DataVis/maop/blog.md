@@ -43,14 +43,16 @@ The category of "when wrong" (G7-G11) seems particularly important to me. Theref
 1. ✅ Use the WIT (COMPAS Demo) to comprehend/understand the analysis result by ProPublica.
 1. ✅ Please describe your thoughts (positive and negative), when first looking and exploring the tool. **(3-4 sentences in a pro/contra table)**
 
-|      Pro      |                Con                |
-|:-------------:|:---------------------------------:|
-| powerful tool | not intuitive                     |
-|well documented| requires a lot of training to use |
-|               |                                   |
-|               |                                   |
+|       Pro       |                  Con                   |
+|:---------------:|:--------------------------------------:|
+|  powerful tool  | not intuitive                          |
+| well documented | requires a lot of training to use      |
+|                 | visual clutter at first glance         |
+|                 | some input labels are cut off          |
+|                 | few in app item descriptions available |
 
 4. Note down (document) the steps you need to undertake in order to achieve a similar analysis result as ProPublica. **(steps, bullet points)**
+   1. Working with the "What-If tool" we first tried to recreate the graphs from the article ["Machine Bias"](https://www.propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm) <sup>[2]</sup> in the datapoint editor tab. By setting **Binning | X-Axis** to `​Inference ​score`, **Count** to `10`, **Binning | Y-Axis** to `race` and **Color By** to `race`. All following fields were set to `default`. Quickly realizing that this tab is really just an datapoint view and there is no apparent way to plot the data in other form, the result was discarded. We tried around with the other features but got kinda stuck. In the end we used the provided steps from the sample solution.
 5. If you get stuck (and please only if you get stuck!) ... follow the steps provided below → _Steps for analysis (backup)_
 
 #### 4️⃣&nbsp;&nbsp;Documenting violations and flaws
