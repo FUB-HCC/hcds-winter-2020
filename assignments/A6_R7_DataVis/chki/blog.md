@@ -15,7 +15,7 @@ _List at least one question that occurred in your mind while reading, and explai
 Guideline G5 says "Match relevant social norms". I stumbled across that guideline for a couple of reasons. It seemed pretty general and not strongly related to AI. A couple of questions arised: What social norms are important and how should they be taken into account (in my specific context)? Is there related work or a list to refer to? Does this lead into the direction of personalized user experiences (or at least different interfaces tailored to needs of certain user groups)?
 
 
-## A6 - xxx
+## A6
 
 #### 2. Getting to know the context
 1. What is the COMPAS dataset about? Describe the COMPAS dataset. **(3-4 sentences)**
