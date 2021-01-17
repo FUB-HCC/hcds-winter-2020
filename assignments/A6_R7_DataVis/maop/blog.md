@@ -26,7 +26,7 @@ The category of "when wrong" (G7-G11) seems particularly important to me. Theref
 
 #### 2️⃣&nbsp;&nbsp;Getting to know the context
 1. What is the COMPAS dataset about? Describe the COMPAS dataset. **(3-4 sentences)**
-  dfdjhdfkjdhfdjkfdhfdkjh
+* dfdjhdfkjdhfdjkfdhfdkjh
 1. What kind of unfairness did ProPublica found in their analysis? Check out the provided resources below. Especially check the article on ["Machine Bias"](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)<sup>[2]</sup> and focus on the following table. **(3-4 sentences)**
 
 |                                           | WHITE | AFRICAN AMERICAN |
