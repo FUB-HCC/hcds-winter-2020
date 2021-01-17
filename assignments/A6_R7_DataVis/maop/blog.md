@@ -42,7 +42,7 @@ The category of "when wrong" (G7-G11) seems particularly important to me. Theref
 1. Please bring to your mind again, that **you** are evaluating the WIT. You can do no wrong!
 1. Use the WIT (COMPAS Demo) to comprehend/understand the analysis result by ProPublica.
 1. Please describe your thoughts (positive and negative), when first looking and exploring the tool. **(3-4 sentences in a pro/contra table)**
-* | Pro | Con |
+| Pro | Con |
 |:---:|:---:|
 |     |     |
 |     |     |
