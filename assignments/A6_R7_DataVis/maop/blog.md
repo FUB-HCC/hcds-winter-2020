@@ -67,5 +67,5 @@ You can also use the "Exploration ideas" provided in the [colab notebook](https:
 
 ### Deliverables
 - [ ] PDF file with issues using the provided template
-- [ ] blog.md files
+- [ ] blog.md files 
 
