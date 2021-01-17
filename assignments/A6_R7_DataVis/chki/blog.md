@@ -1,4 +1,4 @@
-# Title of your pos
+# Design Guidelines for AI and What-if Tool
 > **Name:** `chki` Christopher K.
 > **Session:** [08 Exercise - Explanations](https://github.com/FUB-HCC/hcds-winter-2020/wiki/08_exercise)   
 ----
@@ -41,3 +41,7 @@ ProPublica found that the risk of recidivism was often predicted too high for bl
 * Compare the predictions with the actual outcomes
 * Investigate how strong the different attributes influence the predictions 
 * Check for biases and further investigate attributes that have a huge impact on the prediction.
+
+#### 4. Documenting violations and flaws
+
+[Issues (PDF)](COMPAS_ProPublica_WIT_ALBE_CHKI.pdf)
