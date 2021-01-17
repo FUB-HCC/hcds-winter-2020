@@ -50,8 +50,8 @@ The category of "when wrong" (G7-G11) seems particularly important to me. Theref
 |               |                                   |
 |               |                                   |
 
-1. Note down (document) the steps you need to undertake in order to achieve a similar analysis result as ProPublica. **(steps, bullet points)**
-1. If you get stuck (and please only if you get stuck!) ... follow the steps provided below → _Steps for analysis (backup)_
+4. Note down (document) the steps you need to undertake in order to achieve a similar analysis result as ProPublica. **(steps, bullet points)**
+5. If you get stuck (and please only if you get stuck!) ... follow the steps provided below → _Steps for analysis (backup)_
 
 #### 4️⃣&nbsp;&nbsp;Documenting violations and flaws
 1. Please read the 18 heuristics from the Human-AI Guidelines again.
