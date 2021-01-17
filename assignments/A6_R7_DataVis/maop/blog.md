@@ -46,7 +46,7 @@ The category of "when wrong" (G7-G11) seems particularly important to me. Theref
 |      Pro      |                Con                |
 |:-------------:|:---------------------------------:|
 | powerful tool | not intuitive                     |
-|               | requires a lot of training to use |
+|well documented| requires a lot of training to use |
 |               |                                   |
 |               |                                   |
 
