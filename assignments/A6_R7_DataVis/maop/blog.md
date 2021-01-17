@@ -51,18 +51,21 @@ The category of "when wrong" (G7-G11) seems particularly important to me. Theref
 |                 | some input labels are cut off          |
 |                 | few in app item descriptions available |
 
-4. Note down (document) the steps you need to undertake in order to achieve a similar analysis result as ProPublica. **(steps, bullet points)**
+4. ✅ Note down (document) the steps you need to undertake in order to achieve a similar analysis result as ProPublica. **(steps, bullet points)**
    1. Working with the "What-If tool" we first tried to recreate the graphs from the article ["Machine Bias"](https://www.propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm) <sup>[2]</sup> in the datapoint editor tab. By setting **Binning | X-Axis** to `​Inference ​score`, **Count** to `10`, **Binning | Y-Axis** to `race` and **Color By** to `race`. All following fields were set to `default`. Quickly realizing that this tab is really just an datapoint view and there is no apparent way to plot the data in other form, the result was discarded. We tried around with the other features but got kinda stuck. In the end we used the provided steps from the sample solution.
 5. If you get stuck (and please only if you get stuck!) ... follow the steps provided below → _Steps for analysis (backup)_
 
 #### 4️⃣&nbsp;&nbsp;Documenting violations and flaws
-1. Please read the 18 heuristics from the Human-AI Guidelines again.
-1. Please bring to your mind again, that **you** are evaluating the WIT. You can do no wrong! 
+1. ✅ Please read the 18 heuristics from the Human-AI Guidelines again.
+1. ✅ Please bring to your mind again, that **you** are evaluating the WIT. You can do no wrong! 
 1. Please inspect the UI again and look for violations (e.g. Are you missing anything in the interface? Is something misleading, unclear, or confusing?):
    * Describe the found issues briefly.
    * Assign the violated guideline.
    * Provide a screenshot with comments or annotations.
    * Please use the provided [template](https://docs.google.com/presentation/d/1762jwcZw9Hme5By7k3yV9oWPi_iT8UUB08_1Um9sRZM/edit?usp=sharing)(check out the [assignment folder](https://github.com/FUB-HCC/hcds-winter-2020/tree/main/assignments/A6_R7_DataVis) for `PPTX` and `ODP` files) to document your found issues.
+
+
+Our presentation: [Here](https://docs.google.com/presentation/d/1slTr4yx4Mc3B3jB0nR7gIu_c67TpgJhfHLVF5T_XcDk/edit?usp=sharing)
 
 #### Optional analysis
 You can also use the "Exploration ideas" provided in the [colab notebook](https://colab.research.google.com/github/pair-code/what-if-tool/blob/master/WIT_COMPAS.ipynb) (scroll to the bottom!) to analyze the data even further.
