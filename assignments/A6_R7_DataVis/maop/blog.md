@@ -1,4 +1,4 @@
-# Assignment 6 - Reading 7
+# Assignment 6, Reading 7
 > **Name:** `maop` Marc O.
 > **Session:** [08 Exercise - Explanations](https://github.com/FUB-HCC/hcds-winter-2020/wiki/08_exercise)   
 ----
@@ -26,7 +26,7 @@ The category of "when wrong" (G7-G11) seems particularly important to me. Theref
 
 #### 2️⃣&nbsp;&nbsp;Getting to know the context
 1. What is the COMPAS dataset about? Describe the COMPAS dataset. **(3-4 sentences)**
-* dfdjhdfkjdhfdjkfdhfdkjh
+* COMPAS is a landmark dataset to study algorithmic (un)fairness. This data was used to predict recidivism (whether a criminal will reoffend or not) in the USA. The tool was meant to overcome human biases and offer an algorithmic, fair solution to predict recidivism in a diverse population. However, the algorithm ended up propagating existing social biases and thus, offered an unfair algorithmic solution to the problem. In this dataset, a model to predict recidivism has already been fit and predicted probabilities and predicted status (yes/no) for recidivism have been concatenated to the original data.
 1. What kind of unfairness did ProPublica found in their analysis? Check out the provided resources below. Especially check the article on ["Machine Bias"](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)<sup>[2]</sup> and focus on the following table. **(3-4 sentences)**
 
 |                                           | WHITE | AFRICAN AMERICAN |
