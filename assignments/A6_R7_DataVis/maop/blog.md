@@ -30,10 +30,12 @@ The category of "when wrong" (G7-G11) seems particularly important to me. Theref
 * ProPublica found that the tool inadvertently undermine the efforts made so far to ensure individualized and equal justice. The analysis exacerbates unwarranted and unjusts disparities that are already far too common in our criminal justice system and in our society. Also, the formula used in the algorithm formula was particularly likely to falsely flag black defendants as future criminals, wrongly labeling them this way at almost twice the rate as white defendants. In addition to that white defendants were mislabeled as low risk more often than black defendants. Speaking about racial discrimination, ProPublica found out that African Americans who didn’t re-offend, were labeled higher risk twice as often than whites. But ProPublica did not only find ethnic discriminations: A guy who has molested a small child every day for a year could still come out as a low risk because he probably has a job. Meanwhile, a drunk guy will look high risk because he’s homeless.
 
 <center>
+  
 |                                           | WHITE | AFRICAN AMERICAN |
 | ----------------------------------------- |-------|------------------|
 | Labeled Higher Risk, But Didn’t Re-Offend | 23.5% | 44.9% |
 | Labeled Lower Risk, Yet Did Re-Offend     | 47.7% | 28.0% |
+
 </center>
 
 #### 3️⃣&nbsp;&nbsp;Understand the ProPublica analysis (Task)
