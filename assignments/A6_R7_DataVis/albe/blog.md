@@ -26,9 +26,23 @@ experience?
 ## A6 - Guidelines for Human-AI interaction
 
 
-1. What is the COMPAS dataset about? Describe the COMPAS dataset.
+1. **What is the COMPAS dataset about? Describe the COMPAS dataset.**
 
 The COMPAS Dataset is a dataset about criminal offenders screened in Florida (US) during 2013-14 and contains data about 5855 observations. It contains features with numeric values like `number of juvenile felonies`, `number of juvenile misdemeanors`, `age` etc. and categorical feature values like `sex` and `race`. The ground truth feature `recidivism_within_2_years` is if the offender was recidivism within the timeframe of 2 years. It was a bit difficult to find description of the features but finally I could find this one 
+
 [here](https://rdrr.io/cran/fairml/man/compas.html).
 
-5 categorical values like Inference value, Inference
+1. **What kind of unfairness did ProPublica found in their analysis? Check out the provided resources below. Especially check the article on "Machine Bias"[2] and focus on the following table.**
+
+By considering the analysis results that Black defendants have more risk to being labeled as "High risk" when they actually does not re-offend [see Table under 'Prediction Fails Differently for Black Defendants'](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)for me it looks like that the model violates the fairness definition `Predictive Parity`. 
+
+>*"A classifier satisfies this definition if both protected and unprotected groups have equal PPV – the probability of a subject with positive predictive value to truly belong to the positive class."* 
+
+In the case of COMPAS: **P(Y = "Low Risk" | d = "Low Risk", G = "Caucasian") = P(Y = "Low Risk" | d = "Low Risk", G = "African-American")**
+
+When viewing the distribution plot shown in the [https://www.propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm](Analysis) section of prorepublica, we see that the distribution of risk scores for black defendants is different then for white defendants to the disadvantage of black defendants. Viewing the the restuls with considering the probability scores it also looks like the model is also violating fairness definition `Test Fairness`.
+
+> *A classifier satisfies this definition if for any predicted probability score S, subjects in both protected and unprotected groups have equal probability to truly belong to the positive class.*<br>
+
+In the case of COMPAS: **P(Y = "Low Risk" |S = s, G =  "Caucasian") = P(Y = "Low Risk" |S = s, G = "African-American" )**
+
