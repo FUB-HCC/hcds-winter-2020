@@ -23,7 +23,8 @@ Guideline G5 says "Match relevant social norms". I stumbled across that guidelin
 The COMPAS (Correctional Offender Management Profiling for Alternative Sanctions) dataset is used by an algorithm to get predictions for a criminal's future behaviour. For a criminal, the algorithm estimates the risk/likelihood of reoffending/recidivism. The predictions were used, for example, by judges.
 The dataset contains primarily demographic data, like first and last name, sex, ethnicity and date of birth.
 
-1. What kind of unfairness did ProPublica found in their analysis? Check out the provided resources below. Especially check the article on ["Machine Bias"](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)<sup>[2]</sup> and focus on the following table. **(3-4 sentences)**
+2. What kind of unfairness did ProPublica found in their analysis? Check out the provided resources below. Especially check the article on ["Machine Bias"](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)<sup>[2]</sup> and focus on the following table. **(3-4 sentences)**
+
 ProPublica found that the risk of recidivism was often predicted too high for black defendants. At the same time, the risk for white defendants was often predicted too low. ProPublica's analysis showed that "white defendants who re-offended within the next two years were mistakenly labeled low risk almost twice as often as black re-offenders" [Source: ProPublica](https://www.propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm).
 
 
