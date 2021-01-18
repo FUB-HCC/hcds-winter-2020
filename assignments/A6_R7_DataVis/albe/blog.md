@@ -1,5 +1,6 @@
 # Reflection 7
-> **Name:** `albe` Ali B.
+> **Name:** `albe` Ali B. 
+> **Group:** `chki` Christopher K. and `albe` Ali B. (Our complete results is merged in Christophers blog post for review.)
 > **Session:** [08 Exercise - Explanations](https://github.com/FUB-HCC/hcds-winter-2020/wiki/08_exercise)   
 ----
 
