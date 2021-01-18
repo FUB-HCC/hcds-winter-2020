@@ -37,6 +37,10 @@ In the case of COMPAS: **P(Y = "Low Risk" | d = "Low Risk", G = "Caucasian") = P
 
 When viewing the distribution plot shown in the [Analysis](https://www.propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm) section of prorepublica, we see that the distribution of risk scores for black defendants is different then for white defendants to the disadvantage of black defendants. Viewing the the restuls with considering the probability scores it also looks like the model is also violating fairness definition `Test Fairness`.
 
+> *A classifier satisfies this definition if for any predicted probability score S, subjects in both protected and unprotected groups have equal probability to truly belong to the positive class.*<br>
+
+In the case of COMPAS: **P(Y = "Low Risk" |S = s, G =  "Caucasian") = P(Y = "Low Risk" |S = s, G = "African-American" )**
+
 #### 3. Understand the ProPublica analysis
 3. Please describe your thoughts (positive and negative), when first looking and exploring the tool. (3-4 sentences in a pro/contra table)
 
