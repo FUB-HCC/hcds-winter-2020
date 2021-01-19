@@ -9,5 +9,5 @@ The Human-AI Interaction Design Guidelines by Microsoft emphasized how important
 
 **Question**
 
-How much controll should a user get over adjusting the system, since it might also be overwhelming and take away from the user experience, when asked too often to validate a system produced prediction. (The AI system could feel very dependant on the users verfication, which might make the whole system feel obsolet)
+How much controll should a user get over adjusting the system, since it might also be overwhelming and take away from the user experience, when asked too often to validate a system produced prediction? (The AI system could feel very dependant on the users verfication, which might make the whole system feel obsolet)
 
