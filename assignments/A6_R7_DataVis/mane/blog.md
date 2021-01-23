@@ -48,11 +48,11 @@ ProRepublica found significant racial disparities. Eventhough the algoritm made 
 **4. Note down (document) the steps you need to undertake in order to achieve a similar analysis result as ProPublica. (steps, bullet points)**
 
 
-* Select the tab "Performance & Fairness"
-* Select as "Ground Truth Feature" "recidivism_within_2_years"
-* Select as "Slice by" "race"
-* Leave all other values as given
-* Look at the "False Positives", "Fale Negatives" and "Accuracy" of the "African-American" and "Causasian" entries
+1. Select the tab "Performance & Fairness"
+2. Select as "Ground Truth Feature" "recidivism_within_2_years"
+3. Select as "Slice by" "race"
+4. Leave all other values as given
+5. Look at the "False Positives", "Fale Negatives" and "Accuracy" of the "African-American" and "Causasian" entries
 
 
 Result: As you can see after following these steps, the prediction for african-american and causasian defendants have almost the same accuracy, but the false positive rate is much higher for african-americans, whereas the false negative rate is a lot higher for caucasians.
