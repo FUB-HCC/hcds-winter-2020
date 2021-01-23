@@ -4,14 +4,11 @@
 ----
 
 ## Preparation
-Jun.-Prof. Dr. Susanne Michl is a junior professor in the fiedld of Medical Humanities and Ethics in Medicine at the institute for the History of Medicine and Ethics in Medicine of the Charité Berlin. In her work she so far explored the mutual interdependencies of the humanities, medicine and data science. She dicesses 
 
-It focuses on the variety of forms in which information about health and illness travel between different stakeholders, such as patients and health care professionals. 
+Jun.-Prof. Dr. Susanne Michl is a junior professor in the fiedld of Medical Humanities and Ethics in Medicine at the institute for the History of Medicine and Ethics in Medicine of the Charité Berlin. In her work she so far explored the mutual interdependencies of the humanities, medicine and data science.
 
-
-1. My question number one.
-1. My question number two.
-
+1. It is mentioned that *"ethical deliberation is embedded in the everyday work of data scientists"*. What could a productive exchange in this everyday work with critics (i.e. ethical experts) look like? 
+1. It is stated *"that  existing  ethical  frameworks  may  not  deliver  clear  answers  to  data  science challenges"*. What is needed here? What could a helpful frameworks look like? And how could it be generated?
 
 ## Summary
 _approximately 250 words_
