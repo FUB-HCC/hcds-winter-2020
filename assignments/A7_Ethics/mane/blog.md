@@ -4,8 +4,10 @@
 ----
 
 ## Preparation
+Jun.-Prof. Dr. Susanne Michl is a junior professor in the fiedld of Medical Humanities and Ethics in Medicine at the institute for the History of Medicine and Ethics in Medicine of the Charité Berlin. In her work she so far explored the mutual interdependencies of the humanities, medicine and data science. She dicesses 
 
-_some notes about the person gving the talk_
+It focuses on the variety of forms in which information about health and illness travel between different stakeholders, such as patients and health care professionals. 
+
 
 1. My question number one.
 1. My question number two.
