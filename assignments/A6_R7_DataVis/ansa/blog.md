@@ -50,45 +50,12 @@ We also turned up significant racial disparities, just as Holder feared. In fore
 
 4. Note down (document) the steps you need to undertake in order to achieve a similar analysis result as ProPublica. (steps, bullet points)
 
-We obtained the risk scores assigned to more than 7,000 people arrested in Broward County, Florida, in 2013 and 2014 and checked to see how many were charged with new crimes over the next two years, the same benchmark used by the creators of the algorithm.
+
+1. Select the tab "Performance & Fairness"
+2. Select as "Ground Truth Feature" "recidivism_within_2_years"
+3. Select as "Slice by" "race"
+4. Leave all other values as given
+5. Look at the "False Positives", "Fale Negatives" and "Accuracy" of the "African-American" and "Causasian" entries
 
 
-Northpointe’s core product is a set of scores derived from 137 questions that are either answered by defendants or pulled from criminal records. Race is not one of the questions
-
-It assesses not just risk but also nearly two dozen so-called “criminogenic needs” that relate to the major theories of criminality, including “criminal personality,” “social isolation,” “substance abuse” and “residence/stability.” Defendants are ranked low, medium or high risk in each category.
-
-**“Risk of Recidivism,”**
-
-Features:
-
-https://www.rdocumentation.org/packages/fairml/versions/0.3/topics/compas
-
-age: a continuous variable containing the age (in years) of the person; 
-
-COMPASS_determination: Klassifizierung von COMPAS
-
-juv_fel_count: a continuous variable containing the number of juvenile felonies;
-
-juv_misd_count: a continuous variable containing the number of juvenile misdemeanors;
-
-juv_other_count: a continuous variable containing the number of prior juvenile convictions that are not considered either felonies or misdemeanors;
-
-priors_count: a continuous variable containing the number of prior crimes committed;
-
-race: a factor encoding the race of the person;
-
-recidivism_within_2_years: a factor with two levels "Yes" and "No" (if the person has recidivated within two years);
-
-sex: a factor with levels "Female" and "Male"
-
-Datapoint ID: Id des Datenpunktes
-
-Inference score: Abgeleiteter Score, ob hohes oder niedreiges Risiko besteht; Zwischen 0 und 1
-
-Inference value: Abgeleiteter Wert, ob hohes oder niedreiges Risiko besteht; 0 oder 1
-
-Inference label: Abgeleitetes Label, ob hohes oder niedreiges Risiko besteht; "Low Risk" oder "High risk"
-
-Inference correct: Gibt an, ob abgeleiteter Wert korrekt war; "correct" oder "incorrect"
-
-**3496** datapoints loaded
+Result: As you can see after following these steps, the prediction for african-american and causasian defendants have almost the same accuracy, but the false positive rate is much higher for african-americans, whereas the false negative rate is a lot higher for caucasians.

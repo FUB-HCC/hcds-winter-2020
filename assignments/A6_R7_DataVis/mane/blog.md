@@ -4,7 +4,16 @@
 ----
 
 ## R7 - Reflection
-...
+
+The guidlines infrom me about what I need to consider, when I want to design an interface for an AI system. The guidelines contain recommendations about which infromation should be made available, how an interaction between the system and the user should be made possible and how time factors should be taken into account. The additional examples help to understand how to practically apply these rules.
+
+
+Question:
+
+1. Should these guidelines not also apply for non-AI systems (i.e. for all decison-making or decison-supporting systems)?
+
+I think that with AI systems there is a greater need for more specific design guidline for such systems. These systems become more and more complex and thus need better interfaces. But also non-AI systems can be complex and not transparent for the end-users. So I think these guidelines should be applicable for other applications. 
+
 
 ## A6 - xxx
 
@@ -22,8 +31,7 @@ Two more subsets of the data are provided, including a subset of only [violent r
 
 **2. What kind of unfairness did ProPublica found in their analysis? Check out the provided resources below. Especially check the article on "Machine Bias"[2] and focus on the following table.**
 
-
-We also turned up significant racial disparities, just as Holder feared. In forecasting who would re-offend, the algorithm made mistakes with black and white defendants at roughly the same rate but in very different ways. The formula was particularly likely to falsely flag black defendants as future criminals, wrongly labeling them this way at almost twice the rate as white defendants. White defendants were mislabeled as low risk more often than black defendants.
+ProRepublica found significant racial disparities. Eventhough the algoritm made mistakes in forecasting who would re-offend at roughly the same rate for both black and white defendants, the errors ad hand were very differently situated. *"The formula was particularly likely to falsely flag black defendants as future criminals, wrongly labeling them this way at almost twice the rate as white defendants"*. Whereas *"white defendants were mislabeled as low risk more often than black defendants"*.
     
 
 ### 3 - Understand the ProPublica analysis
@@ -40,66 +48,11 @@ We also turned up significant racial disparities, just as Holder feared. In fore
 4. Note down (document) the steps you need to undertake in order to achieve a similar analysis result as ProPublica. (steps, bullet points)
 
 
+1. Select the tab "Performance & Fairness"
+2. Select as "Ground Truth Feature" "recidivism_within_2_years"
+3. Select as "Slice by" "race"
+4. Leave all other values as given
+5. Look at the "False Positives", "Fale Negatives" and "Accuracy" of the "African-American" and "Causasian" entries
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-We obtained the risk scores assigned to more than 7,000 people arrested in Broward County, Florida, in 2013 and 2014 and checked to see how many were charged with new crimes over the next two years, the same benchmark used by the creators of the algorithm.
-
-
-Northpointe’s core product is a set of scores derived from 137 questions that are either answered by defendants or pulled from criminal records. Race is not one of the questions
-
-It assesses not just risk but also nearly two dozen so-called “criminogenic needs” that relate to the major theories of criminality, including “criminal personality,” “social isolation,” “substance abuse” and “residence/stability.” Defendants are ranked low, medium or high risk in each category.
-
-**“Risk of Recidivism,”**
-
-Features:
-
-https://www.rdocumentation.org/packages/fairml/versions/0.3/topics/compas
-
-age: a continuous variable containing the age (in years) of the person; 
-
-COMPASS_determination: Klassifizierung von COMPAS
-
-juv_fel_count: a continuous variable containing the number of juvenile felonies;
-
-juv_misd_count: a continuous variable containing the number of juvenile misdemeanors;
-
-juv_other_count: a continuous variable containing the number of prior juvenile convictions that are not considered either felonies or misdemeanors;
-
-priors_count: a continuous variable containing the number of prior crimes committed;
-
-race: a factor encoding the race of the person;
-
-recidivism_within_2_years: a factor with two levels "Yes" and "No" (if the person has recidivated within two years);
-
-sex: a factor with levels "Female" and "Male"
-
-Datapoint ID: Id des Datenpunktes
-
-Inference score: Abgeleiteter Score, ob hohes oder niedreiges Risiko besteht; Zwischen 0 und 1
-
-Inference value: Abgeleiteter Wert, ob hohes oder niedreiges Risiko besteht; 0 oder 1
-
-Inference label: Abgeleitetes Label, ob hohes oder niedreiges Risiko besteht; "Low Risk" oder "High risk"
-
-Inference correct: Gibt an, ob abgeleiteter Wert korrekt war; "correct" oder "incorrect"
-
-**3496** datapoints loaded
-
+Result: As you can see after following these steps, the prediction for african-american and causasian defendants have almost the same accuracy, but the false positive rate is much higher for african-americans, whereas the false negative rate is a lot higher for caucasians.
