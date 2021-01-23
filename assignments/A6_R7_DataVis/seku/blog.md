@@ -1,4 +1,4 @@
-# Title of your pos
+# Assignment 6
 > **Name:** `seku` Sebastian K.
 > **Session:** [08 Exercise - Explanations](https://github.com/FUB-HCC/hcds-winter-2020/wiki/08_exercise)   
 ----
@@ -10,7 +10,7 @@ In the given text the autors propose 18 generally applicable design guidelines f
 2. By reflecting on your sentences, list at least one question that occurred in your mind while reading, and explain your motivation for asking this question.
 As the guide is a good tool to develop new interfaces, is there a possibility to automate verification of specific rules to for example reduce the effect of bias which is given by manual tests?
 
-## A6 - xxx
+## A6 - Guidelines for Human-AI interaction 
 2.1. What is the COMPAS dataset about? Describe the COMPAS dataset.
 The COMPAS (Correctional Offender Management Profiling for Alternative Sanctions) dataset is used to determine the recidivism of criminals. The dataset is manly used by judges and parole officers. It consists of 9 numerical features (e.g. age, misdemeanor or felony count) and 5 categorical features (e.g. race and sex). Additionally the set gives information about the maximum, minimum and median count for the numerical features as well as some similar information for categorical features.
 
