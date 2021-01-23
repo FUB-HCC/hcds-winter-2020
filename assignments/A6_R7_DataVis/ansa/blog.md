@@ -39,7 +39,7 @@ We also turned up significant racial disparities, just as Holder feared. In fore
 
 ### 3 - Understand the ProPublica analysis
 
-3. Please describe your thoughts (positive and negative), when first looking and exploring the tool. (3-4 sentences in a pro/contra table)
+**3. Please describe your thoughts (positive and negative), when first looking and exploring the tool. (3-4 sentences in a pro/contra table)**
 
 | At the first sight, I do not understand much and I am feeling a bit overwhelmed.                              | The interactive data visualization catches the eye and encourages you to go on. |
 |---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
@@ -48,7 +48,7 @@ We also turned up significant racial disparities, just as Holder feared. In fore
 | There are little information and descriptions about how to use the tool and how to get specific outcomes.     |                                                                                 |
 | The raw data is not accessible.                                                                               |                                                                                 |
 
-4. Note down (document) the steps you need to undertake in order to achieve a similar analysis result as ProPublica. (steps, bullet points)
+**4. Note down (document) the steps you need to undertake in order to achieve a similar analysis result as ProPublica. (steps, bullet points)**
 
 
 1. Select the tab "Performance & Fairness"
