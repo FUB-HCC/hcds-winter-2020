@@ -1,5 +1,5 @@
 # Assignment 6
-> **Name:** `seku` Sebastian K.
+> **Name:** `jowe` Jonas and `seku` Sebastian K.
 > **Session:** [08 Exercise - Explanations](https://github.com/FUB-HCC/hcds-winter-2020/wiki/08_exercise)   
 ----
 
@@ -24,3 +24,10 @@ ProPublica found, that the dataset has a bias in terms of race. Black defendants
 |Plots in the data view help to understand the data|The GUI is not particulary easy to use (not intuitive)|
 |The tool has a good documentation|Description does not really help understanding the tool|
 |The data plot has good filter settings to understand the given data||
+
+To get the same results as ProPublica, one has to:
+- Switch to the Performance & Fairness category by clicking on it's category tab on the top
+- In the Configure panel, select "recidivism_within_2_years" for "Ground Truth Feature" and "race" for "Slice by"
+- On the right side of the view, 6 values are presented with the header "Custom thresholds for 6 values of race"
+- Open the tabs for the values African-American and Caucasian
+- By looking on the Confusion Matrices of each tab, one can see the results that were provided by ProPublica 
