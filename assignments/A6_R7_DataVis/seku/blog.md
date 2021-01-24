@@ -11,8 +11,16 @@ In the given text the autors propose 18 generally applicable design guidelines f
 As the guide is a good tool to develop new interfaces, is there a possibility to automate verification of specific rules to for example reduce the effect of bias which is given by manual tests?
 
 ## A6 - Guidelines for Human-AI interaction 
-2.1. What is the COMPAS dataset about? Describe the COMPAS dataset.
+### Getting to know the context
+1. What is the COMPAS dataset about? Describe the COMPAS dataset.
 The COMPAS (Correctional Offender Management Profiling for Alternative Sanctions) dataset is used to determine the recidivism of criminals. The dataset is manly used by judges and parole officers. It consists of 9 numerical features (e.g. age, misdemeanor or felony count) and 5 categorical features (e.g. race and sex). Additionally the set gives information about the maximum, minimum and median count for the numerical features as well as some similar information for categorical features.
 
-2.2)What kind of unfairness did ProPublica found in their analysis?
+2. What kind of unfairness did ProPublica found in their analysis?
 ProPublica found, that the dataset has a bias in terms of race. Black defendants were often predicted to be at a higher risk of recidivism than they actually were. This could be proven based on a follow up study, where defendants has been tracked for the following 2 years. The analysis shows, that many black defendats, who got a prediction to recidivate did not recidivate in the end wheres on the other hand many white defendats, who got a low risk for recidivism actually did recidivate.
+
+### Understand the ProPublica analysis
+| pro  |  contra |
+|---|---|
+|Plots in the data view help to understand the data|The GUI is not particulary easy to use (not intuitive)|
+|The tool has a good documentation|Description does not really help understanding the tool|
+|The data plot has good filter settings to understand the given data||
