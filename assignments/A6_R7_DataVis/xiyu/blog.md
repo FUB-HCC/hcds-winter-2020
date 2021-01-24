@@ -64,4 +64,18 @@ White defendants were often predicted to be less risky than they actually were. 
 </center>
 
 4. Note down (document) the steps you need to undertake in order to achieve a similar analysis result as ProPublica. (steps, bullet points)
+* Step 1. in "Datapoint Editor" set Axis to race and reference label (I think it is a non necessary step)
+* Step 2. in "Performance & Fairness" in "Configure" set "Slice by" to "race"
+* Step 3. See confusion matrix, we can get the same ratio by comparing FP rate and FN rate from both races.  But the FN and FP rate in each race seem to be far away from the ones provided by the table from Propublica.
+
+
 5. If you get stuck (and please only if you get stuck!) ... follow the steps provided below → Steps for analysis (backup)
+
+Thanks for hint. I thought I first misunderstood "white" as "native american", actually it means "causasian". That's weird, native American is the only one which has FN = FP = 0. 
+
+4️⃣  Documenting violations and flaws
+1. Please read the 18 heuristics from the Human-AI Guidelines again.
+2. Please bring to your mind again, that you are evaluating the WIT. You can do no wrong!
+3. Please inspect the UI again and look for violations (e.g. Are you missing anything in the interface? Is something misleading, unclear, or confusing?)
+
+Please see Slides.
