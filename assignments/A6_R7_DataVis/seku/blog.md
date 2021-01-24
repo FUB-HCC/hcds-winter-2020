@@ -1,5 +1,5 @@
 # Assignment 6
-> **Name:** `jowe` Jonas and `seku` Sebastian K.
+> **Name:** `jowe` Jonas W. and `seku` Sebastian K.
 > **Session:** [08 Exercise - Explanations](https://github.com/FUB-HCC/hcds-winter-2020/wiki/08_exercise)   
 ----
 
