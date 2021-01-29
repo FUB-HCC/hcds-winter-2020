@@ -20,8 +20,7 @@ In the last section, Dr. Michl addressed the changes in knowledge production, ag
 
 ## Mind Map
 
-* Add your png file here please.
-* Please name your png file as `<alsc>_mind-map.png`.
+<img src="seku_mind-map.png" alt="Mind Map" style="width:500px;"/>
 
 ## Question
 Do you personally believe, that someday AI technologies can fully replace human interaction in difficult decision-making situations. In other words, will we at some point in time be able to blindly trust in the systems we develop?
