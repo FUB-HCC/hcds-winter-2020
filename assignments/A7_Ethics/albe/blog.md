@@ -7,7 +7,7 @@
 
 
 Our Guest Speaker Jun.-Prof Dr. Susanne Michl is a Junior Professor for Medical Ethics and Medical Humanities at the Charité Berlin. She studied History and Romanistic Romance Philogy and wrote her Dr. Thesis about: German and french med. doctors durring the first world war.
-Jun. Prof. Susanne Michl has epertice in fields like clinical ethics and ethics consulting, medical humanities, individualized/ personalized medicine. (https://medizingeschichte.charite.de/metas/person/person/address_detail/mendelsohn/)[[1]]
+Jun. Prof. Susanne Michl has epertice in fields like clinical ethics and ethics consulting, medical humanities, individualized/ personalized medicine. [Charité](https://medizingeschichte.charite.de/metas/person/person/address_detail/mendelsohn/)
 
 
 ## Summary
