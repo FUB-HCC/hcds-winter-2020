@@ -24,7 +24,7 @@ This leads to the conclusion that while AI can be a good addition to the medical
 
 ## Mind Map
 
-![Mind Map](<luka>_mind-map.png)
+![Mind Map](luka_mind-map.png)
 
 ## Question
 
