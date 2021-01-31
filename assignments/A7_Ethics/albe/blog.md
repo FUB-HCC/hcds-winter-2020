@@ -21,7 +21,7 @@ _approximately 250 words_
 ## Mind Map
 
 * Add your png file here please.
-* Please name your png file as `<alsc>_mind-map.png`.
+![Mindmap](albe_mind_map.png)
 
 ## Question
 ...?
