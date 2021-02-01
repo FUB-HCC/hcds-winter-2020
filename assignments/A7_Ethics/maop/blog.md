@@ -24,11 +24,10 @@ Finally mentioned key concepts is responsibility as an ethical principle, as wel
 
 ## Mind Map
 
-* Add your png file here please.
-* Please name your png file as `<alsc>_mind-map.png`.
+![](maop_mind-map.png)
 
 ## Question
-Is there a tool that can be used to measure compliance with the Ethics Guidelines? Or is it possible to develop such a tool?
+When talking about Interactive Intelligent Systems, one realizes how difficult it is to teach an AI to act ethically. Are there any tools or approaches to ensure that an AI follows ethical guidelines?
 
 ## Takeways
 ...
