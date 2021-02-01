@@ -1,6 +1,6 @@
 # 10 Exercise - Ethics
 > **Name:** `xiyu` Xin Y.
-> **Session:** [10 Exercise - Explanations](https://github.com/FUB-HCC/hcds-winter-2020/wiki/10_exercise)   
+> **Session:** [10 Exercise - Ethics](https://github.com/FUB-HCC/hcds-winter-2020/wiki/10_exercise)   
 ----
 
 ## Preparation
