@@ -3,14 +3,6 @@
 > **Session:** [10 Exercise - Explanations](https://github.com/FUB-HCC/hcds-winter-2020/wiki/10_exercise)   
 ----
 
-## Preparation
-
-_some notes about the person gving the talk_
-
-1. My question number one.
-1. My question number two.
-
-
 ## Summary
 
 In her guest lecture, she presents the ethical perspective of artificial intelligence and human-machine interaction. The speaker is Prof. Susanne Michl, Junior Professor since 2017 for Medical Humanities and Medical Ethics at Charité - Universitätsmedizin Berlin. Her research focuses on the ethical consequences both retrospectively and in the future in human medicine. The guest lecture was delivered in three parts: First, the lecture is placed historically in the context of ethics. The second part focuses on the ethical relationship context between humans and machines. In the last part, the impact on data-based healthcare on different contexts is highlighted. The notion of ethics shopping is introduced, which describes the selection of the most appropriate guideline regarding human-AI interaction. Then, important aspects in human-AI interaction are delineated: 
@@ -36,7 +28,7 @@ Finally mentioned key concepts is responsibility as an ethical principle, as wel
 * Please name your png file as `<alsc>_mind-map.png`.
 
 ## Question
-...?
+Is there a tool that can be used to measure compliance with the Ethics Guidelines? Or is it possible to develop such a tool?
 
 ## Takeways
 ...
