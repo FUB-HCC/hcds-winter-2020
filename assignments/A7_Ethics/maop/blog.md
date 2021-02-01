@@ -1,5 +1,5 @@
-# Title of your post
-> **Name:** `alsc` Alexa S.
+# A7 Ethics
+> **Name:** `maop` Marc O.
 > **Session:** [10 Exercise - Explanations](https://github.com/FUB-HCC/hcds-winter-2020/wiki/10_exercise)   
 ----
 
@@ -30,4 +30,4 @@ Finally mentioned key concepts is responsibility as an ethical principle, as wel
 When talking about Interactive Intelligent Systems, one realizes how difficult it is to teach an AI to act ethically. Are there any tools or approaches to ensure that an AI follows ethical guidelines?
 
 ## Takeways
-...
+Machines are incleasingly used when treatments are repetitive. This supports doctors to increasingly focus on patients, but does not replace them in any way. It is mandatory to keep in mind the responsibility as an ethical principle when designing AI systems that are most likely going to provide any kind of Human-AI interaction.
