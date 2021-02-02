@@ -1,6 +1,6 @@
 # A8 Privacy
 > **Name:** `maop` Marc O.
-> **Session:** [10 Exercise - Explanations](https://github.com/FUB-HCC/hcds-winter-2020/wiki/10_exercise)   
+> **Session:** [11 Exercise - Privacy](https://github.com/FUB-HCC/hcds-winter-2020/wiki/11_exercise) 
 ----
 
 ## Summary
