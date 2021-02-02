@@ -1,25 +1,12 @@
-# A7 Ethics
+# A8 Privacy
 > **Name:** `maop` Marc O.
 > **Session:** [10 Exercise - Explanations](https://github.com/FUB-HCC/hcds-winter-2020/wiki/10_exercise)   
 ----
 
 ## Summary
 
-In her guest lecture, she presents the ethical perspective of artificial intelligence and human-machine interaction. The speaker is Prof. Susanne Michl, Junior Professor since 2017 for Medical Humanities and Medical Ethics at Charité - Universitätsmedizin Berlin. Her research focuses on the ethical consequences both retrospectively and in the future in human medicine. The guest lecture was delivered in three parts: First, the lecture is placed historically in the context of ethics. The second part focuses on the ethical relationship context between humans and machines. In the last part, the impact on data-based healthcare on different contexts is highlighted. The notion of ethics shopping is introduced, which describes the selection of the most appropriate guideline regarding human-AI interaction. Then, important aspects in human-AI interaction are delineated: 
-* Procedural aspects describe the continuous adjustment of principles instead of a rigid alignment according to abstract principles,
-* Deliberative aspects denotes multidisciplinary perspectivation, i.e., the use of multiple cross-disciplinary perspectives,
-* Context-sensitive aspects are data about complex social contexts,
-* Creative aspects address the question of what future developments can be imagined,
-
-Domain ethics combine possibilities of justification and principles with practical questions of orientation.
-The dilemma here: the ability to shape the development of technology is high, the knowledge about the consequences of the development of technology is low.
-
-She then moves on to the model of division of labor, which contrasts with the model of support. Machines are increasingly used when treatments are repetitive. Target variables for the use of artificial intelligence in reporting, for example, are
-* Uniqueness, this is very rare in medicine,
-* Uniformity, captures the deviation from the structured procedure
-* Speed, as fast as possible, as slow as necessary
-Finally mentioned key concepts is responsibility as an ethical principle, as well as trust as a social phenomenon
-
+The guest lecture is about Privacy Preserving Machine Learning, Data Protection and Intellectual Property Protection for Neural Networks. She points out that machine learning has gained interest in recent years. The topic is introduced by the following privacy concerning case: Netflix has been evaluating their user data in ordert to develop an ML algorithm to find relevant content for a user. In 2008, a linkage attack resulted in a privacy breach and the data of the user IDs could be deanonymized. A distinction is made between two types of machine learning systems: Whitebox (Trusted environment, closed to everyone, ml model is outside of box) and Blackbox (given a model, restore training data points). Her research has shown that there exist methods that can (partly) inverse the process of turning training data into a model. Those methods include “model inversion” (attacks in which representations of the training data are reverse-engineered from model parameters), “attribute inversion” (attacks that tempt to restore specific attributes from the training data), or “membership inference” (attacks that try to answer the question whether a particular data point was included in the model's training data or not). 
+The goal is to design and implement a tool in which different types of such attacks against ML models are integrated in order to execute them on a model to evaluate its overall privacy level.
 
 
 ## Mind Map
@@ -27,7 +14,7 @@ Finally mentioned key concepts is responsibility as an ethical principle, as wel
 ![](maop_mind-map.png)
 
 ## Question
-When talking about Interactive Intelligent Systems, one realizes how difficult it is to teach an AI to act ethically. Are there any tools or approaches to ensure that an AI follows ethical guidelines?
+
 
 ## Takeways
-Machines are incleasingly used when treatments are repetitive. This supports doctors to increasingly focus on patients, but does not replace them in any way. It is mandatory to keep in mind the responsibility as an ethical principle when designing AI systems that are most likely going to provide any kind of Human-AI interaction. For my future Data Science Practices I found the target variables for the use of artificial intelligence in reporting, for example (Uniqueness, Uniformity, Speed) in praticular usefull. It gives guidelines on what to focus in data science pratice when working with AI.
+
