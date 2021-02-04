@@ -21,7 +21,7 @@ _approximately 250 words_
 * Please name your png file as `<alsc>_mind-map.png`.
 
 ## Question
-...?
+Do you think that penetration testing should be a mandatory step in ML development to ensure secure systems and if so, should this be ensured by law?
 
 ## Takeways
-...
+I really liked the idea of combining concepts of different fields with data science and especially machine learning. Due to the rapid development of data science and ML it's highly nescesarry to keep the source of data and especially the humans behind it in mind. By applying concepts from other areas developers can use those insights to develop safer tools in terms of privacy. 
