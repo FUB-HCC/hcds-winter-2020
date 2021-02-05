@@ -16,7 +16,7 @@ The lecture will be presented by Franziska Boenisch. She is a computer scientist
 ## Summary
 The presentation of Franziska Boenisch is about privacy preserving machine learning, data protection and intellectual property protection for neural networks. As a introduction to the topic she presents a case study. Netflix made a machine learning competition and created a dataset about their users preferences. Some people could recreate the dataset (to some extent) from decoding their ratings on the IMDb site.
 
-After the case study she seperated machine learning systems in two different classes. The first is the whitebox model and the second is viewed as a blackbox model. Then she presentet different ways to recreate the model through decoding the training data.
+After the case study she seperated machine learning systems in two different classes. The first is the whitebox model and the second is viewed as a blackbox model. Then she presented different ways to recreate the model through decoding the training data.
 
 The following methods were explained:
 1. model inversion
