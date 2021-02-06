@@ -3,16 +3,6 @@
 > **Session:** [10 Exercise - Explanations](https://github.com/FUB-HCC/hcds-winter-2020/wiki/10_exercise)   
 ----
 
-## Preparation
-
-_some notes about the person gving the talk_
-
-The lecture will be presented by Franziska Boenisch. She is a computer scientist currently working at the research institute Fraunhofer AISEC. She specializes in the area privacy preserving machine Learning.
-
-1. What are ways to protect the data?
-1. If we can ensure privacy for less accuracy is the tradeoff worth it?
-
-
 ## Summary
 
 In her talk “Privacy Preserving Machine Learning: Threats and Solutions” Franziska Boenisch talks about privacy threads concerning machine learning and introduces multiple solutions to counteract them.
