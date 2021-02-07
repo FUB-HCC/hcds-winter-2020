@@ -21,7 +21,7 @@ To conclude, Fanziska Boehnisch's lecture was a great introduction to the field 
 
 
 ## Mind Map
-![Mindmap](masc_mind_map.png)
+![Mindmap](masc_mind-map.png)
 
 ## Question
 Does data privacy and security play a bigger role in Europe than it does in other countries since the general data privacy laws are stricter here?  
