@@ -26,8 +26,6 @@ In the case of an `attribute inference attack` the attacker tries to infer secre
 concrete data point was used to train the model he would make an attack called `membership inference attack`. In an scenario where the attacker tries 
 to understand and imitate the model's functionality or tries one speak about an `model extraction attack`.
 
-
-
 After presenting the different types of attacks Boehnisch explained different techniques how these attacks can be defended or prevented. 
 
 With the help of `Homomorphic Encription` for example it is possible to keep the model private (e.g. on the mobile device) while training it on a cloud. In the 
@@ -40,7 +38,11 @@ some tradeoff between better performance and better privacy in the end.
 ![Mindmap](albe_mind_map.png)
 
 ## Question
-...?
+For an ML-System to be human centered and to cope different kind of Biases and to make these systems more fair we learned concepts of Transparancy, Inerpretablity and Explanablity. These concepts expose information about the model and the data it has been trained with. How can we maintain privacy but keep the ML-System transparent and 
+interpretable?
 
 ## Takeways
-...
+It was intresting to learn about the definition of thread space, the differnt kind of attacks and possibilities to defend and avoid attacks. 
+It was also intresting to see that for modern ml frameworks like tensorflow already solutions are available for applying some of the techniques introduced 
+by Boehnisch (e.g. for differential privacy). I think privacy and I think also tradeoffs between privacy and other concerns will be more and more important 
+in the future. 
