@@ -37,7 +37,7 @@ that the the accuracy of the model could be slightly decreased with applying thi
 some tradeoff between better performance and better privacy in the end. 
 
 ## Mind Map
-
+![Mindmap](albe_mind_map.png)
 
 ## Question
 ...?
