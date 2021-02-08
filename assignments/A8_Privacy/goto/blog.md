@@ -26,7 +26,7 @@ Finally, she remarks that the ML system or its development may slow down, so the
 
 ## Mind Map
 ###### honestly I only added 2 points to the map as i am not sure about the techniques :(
-![](https://github.com/FUB-HCC/hcds-winter-2020/blob/main/assignments/A7_Ethics/goto/goto_mind-map.png)
+![]https://raw.githubusercontent.com/FUB-HCC/hcds-winter-2020/main/assignments/A8_Privacy/goto/mindmap2.png)
 
 
 
