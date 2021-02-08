@@ -14,7 +14,7 @@ She then explained Differential privacy, which is a tool for measuring the priva
 ![](maop_mind-map.png)
 
 ## Question
-I'd be very interested to see how "easy" it is to do these kind of attacks.
+I'd be very interested to see how "easy" it is to do these kind of attacks and also how difficult it is to implement differential privacy
 
 ## Takeways
 I wasnt aware of this issue and I find it extremely important to consider because being sued for violating privacy is expensivee $$$
