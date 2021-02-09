@@ -13,8 +13,11 @@ Franziska Boenisch is a research associate at Frauenhofer AISEC, working on topi
 
 ## Summary
 The lecture was held by Franziska Boenisch and covered the topic of privacy, especially in terms of machine learning. She started her presentation with an example in which Netflix organized a competition to develop a perfect recommendation algorithm. Participants got a dataset, where users and movies were anonymized. Nevertheless, developers managed to reconstruct the user- and movie names by working with the database of IMDb, which put an emphasis on the importance of secure privacy practices. 
-After briefly explaining the concept of machine learning, she described potential areas of threat within it. In doing so, she made a distinction between technical and underlying goals. As a result, Boenisch mentioned different types of information that can be extracted from ML models, namely the training data (model inversion), secret attributes of the model (attribute inference), whether a given data point exists within the dataset (membership inference), or even the model itself (model extraction).
-In the next section, she talked about several practices that can lead to safer models. In this regard, she mentioned homomorphic encryption, federated learning and secure multi-party computing. She also mentioned that there is no perfect practice, but it has to be chosen depending on the case.
+
+After briefly explaining the concept of machine learning, she described potential areas of threat within it. In doing so, she made a distinction between technical and underlying goals. As a result, Boenisch mentioned different types of information that can be extracted from ML models, namely the training data (model inversion), secret attributes of the model (attribute inference), whether a given data point exists within the dataset (membership inference), or even the model itself (model extraction). 
+
+In the next section, she talked about several practices that can lead to safer models. In this regard, she mentioned homomorphic encryption, federated learning and secure multi-party computing. She also mentioned that there is no perfect practice, but it has to be chosen depending on the case. 
+
 In the last part of the lecture, she talked about two algorithms (stochastic gradient descent and pate), that were taken from different fields as an attempt to develop secure ML models. The benefit of those is, that they were already developed for another context, so already made insides could be used in the field of data science. She ended her presentation by emphasizing the importance of correct tool use to ensure effectiveness. She also explained that privacy leaks often are caused by misconceptions and that communication is tremendously important.
 
 
