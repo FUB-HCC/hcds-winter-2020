@@ -16,9 +16,9 @@ Franziska Boenisch is a research associate in applied and integrated security at
 The lecture focused on privacy and security of machine learning models. Starting with an introduction about machine learning models, she also explained the background of machine learning threat space, which includes several adversarial aspects.
 Franziska Boehnisch also explained different privacy attack methods. 
 
-1.Model inversion attacks are aimed at reconstructing training data from model parameters.
+1. Model inversion attacks are aimed at reconstructing training data from model parameters.
 2. In an attribute inference attack, an attacker aims to infer a user's private attributes (e.g., location, gender, etc) via leveraging its public data.
-3.  The membership inference attack aims to infer whether an input to the deep learning model is part of its training dataset or not.
+3. The membership inference attack aims to infer whether an input to the deep learning model is part of its training dataset or not.
 4. Model extraction attacks are attacks in which an adversary obtains a new model, whose performance is equivalent to that of a target model.
 
 To prevent such privacy attacks, she also introduced privacy preserving techniques.
